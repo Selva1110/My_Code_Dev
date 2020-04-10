@@ -1,0 +1,20 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# WITH_MOTOR configuration
+CND_ARTIFACT_DIR_WITH_MOTOR=dist/WITH_MOTOR/production
+CND_ARTIFACT_NAME_WITH_MOTOR=Motor_Control_V2.X.production.hex
+CND_ARTIFACT_PATH_WITH_MOTOR=dist/WITH_MOTOR/production/Motor_Control_V2.X.production.hex
+CND_PACKAGE_DIR_WITH_MOTOR=${CND_DISTDIR}/WITH_MOTOR/package
+CND_PACKAGE_NAME_WITH_MOTOR=motorcontrolv2.x.tar
+CND_PACKAGE_PATH_WITH_MOTOR=${CND_DISTDIR}/WITH_MOTOR/package/motorcontrolv2.x.tar
+# WITHOUT_MOTOR configuration
+CND_ARTIFACT_DIR_WITHOUT_MOTOR=dist/WITHOUT_MOTOR/production
+CND_ARTIFACT_NAME_WITHOUT_MOTOR=Motor_Control_V2.X.production.hex
+CND_ARTIFACT_PATH_WITHOUT_MOTOR=dist/WITHOUT_MOTOR/production/Motor_Control_V2.X.production.hex
+CND_PACKAGE_DIR_WITHOUT_MOTOR=${CND_DISTDIR}/WITHOUT_MOTOR/package
+CND_PACKAGE_NAME_WITHOUT_MOTOR=motorcontrolv2.x.tar
+CND_PACKAGE_PATH_WITHOUT_MOTOR=${CND_DISTDIR}/WITHOUT_MOTOR/package/motorcontrolv2.x.tar
