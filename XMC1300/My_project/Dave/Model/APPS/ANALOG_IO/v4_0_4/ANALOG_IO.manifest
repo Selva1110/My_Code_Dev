@@ -1,0 +1,172 @@
+package Model.APPS.ANALOG_IO.v4_0_4;
+
+
+/*************** Revision History **********************************************
+Version        Date          Description 
+
+  4.0.0       16-Feb-2015    Initial version.<br>
+  4.0.1       20-Feb-2015    APP help documentation improved.<br>
+  4.0.2       07-May-2015    APP sharable property enabled to allows multiple APPs to require the same instance.<br>
+  4.0.4       20-June-2015   1). _Add pin removed.<br>
+                             2). Version check added for XMCLib dependency.<br> 
+                              
+*******************************************************************************/
+
+// Import statements
+import ifx.davex.app.manifest.*
+
+class  ANALOG_IO extends ANALOG_IO_GUI {
+/* -------------------------------------------------Begin : APP Properties------------------------------------------------------------------- */
+		
+	/**
+	 * App version
+	 * Format: a string with three digit separated by a dot.
+	 */
+	def version            = '4.0.4'
+	
+	/**
+	 * App categories declaration. 
+	 * It is list of strings. Subcategories are separated by slash.
+	 * No limits on number of categories and subcategories depth.
+	 */
+	def categoriesDescription = ['System'] 
+
+	/** 
+	 * Minimum DAVE version required for this app.
+	 * 
+	 * It is string with three digit separated by a dot.
+	 */
+	def minDaveVersion           = '4.0.0'
+	
+	/** 
+	 * Keywords used by search feature in Apps selection view
+	 * 
+	 * It is a list of string.
+	 */
+	def keywords      = [
+		'PORT',
+		'Pad',
+		'Analog',
+		'ALL'
+		]
+	
+	/** 
+	 * softwareIDs is used to declare which devices are compatible with this app.
+	 * It is a map with key a string containing a pattern that shall match the SW id of
+	 * the device and as value the minimal version of the app.
+	 * 
+	 * 
+	 */
+	
+	/** 
+	 * softwareIDs is used to declare which devices are compatible with this APP.
+	 * It is a map with key a string containing a pattern that shall match the SW id of
+	 * the device and as value the minimal version of the APP.
+	 * 
+	 * 
+	 */
+	
+	def softwareIDs       = [
+	    
+		"XMC4.5.*.*.*":"1.0.0",
+                "XMC4.4.*.*.*":"1.0.0",
+                "XMC4.2.*.*.*":"1.0.0",
+                "XMC4.1.*.*.*":"1.0.0",
+                "XMC1.1.*.*.*":"1.0.0",
+                "XMC1.2.*.*.*":"1.0.0",
+                "XMC1.3.*.*.*":"1.0.0",
+		]
+
+	/**
+	 * Singleton property:
+	 * When it is true the app can be instantiated only once.
+	 */
+	def singleton     = false
+	
+	/**
+	 * initProvider property
+	 * It shall be true to add a call to <AppName>_Init()
+	 */
+	def initProvider  = false
+	
+	/**
+	 * Deprecated app
+	 * Set it to true to indicate that the app shall be not used for new projects.
+	 */
+	def deprecated    = false
+	
+	/**
+	 * Sharable property.
+	 * It shall be true to allows multiple apps to require the same instance of this app.
+	 */
+	def sharable      = true
+
+	/**
+	 *  App function description.
+	 */
+	def description = "The ANALOG_IO APP is used to select port pin \n as a Analog input/output."
+	
+/* -----------------------------------------------------------------End: App Properties------------------------------------------------------ */
+	
+	
+/*------------------------------------------------------------Begin : User Variables for hardware resources and virtual signals--------------- */
+	SolverVariable port_no = SolverVariable()
+	MVirtualResourceGroup hwres_port_pin
+	MVirtualSignal vs_analog_io_pad_pin
+/*-----------------------------------------------------------End : User Variables for hardware resources and virtual signals--------------------*/
+
+	
+/*----------------------------------------------------------Begin : App Constructor and Logic --------------------------------------------------*/
+	public ANALOG_IO(DaveEnv daveEnv) {
+
+		
+		List port_constraint;
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                          				Target Specific User Variable initialization                                                     */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+		
+		/* device based port range constraint */
+		if (daveEnv.project.selectedDevice.deviceId.family == "XMC4")
+		{
+		  port_constraint = [14,15]
+		}
+		else
+		{
+		  port_constraint = [2]
+		}
+		
+
+		/* Solver constraint for port */
+		addUriElementRangeConstraint(port_no, port_constraint)
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------Hardware resource consumption block ------------------------------------------------------ */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+		hwres_port_pin = MVirtualResourceGroup("pin", ["port", "p", port_no, "pad", "*"])
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                				 Virtual Signals Definitions                                                                */
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- DIGITAL IO Signals --------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+		@AddPin(pinDisplayName ='pin')
+		vs_analog_io_pad_pin = MVirtualSignal(hwres_port_pin, "pin", "pad", true, true)
+
+}	
+	/* File Generation */
+	def generateFiles(){
+			
+		copy("analog_io.c", "analog_io.c")
+		copy("analog_io.h", "analog_io.h")
+		generate("analog_io_confc.tmpl", "analog_io_conf.c")
+		generate("analog_io_confh.tmpl", "analog_io_conf.h")
+		generate("analog_io_externh.tmpl", "analog_io_extern.h")
+	}
+	
+/*-----------------------------------------------------End : App Constructor and Logic --------------------------------------------------*/
+
+}

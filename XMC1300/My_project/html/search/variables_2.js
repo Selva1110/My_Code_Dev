@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['b_9040',['b',['../group___c_m_s_i_s___core___sys_tick_functions.html#ga84de5f534817cdbf8bd9064080effca2',1,'APSR_Type::b()'],['../group___c_m_s_i_s___core___sys_tick_functions.html#ga6e920e9d2e9a2738f8face0863888c0e',1,'IPSR_Type::b()'],['../group___c_m_s_i_s___core___sys_tick_functions.html#ga61873807b9abee3dfa090c036e580d2e',1,'xPSR_Type::b()'],['../group___c_m_s_i_s___core___sys_tick_functions.html#ga5d690aa9e65fccaa320e1b8613f502c9',1,'CONTROL_Type::b()']]],
+  ['baudrate_9041',['baudrate',['../struct_x_m_c___i2_c___c_h___c_o_n_f_i_g.html#ac4f06ea26ed6bd7ae83b92d64ac10b78',1,'XMC_I2C_CH_CONFIG::baudrate()'],['../struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g.html#ac4f06ea26ed6bd7ae83b92d64ac10b78',1,'XMC_SPI_CH_CONFIG::baudrate()'],['../struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#ac4f06ea26ed6bd7ae83b92d64ac10b78',1,'XMC_UART_CH_CONFIG::baudrate()']]],
+  ['bfl_9042',['bfl',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a6bd36f0b7d0a4acb1defb5c7e9b574d2',1,'XMC_VADC_CHANNEL_CONFIG::bfl()'],['../struct_v_a_d_c___g___type_def.html#a364c1e60b5bc061c76dd5d0096815f13',1,'VADC_G_TypeDef::BFL()']]],
+  ['bflc_9043',['BFLC',['../struct_v_a_d_c___g___type_def.html#ae0b0316697c1b5ff3fff5beee7f1f56d',1,'VADC_G_TypeDef']]],
+  ['bflnp_9044',['BFLNP',['../struct_v_a_d_c___g___type_def.html#a75f2e01d4ad2c703bd2d13936ae11e15',1,'VADC_G_TypeDef']]],
+  ['bfls_9045',['BFLS',['../struct_v_a_d_c___g___type_def.html#ab0bf933d9f0926322f7bb6ee4f4d15d4',1,'VADC_G_TypeDef']]],
+  ['bound_9046',['BOUND',['../struct_v_a_d_c___g___type_def.html#a1bcb9a812d937ce7f93dd1f7d78ae24e',1,'VADC_G_TypeDef']]],
+  ['boundary0_9047',['boundary0',['../struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g.html#afa1f8d0e8c195a4e11c173e796a0ccfa',1,'XMC_VADC_GLOBAL_CONFIG::boundary0()'],['../struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g.html#afa1f8d0e8c195a4e11c173e796a0ccfa',1,'XMC_VADC_GROUP_CONFIG::boundary0()']]],
+  ['boundary1_9048',['boundary1',['../struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g.html#a526defd6dde917b2a3eb34bb6da90f83',1,'XMC_VADC_GLOBAL_CONFIG::boundary1()'],['../struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g.html#a526defd6dde917b2a3eb34bb6da90f83',1,'XMC_VADC_GROUP_CONFIG::boundary1()']]],
+  ['boundary_5fflag_5foutput_5fch0_9049',['boundary_flag_output_ch0',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a02adf6d1d3fe353b3ac0ae67e144e253',1,'XMC_VADC_CHANNEL_CONFIG']]],
+  ['boundary_5fflag_5foutput_5fch1_9050',['boundary_flag_output_ch1',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a90cd4cc526161a2e690827a4e95dc4ff',1,'XMC_VADC_CHANNEL_CONFIG']]],
+  ['boundary_5fflag_5foutput_5fch2_9051',['boundary_flag_output_ch2',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a3dc172a629f09e3540f98f942cde62a1',1,'XMC_VADC_CHANNEL_CONFIG']]],
+  ['boundary_5fflag_5foutput_5fch3_9052',['boundary_flag_output_ch3',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#ac74d5656769acff6447ff4d94f1bdbbc',1,'XMC_VADC_CHANNEL_CONFIG']]],
+  ['brg_9053',['BRG',['../struct_u_s_i_c___c_h___type_def.html#a60442d8bed2e194af31a7bedbabf0c16',1,'USIC_CH_TypeDef::BRG()'],['../struct_x_m_c___u_s_i_c___c_h.html#a60442d8bed2e194af31a7bedbabf0c16',1,'XMC_USIC_CH::BRG()']]],
+  ['broken_5fwire_5fdetect_9054',['broken_wire_detect',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a3e8ebce22211f9d7c03e9fc7843fd8ea',1,'XMC_VADC_CHANNEL_CONFIG']]],
+  ['broken_5fwire_5fdetect_5fchannel_9055',['broken_wire_detect_channel',['../struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a4d8031f9a26f99fde46015f8a65138b0',1,'XMC_VADC_CHANNEL_CONFIG']]],
+  ['brsctrl_9056',['BRSCTRL',['../struct_v_a_d_c___g_l_o_b_a_l___type_def.html#a23cb8f208aa9f6457f34e384dbed8ea2',1,'VADC_GLOBAL_TypeDef']]],
+  ['brsmr_9057',['BRSMR',['../struct_v_a_d_c___g_l_o_b_a_l___type_def.html#abf1587c906e163b1ea1d0ecf2cd1d5a4',1,'VADC_GLOBAL_TypeDef']]],
+  ['brspnd_9058',['BRSPND',['../struct_v_a_d_c___g_l_o_b_a_l___type_def.html#a2fc448bb6776a8898e3d8127a6fc9875',1,'VADC_GLOBAL_TypeDef']]],
+  ['brssel_9059',['BRSSEL',['../struct_v_a_d_c___g_l_o_b_a_l___type_def.html#af7df9efc96f374e6f6797d4b37762eea',1,'VADC_GLOBAL_TypeDef']]],
+  ['bus_5fmode_9060',['bus_mode',['../struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g.html#a2de71bb03e089719e03814340d4cf51d',1,'XMC_SPI_CH_CONFIG']]],
+  ['byp_9061',['BYP',['../struct_u_s_i_c___c_h___type_def.html#a5c5375cd6029e464a9f3e5400662ea73',1,'USIC_CH_TypeDef::BYP()'],['../struct_x_m_c___u_s_i_c___c_h.html#a5c5375cd6029e464a9f3e5400662ea73',1,'XMC_USIC_CH::BYP()']]],
+  ['bypcr_9062',['BYPCR',['../struct_u_s_i_c___c_h___type_def.html#ab5bada982273b48262b30b5b52b9911a',1,'USIC_CH_TypeDef::BYPCR()'],['../struct_x_m_c___u_s_i_c___c_h.html#ab5bada982273b48262b30b5b52b9911a',1,'XMC_USIC_CH::BYPCR()']]]
+];

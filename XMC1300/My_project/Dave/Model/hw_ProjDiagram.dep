@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="HWdependenciesdiagramType" name="ceProject" snapToGrid="true" pictogramLinks="//@link" version="0.10.0">
+  <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+  <link>
+    <businessObjects href="ModelConfigData.data#/"/>
+  </link>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.0.6/app/DIGITAL_IO/0"/>
+    <properties key="APP_NAME_ID" value="DIGITAL_IO/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="161" height="81" x="90" y="373">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="121" height="81" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.0/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="pin"/>
+      <properties key="uri" value="http://resources/4.0.6/app/DIGITAL_IO/0/vs_digital_io_pad_pin"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="50"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="141" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="119" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="DIGITAL_IO"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="119" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="DIGITAL_IO_0">
+          <properties key="AppInstanceLabel" value="DIGITAL_IO_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="pin"/>
+      <properties key="uri" value="http://resources/4.0.6/app/DIGITAL_IO/0/vs_digital_io_pad_pin"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.6/app/DIGITAL_IO/0/vs_digital_io_pad_pin"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="125" height="20" x="10" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="pin"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.0.4/app/ANALOG_IO/0"/>
+    <properties key="APP_NAME_ID" value="ANALOG_IO/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="171" height="81" x="85" y="141">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="131" height="81" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="pin"/>
+      <properties key="uri" value="http://resources/4.0.4/app/ANALOG_IO/0/vs_analog_io_pad_pin"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="130" y="50"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="151" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="ANALOG_IO"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="ANALOG_IO_0">
+          <properties key="AppInstanceLabel" value="ANALOG_IO_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="pin"/>
+      <properties key="uri" value="http://resources/4.0.4/app/ANALOG_IO/0/vs_analog_io_pad_pin"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.4/app/ANALOG_IO/0/vs_analog_io_pad_pin"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="115" height="20" x="30" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="pin"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0"/>
+    <properties key="APP_NAME_ID" value="PWM_CCU8/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="271" height="381" x="320" y="117">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="231" height="381" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu8_global_signal"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_config_global"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_period_match"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_0"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event0_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="104"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event1_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="120"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event2_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="140"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="timer_st"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_st"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="160"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="timer_st1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_sta"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="180"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="timer_st2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_stb"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="200"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="pwm_ch1_direct"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_out_a"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="220"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="pwm_ch1_inverted"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_out_b"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="240"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="pwm_ch2_direct"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_out_a"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="260"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="pwm_ch2_inverted"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_out_b"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="280"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ext_event0"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp0_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="70"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ext_event1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp1_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="86"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ext_event2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp2_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="104"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="Out - CCU8 CH1 Direct PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch1_out0"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="300"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="Out - CCU8 CH1 Invert PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch1_out1"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="320"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="Out - CCU8 CH2 Direct PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch2_out2"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="340"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="Out - CCU8 CH2 Invert PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch2_out3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="230" y="360"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ch1_cmp_match"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_compare_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="229" y="70"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ch2_cmp_match"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_compare_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="229" y="86"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="mcm_input_0"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci0"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="120"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="mcm_input_1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci1"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="140"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="mcm_input_2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci2"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="160"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="mcm_input_3"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="180"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="mcss_input"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mcss"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="200"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="251" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="231" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="229" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="PWM_CCU8"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="231" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="229" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="PWM_CCU8_0">
+          <properties key="AppInstanceLabel" value="PWM_CCU8_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu8_global_signal"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_config_global"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_config_global"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="146" height="20" x="25" y="45" style="//@styles.0/@styles.2" value="ccu8_global_signal"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_period_match"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_period_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_0"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event0_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="84"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event0_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="99" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_0"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event1_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="100"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event1_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="115" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_1"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event2_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="120"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_event2_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="135" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_2"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="timer_st"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_st"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="140"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_st"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="155" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="timer_st"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="timer_st1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_sta"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="160"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_sta"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="175" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="timer_st1"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="timer_st2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_stb"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="180"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_stb"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="195" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="timer_st2"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="pwm_ch1_direct"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_out_a"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="200"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_out_a"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="215" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="pwm_ch1_direct"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="pwm_ch1_inverted"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_out_b"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="220"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_out_b"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="235" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="pwm_ch1_inverted"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="pwm_ch2_direct"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_out_a"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="240"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_out_a"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="255" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="pwm_ch2_direct"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="pwm_ch2_inverted"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_out_b"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="260"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_out_b"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="275" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="pwm_ch2_inverted"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ext_event0"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp0_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="50"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp0_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="146" height="20" x="25" y="65" style="//@styles.0/@styles.2" value="ext_event0"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ext_event1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp1_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="66"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp1_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="146" height="20" x="25" y="81" style="//@styles.0/@styles.2" value="ext_event1"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ext_event2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp2_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="84"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_gp2_unsync"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="146" height="20" x="25" y="99" style="//@styles.0/@styles.2" value="ext_event2"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="Out - CCU8 CH1 Direct PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch1_out0"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="280"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch1_out0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="295" horizontalAlignment="ALIGNMENT_RIGHT" value="Out - CCU8 CH1 Direct PAD"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="Out - CCU8 CH1 Invert PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch1_out1"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="300"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch1_out1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="315" horizontalAlignment="ALIGNMENT_RIGHT" value="Out - CCU8 CH1 Invert PAD"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="Out - CCU8 CH2 Direct PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch2_out2"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="320"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch2_out2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="335" horizontalAlignment="ALIGNMENT_RIGHT" value="Out - CCU8 CH2 Direct PAD"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="Out - CCU8 CH2 Invert PAD"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch2_out3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="340"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_port_ch2_out3"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="195" height="20" x="50" y="355" horizontalAlignment="ALIGNMENT_RIGHT" value="Out - CCU8 CH2 Invert PAD"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ch1_cmp_match"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_compare_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="50"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch1_compare_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="104" height="20" x="140" y="65" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ch1_cmp_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ch2_cmp_match"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_compare_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="66"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_ch2_compare_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="104" height="20" x="140" y="81" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ch2_cmp_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="mcm_input_0"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci0"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="100"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci0"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="60" height="20" x="25" y="115" style="//@styles.0/@styles.2" value="mcm_input_0"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="mcm_input_1"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci1"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="120"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci1"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="60" height="20" x="25" y="135" style="//@styles.0/@styles.2" value="mcm_input_1"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="mcm_input_2"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci2"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="140"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci2"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="60" height="20" x="25" y="155" style="//@styles.0/@styles.2" value="mcm_input_2"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="mcm_input_3"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="160"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mci3"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="60" height="20" x="25" y="175" style="//@styles.0/@styles.2" value="mcm_input_3"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="mcss_input"/>
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mcss"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="180"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_mcss"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="60" height="20" x="25" y="195" style="//@styles.0/@styles.2" value="mcss_input"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0"/>
+    <properties key="APP_NAME_ID" value="GLOBAL_CCU8/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="261" height="91" x="20" y="494">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="221" height="91" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" outgoingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.3/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu8_global"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.3/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu8_global_start"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="68"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.3/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clock_ccu"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="59"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="241" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_CCU8"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_CCU8_0">
+          <properties key="AppInstanceLabel" value="GLOBAL_CCU8_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu8_global"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu8_global"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu8_global_start"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="48"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="63" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu8_global_start"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="clock_ccu"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="39"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="76" height="20" x="25" y="54" value="clock_ccu"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0"/>
+    <properties key="APP_NAME_ID" value="CLOCK_XMC1/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="261" height="81" x="20" y="20">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="221" height="81" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.4/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clk_dco2_output"/>
+      <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0/vs_dco_clkout"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.4/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clk_rtc"/>
+      <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0/vs_frtc"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="50"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="241" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="CLOCK_XMC1"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="CLOCK_XMC1_0">
+          <properties key="AppInstanceLabel" value="CLOCK_XMC1_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="clk_dco2_output"/>
+      <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0/vs_dco_clkout"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0/vs_dco_clkout"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="95" height="20" x="140" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_dco2_output"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="clk_rtc"/>
+      <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0/vs_frtc"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.6/app/CLOCK_XMC1/0/vs_frtc"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="106" height="20" x="25" y="45" style="//@styles.0/@styles.2" value="clk_rtc"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.0.4/app/INTERRUPT/0"/>
+    <properties key="APP_NAME_ID" value="INTERRUPT/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="171" height="71" x="85" y="262">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="131" height="71" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.5/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="sr_irq"/>
+      <properties key="uri" value="http://resources/4.0.4/app/INTERRUPT/0/vs_nvic_signal_in"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="50"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="151" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="INTERRUPT"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="129" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="INTERRUPT_0">
+          <properties key="AppInstanceLabel" value="INTERRUPT_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="sr_irq"/>
+      <properties key="uri" value="http://resources/4.0.4/app/INTERRUPT/0/vs_nvic_signal_in"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.4/app/INTERRUPT/0/vs_nvic_signal_in"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="45" style="//@styles.0/@styles.2" value="sr_irq"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.1.4/app/TIMER/0"/>
+    <properties key="APP_NAME_ID" value="TIMER/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="261" height="81" x="320" y="538">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="221" height="81" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.6/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_time_interval"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.6/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_time_interval"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu8_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="65"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.6/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="global_enable"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_global_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.6/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="global_enable"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu8_global_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="65"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="241" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="TIMER"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="TIMER_0">
+          <properties key="AppInstanceLabel" value="TIMER_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_time_interval"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="95" height="20" x="140" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_time_interval"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_time_interval"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu8_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu8_period_match_interrupt"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="95" height="20" x="140" y="60" horizontalAlignment="ALIGNMENT_RIGHT" value="event_time_interval"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="global_enable"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_global_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_global_enable"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="45" style="//@styles.0/@styles.2" value="global_enable"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="global_enable"/>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu8_global_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/vs_timer_ccu8_global_enable"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="60" value="global_enable"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0"/>
+    <properties key="APP_NAME_ID" value="GLOBAL_CCU4/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="261" height="91" x="20" y="625">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="221" height="91" x="20" style="//@styles.0" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" outgoingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.7/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu4_global"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.7/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clock_ccu"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_clk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="65"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.7/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu4_global_start"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="65"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="241" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_CCU4"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_CCU4_0">
+          <properties key="AppInstanceLabel" value="GLOBAL_CCU4_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu4_global"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu4_global"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="clock_ccu"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_clk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_clk"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="76" height="20" x="25" y="60" value="clock_ccu"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu4_global_start"/>
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.4/app/GLOBAL_CCU4/0/vs_global_ccu4_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="60" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu4_global_start"/>
+    </children>
+  </children>
+  <styles background="//@colors.1" lineWidth="2" lineVisible="true" transparency="0.0" id="COMMON-VALUES" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="APP_NAME" font="//@fonts.0" angle="0" rotation="0.0"/>
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="APP_INST_NAME" font="//@fonts.1" angle="0" rotation="0.0"/>
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="SIGNAL_NAME" font="//@fonts.0" angle="0" rotation="0.0"/>
+    <styles foreground="//@colors.6" lineStyle="UNSPECIFIED" filled="true" id="E-CLASS" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <renderingStyle>
+        <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
+          <adaptedGradientColoredAreas styleAdaption="0">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="248" green="251" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="248" green="251" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="237" green="245" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="237" green="245" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="222" green="237" blue="250"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="222" green="237" blue="250"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="212" green="231" blue="248"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="250" green="251" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="226" green="229" blue="233"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="226" green="229" blue="233"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="1">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="238" green="246" blue="253"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="238" green="246" blue="253"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="208" green="230" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="208" green="230" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="172" green="210" blue="244"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="172" green="210" blue="244"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="129" green="185" blue="234"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="170" green="208" blue="242"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="154" green="191" blue="224"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="154" green="191" blue="224"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="2">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="245" green="249" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="245" green="249" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="226" green="239" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="226" green="239" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="203" green="227" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="203" green="227" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="187" green="218" blue="247"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="197" green="224" blue="247"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="178" green="205" blue="229"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="178" green="205" blue="229"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="3">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="153" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="51" green="153" blue="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="4">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="255" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="255" green="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+        </adaptedGradientColoredAreas>
+      </renderingStyle>
+    </styles>
+    <renderingStyle>
+      <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
+        <adaptedGradientColoredAreas styleAdaption="0">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="248" green="251" blue="254"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="248" green="251" blue="254"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="237" green="245" blue="252"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="237" green="245" blue="252"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="222" green="237" blue="250"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+              <color red="222" green="237" blue="250"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+              <color red="212" green="231" blue="248"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="250" green="251" blue="252"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="226" green="229" blue="233"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="226" green="229" blue="233"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+        <adaptedGradientColoredAreas styleAdaption="1">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="238" green="246" blue="253"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="238" green="246" blue="253"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="208" green="230" blue="249"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="208" green="230" blue="249"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="172" green="210" blue="244"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+              <color red="172" green="210" blue="244"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+              <color red="129" green="185" blue="234"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="170" green="208" blue="242"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="154" green="191" blue="224"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="154" green="191" blue="224"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+        <adaptedGradientColoredAreas styleAdaption="2">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="245" green="249" blue="254"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="245" green="249" blue="254"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+              <color red="226" green="239" blue="252"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="226" green="239" blue="252"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+              <color red="203" green="227" blue="249"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+              <color red="203" green="227" blue="249"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+              <color red="187" green="218" blue="247"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="197" green="224" blue="247"/>
+            </end>
+          </gradientColor>
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+              <color red="178" green="205" blue="229"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="178" green="205" blue="229"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+        <adaptedGradientColoredAreas styleAdaption="3">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="153" green="204"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="51" green="153" blue="102"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+        <adaptedGradientColoredAreas styleAdaption="4">
+          <gradientColor>
+            <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+              <color red="255" green="204"/>
+            </start>
+            <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+              <color red="255" green="102"/>
+            </end>
+          </gradientColor>
+        </adaptedGradientColoredAreas>
+      </adaptedGradientColoredAreas>
+    </renderingStyle>
+  </styles>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.0" end="//@children.2/@anchors.0">
+    <properties key="uri" value="http://resources/4.1.10/app/PWM_CCU8/0/http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_global/http://resources/4.1.10/app/PWM_CCU8/0/vs_ccu8_cc8_config_global"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="300" y="549"/>
+    <bendpoints x="300" y="172"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.7/@anchors.0" end="//@children.6/@anchors.2">
+    <properties key="uri" value="http://resources/4.1.4/app/TIMER/0/http://resources/4.1.4/app/TIMER/0/vs_global_ccu4_enable/http://resources/4.1.4/app/TIMER/0/vs_timer_ccu4_global_enable"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="300" y="680"/>
+    <bendpoints x="300" y="593"/>
+  </connections>
+  <colors red="227" green="238" blue="249"/>
+  <colors red="255" green="255" blue="255"/>
+  <colors/>
+  <colors red="128" green="128" blue="128"/>
+  <colors red="192" green="192" blue="192"/>
+  <colors green="127"/>
+  <colors red="98" green="131" blue="167"/>
+  <fonts name="Arial" size="8"/>
+  <fonts name="Arial" size="8" bold="true"/>
+</pi:Diagram>

@@ -1,0 +1,95 @@
+var group___u_a_r_t =
+[
+    [ "XMC_UART_CH_CONFIG", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html", [
+      [ "baudrate", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#ac4f06ea26ed6bd7ae83b92d64ac10b78", null ],
+      [ "data_bits", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#a6ad5ab806aecadd6cc55918f18742678", null ],
+      [ "frame_length", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#a717fcb304647e963182027a1aab38256", null ],
+      [ "oversampling", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#af2dbbcca6b251d4672d04aa68ecdcdbd", null ],
+      [ "parity_mode", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#ac82f6bed1d4d170d2ba0ec02d4895150", null ],
+      [ "stop_bits", "struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g.html#ae847d8b7e1095e0ae8d6eb1e4a281585", null ]
+    ] ],
+    [ "XMC_UART_CH_CONFIG_t", "group___u_a_r_t.html#ga7e915892a9aedf7c94b8c92d4536cd31", null ],
+    [ "XMC_UART_CH_EVENT_t", "group___u_a_r_t.html#ga22c103e1b9722a590bbe623c51748667", null ],
+    [ "XMC_UART_CH_INPUT_SAMPLING_FREQ_t", "group___u_a_r_t.html#ga40cd243b6fece1ad1916e34e8cfa81a7", null ],
+    [ "XMC_UART_CH_INPUT_t", "group___u_a_r_t.html#ga3df97a9e334389f5a04c906a36786b32", null ],
+    [ "XMC_UART_CH_INTERRUPT_NODE_POINTER_t", "group___u_a_r_t.html#ga6793eac2ce2c073072671ff50cfe3aac", null ],
+    [ "XMC_UART_CH_STATUS_FLAG_t", "group___u_a_r_t.html#gab1d2c007983f53c2965757f021c5fa69", null ],
+    [ "XMC_UART_CH_STATUS_t", "group___u_a_r_t.html#ga6fb5176e8780b26785415ec2406cb1a9", null ],
+    [ "XMC_CH_UART_EVENT", "group___u_a_r_t.html#gaa9afb0f8b31a3b17fa03151d45a7d8c4", [
+      [ "XMC_UART_CH_EVENT_RECEIVE_START", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4addd2af8f6f565002a1b4ea856b7bbcee", null ],
+      [ "XMC_UART_CH_EVENT_DATA_LOST", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4a6e76badf4b36a6fa694cd7c4c0d873b9", null ],
+      [ "XMC_UART_CH_EVENT_TRANSMIT_SHIFT", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4af28054e5044087c68da450015df6771f", null ],
+      [ "XMC_UART_CH_EVENT_TRANSMIT_BUFFER", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4a26b35a7f887b79474fa97856749f182b", null ],
+      [ "XMC_UART_CH_EVENT_STANDARD_RECEIVE", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4a3fec2fc1685b8db717c095a21053240a", null ],
+      [ "XMC_UART_CH_EVENT_ALTERNATIVE_RECEIVE", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4ad640d6bca0daeeb45ac4023b1e4db5b4", null ],
+      [ "XMC_UART_CH_EVENT_BAUD_RATE_GENERATOR", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4ac9364f8566efee358ffc0491940122e2", null ],
+      [ "XMC_UART_CH_EVENT_SYNCHRONIZATION_BREAK", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4a266352a130a03ea0a41565bc695ef146", null ],
+      [ "XMC_UART_CH_EVENT_COLLISION", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4acf263e5b91743a7e5d424d551a9f177b", null ],
+      [ "XMC_UART_CH_EVENT_RECEIVER_NOISE", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4a9045609949ae1b88827a4ec8fd005b93", null ],
+      [ "XMC_UART_CH_EVENT_FORMAT_ERROR", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4aef5d7acb2f77f77405a56b2c04fbaba5", null ],
+      [ "XMC_UART_CH_EVENT_FRAME_FINISHED", "group___u_a_r_t.html#ggaa9afb0f8b31a3b17fa03151d45a7d8c4a2ea7a5f9780633b9cb5702c1fc7296d2", null ]
+    ] ],
+    [ "XMC_UART_CH_INPUT", "group___u_a_r_t.html#gac9e36820763b8000d15a22d9918ce9ff", [
+      [ "XMC_UART_CH_INPUT_RXD", "group___u_a_r_t.html#ggac9e36820763b8000d15a22d9918ce9ffacaf414b76fa9b98df96b90edbf3edc3d", null ]
+    ] ],
+    [ "XMC_UART_CH_INPUT_SAMPLING_FREQ", "group___u_a_r_t.html#ga6a85843335216ade6405e2e59ef4ff55", [
+      [ "XMC_UART_CH_INPUT_SAMPLING_FREQ_FPERIPH", "group___u_a_r_t.html#gga6a85843335216ade6405e2e59ef4ff55a916e6151ac686996fbef2b0c059d0527", null ],
+      [ "XMC_UART_CH_INPUT_SAMPLING_FREQ_FRACTIONAL_DIVIDER", "group___u_a_r_t.html#gga6a85843335216ade6405e2e59ef4ff55ac1ae8f6ca1096c61ca0619dae0a18b92", null ]
+    ] ],
+    [ "XMC_UART_CH_INTERRUPT_NODE_POINTER", "group___u_a_r_t.html#ga23ecb891dfc73a973c1ad950ccd23141", [
+      [ "XMC_UART_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT", "group___u_a_r_t.html#gga23ecb891dfc73a973c1ad950ccd23141a0069cc6489d3bf33490bf4cc95e998d4", null ],
+      [ "XMC_UART_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER", "group___u_a_r_t.html#gga23ecb891dfc73a973c1ad950ccd23141a59a31b003753d05ac1b5d5067751121e", null ],
+      [ "XMC_UART_CH_INTERRUPT_NODE_POINTER_RECEIVE", "group___u_a_r_t.html#gga23ecb891dfc73a973c1ad950ccd23141a668bf0b677803516a7815b85cc98880d", null ],
+      [ "XMC_UART_CH_INTERRUPT_NODE_POINTER_ALTERNATE_RECEIVE", "group___u_a_r_t.html#gga23ecb891dfc73a973c1ad950ccd23141aa2617445b7d8d4c1b05dda8e02c1e431", null ],
+      [ "XMC_UART_CH_INTERRUPT_NODE_POINTER_PROTOCOL", "group___u_a_r_t.html#gga23ecb891dfc73a973c1ad950ccd23141ad86f5c91df1f3e5713ed174d1371a3f5", null ]
+    ] ],
+    [ "XMC_UART_CH_STATUS", "group___u_a_r_t.html#gae2a1514ed1a18d0d8ba09815dbb3201b", [
+      [ "XMC_UART_CH_STATUS_OK", "group___u_a_r_t.html#ggae2a1514ed1a18d0d8ba09815dbb3201ba1d4d4ea36dc6c0ceb6599efed42f0559", null ],
+      [ "XMC_UART_CH_STATUS_ERROR", "group___u_a_r_t.html#ggae2a1514ed1a18d0d8ba09815dbb3201ba146ec14a2e6f316f449c332a863289b0", null ],
+      [ "XMC_UART_CH_STATUS_BUSY", "group___u_a_r_t.html#ggae2a1514ed1a18d0d8ba09815dbb3201ba410817c31e098fd03c04f4d5ecb76ef1", null ]
+    ] ],
+    [ "XMC_UART_CH_STATUS_FLAG", "group___u_a_r_t.html#gaf673b8181ec8cd10bc19d476716aaddf", [
+      [ "XMC_UART_CH_STATUS_FLAG_TRANSMISSION_IDLE", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa8838558f1c949dfdfa117908e21d7058", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_RECEPTION_IDLE", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa02d60fc761d9eee4c4d1c525f2429a5c", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_SYNCHRONIZATION_BREAK_DETECTED", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfaeaf9ee65696e36e06e012e0e3e5b5855", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_COLLISION_DETECTED", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa1127a4bc2e8bca81c351cdc344245fd0", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_RECEIVER_NOISE_DETECTED", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa147a2ad3b6ab6a1aacb07fa971eb1275", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_FORMAT_ERROR_IN_STOP_BIT_0", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfaf6d928be53c8c901a05872e3ef950bc7", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_FORMAT_ERROR_IN_STOP_BIT_1", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa5733cca57c6cff9c79da3c824e644a72", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_RECEIVE_FRAME_FINISHED", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa5abbfe2717ee3117550e329d90769863", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_TRANSMITTER_FRAME_FINISHED", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfae8fe75675b2f99f20032577dd0ca4f7c", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_TRANSFER_STATUS_BUSY", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa68079f24c35e5259c9984e39c602db45", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_RECEIVER_START_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa81b11006a6b243c9f04f4a8a9f5c5735", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_DATA_LOST_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfadcd6021f9d2ab0764ae114b544a1244a", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_TRANSMIT_SHIFT_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa4b78514f4ad98fead964ecf359c673ae", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_TRANSMIT_BUFFER_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfaa8188ae95171fc9461c3c4905e41739b", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_RECEIVE_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa47f5b38bcab2bc0e1b009cffcca18855", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_ALTERNATIVE_RECEIVE_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfaaac652362ebf22f1b23c1e2e4dd52cfa", null ],
+      [ "XMC_UART_CH_STATUS_FLAG_BAUD_RATE_GENERATOR_INDICATION", "group___u_a_r_t.html#ggaf673b8181ec8cd10bc19d476716aaddfa5e66e98130f3a6f072c57295a1a779f7", null ]
+    ] ],
+    [ "XMC_UART_CH_ClearStatusFlag", "group___u_a_r_t.html#ga36271f8ffec2a2c1b077ec2786f574c6", null ],
+    [ "XMC_UART_CH_DisableEvent", "group___u_a_r_t.html#ga87743034df2fe747615ce39a6b870a0c", null ],
+    [ "XMC_UART_CH_DisableInputDigitalFilter", "group___u_a_r_t.html#ga503313c71cb5117214e0e110e78c429a", null ],
+    [ "XMC_UART_CH_DisableInputInversion", "group___u_a_r_t.html#ga5014b70adad4aecdd405be1f33adb2e4", null ],
+    [ "XMC_UART_CH_DisableInputSync", "group___u_a_r_t.html#ga89b523233580be7cc507363f1177e9e7", null ],
+    [ "XMC_UART_CH_EnableEvent", "group___u_a_r_t.html#gaf511dd60e7f23bc40bad0207ff9bd266", null ],
+    [ "XMC_UART_CH_EnableInputDigitalFilter", "group___u_a_r_t.html#ga5445ff123683671c518fe9af75e3494b", null ],
+    [ "XMC_UART_CH_EnableInputInversion", "group___u_a_r_t.html#ga43e655a939632f39559929dd3fb0116e", null ],
+    [ "XMC_UART_CH_EnableInputSync", "group___u_a_r_t.html#ga58f3fba8eac14d0f2e087b5eae995ae9", null ],
+    [ "XMC_UART_CH_GetReceivedData", "group___u_a_r_t.html#ga578c15fc0df2e8ea7a265c92c0a26536", null ],
+    [ "XMC_UART_CH_GetStatusFlag", "group___u_a_r_t.html#gaf6374dc527b7a69200f266c715badec8", null ],
+    [ "XMC_UART_CH_Init", "group___u_a_r_t.html#ga719ad21f9ccaf9585dd0b473b4daef7e", null ],
+    [ "XMC_UART_CH_SelectInterruptNodePointer", "group___u_a_r_t.html#ga93fc1ad8d89020683ed39cdb546bacdd", null ],
+    [ "XMC_UART_CH_SetBaudrate", "group___u_a_r_t.html#ga0f757d62a86fc8944cf7188137490b62", null ],
+    [ "XMC_UART_CH_SetFrameLength", "group___u_a_r_t.html#ga2c9c799602a222b33bdca80aab23e073", null ],
+    [ "XMC_UART_CH_SetInputSamplingFreq", "group___u_a_r_t.html#gae24cc1247f2de6f4381c041e3b84db52", null ],
+    [ "XMC_UART_CH_SetInputSource", "group___u_a_r_t.html#gae5f466fb1df22b9039936ed4e39f527a", null ],
+    [ "XMC_UART_CH_SetInterruptNodePointer", "group___u_a_r_t.html#ga78efe9d95ee8f625db1324caaba9306c", null ],
+    [ "XMC_UART_CH_SetPulseLength", "group___u_a_r_t.html#gacd86123885067439df7e5585518d721a", null ],
+    [ "XMC_UART_CH_SetSamplePoint", "group___u_a_r_t.html#ga80e2ea04eb37d4ee8fa657120cd71b06", null ],
+    [ "XMC_UART_CH_SetWordLength", "group___u_a_r_t.html#gab6f5a7ef41affa10c0190b50d90b2f68", null ],
+    [ "XMC_UART_CH_Start", "group___u_a_r_t.html#ga65b28640516b5abd6946861b8e069dc5", null ],
+    [ "XMC_UART_CH_Stop", "group___u_a_r_t.html#ga083e4d7b2be613994d61ebc9841f7ebd", null ],
+    [ "XMC_UART_CH_Transmit", "group___u_a_r_t.html#ga3a9b41f5d74a0dde43d9b19166ffa7c6", null ],
+    [ "XMC_UART_CH_TriggerServiceRequest", "group___u_a_r_t.html#ga1d91c6f6e2be55f5c28be32435bbaad1", null ]
+];

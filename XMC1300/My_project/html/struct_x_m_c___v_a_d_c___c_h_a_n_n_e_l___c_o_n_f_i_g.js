@@ -1,0 +1,26 @@
+var struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g =
+[
+    [ "__pad0__", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a3e57c2ef1c3ffb36722f000cc1156824", null ],
+    [ "__pad1__", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a6712ba6dd1d5b43d2d56ff8ac4e275a7", null ],
+    [ "__pad2__", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a9ce12a63de64ef64ae2d59d128251cae", null ],
+    [ "__pad3__", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a4854608c0e776f0704a4d9a4b98ea57d", null ],
+    [ "alias_channel", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a8a131e0b7795d896bed92b0b774a64eb", null ],
+    [ "alternate_reference", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#abc694c4a46e96fa73702976d69b0619f", null ],
+    [ "bfl", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a6bd36f0b7d0a4acb1defb5c7e9b574d2", null ],
+    [ "boundary_flag_output_ch0", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a02adf6d1d3fe353b3ac0ae67e144e253", null ],
+    [ "boundary_flag_output_ch1", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a90cd4cc526161a2e690827a4e95dc4ff", null ],
+    [ "boundary_flag_output_ch2", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a3dc172a629f09e3540f98f942cde62a1", null ],
+    [ "boundary_flag_output_ch3", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#ac74d5656769acff6447ff4d94f1bdbbc", null ],
+    [ "broken_wire_detect", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a3e8ebce22211f9d7c03e9fc7843fd8ea", null ],
+    [ "broken_wire_detect_channel", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a4d8031f9a26f99fde46015f8a65138b0", null ],
+    [ "channel_priority", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a5932b5c8ecb904ae3ed29ee37cedeeca", null ],
+    [ "chctr", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a02b0cafda03d57dc81206cf4295a6c17", null ],
+    [ "event_gen_criteria", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#ad6d48cf05e253058ff97116a5328d605", null ],
+    [ "input_class", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a541d8cf63a55e89cd494c04ecbaba22d", null ],
+    [ "lower_boundary_select", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a176b7b24a27a13d8e4c9f3c793d8a33a", null ],
+    [ "result_alignment", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#ab7905bc2512f8d908fcc1e0861216910", null ],
+    [ "result_reg_number", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a6242812bf6bf8b9b28199831ef757c1f", null ],
+    [ "sync_conversion", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#ac9b14d97abc821236d6aed27cf4c3cc0", null ],
+    [ "upper_boundary_select", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a5e0a2b26dc7c9e1eee29fd690d2c6018", null ],
+    [ "use_global_result", "struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g.html#a8707bc8ffc791a9880f1b229d048516f", null ]
+];

@@ -1,0 +1,19 @@
+package Model.APPS.ANALOG_IO.v4_0_4;
+
+/* Import statements */
+import ifx.davex.app.manifest.*
+
+abstract class ANALOG_IO_GUI extends AppManifest {
+	/* Begin : UI variable section */
+	 public GTab tab_conf;
+	 public GString gstring_note;
+
+	 public ANALOG_IO_GUI(DaveEnv daveEnv){
+
+	 tab_conf = GTab(widgetName:"tab_conf", text:"INFO", enabled:true, visible:true)
+	 gstring_note = GString(widgetName:"gstring_note", value:"ANALOG_IO APP  is used to allocate analog port pin. \r\nNo configuration and API are provided.", enabled:false, visible:true, isMandatoryValue:false)
+
+
+	 }
+	/* End : UI variable section */
+}

@@ -1,0 +1,79 @@
+package Model.APPS.CPU_CTRL_XMC1.v4_0_2;
+
+/*************** Revision History **********************************************
+ Version      Date          Description //Retain this format
+
+  4.0.0       16-Feb-2015   Initial version for DAVE v4
+  4.0.1       20-Apr-2015   documentation updated
+  4.0.2       16-Jun-2015   version updated for public release
+*******************************************************************************/
+// Import statements
+import ifx.davex.app.manifest.*
+
+class  CPU_CTRL_XMC1 extends CPU_CTRL_XMC1_GUI {
+
+	// Note  : Following App properties are mandatory and important
+	// Begin : App property section
+	def version            = '4.0.2'
+	
+	def categoriesDescription = ["System"] 
+
+	// Minimum DAVE version required for the App
+	def minDaveVersion           = '4.0.0'
+	
+	// Keywords to search in Apps selection view
+	def keywords      = [
+		'CPU', 
+		'Exceptions', 
+		'Priority bits',
+		'all'
+	]
+	
+	def softwareIDs  = [
+		"XMC1.*.*.*.*":"1.0.0"
+	]
+
+
+	def singleton     = true
+	def initProvider  = true
+	def deprecated    = false
+	def sharable      = true
+
+	// App short description 
+	def description = "Defines the number of bits assigned to preemption priority."
+		
+	// End   : CPU property section
+	
+	// Begin : User variable section
+		
+	MVirtualResourceGroup hwres_cpu
+	
+	GInteger gint_maxInterruptPreemptPriority = GInteger(widgetName:"gint_maxInterruptPreemptPriority")
+	
+	// End   : User variable section
+
+	public CPU_CTRL_XMC1(DaveEnv daveEnv) {
+		
+		String family = daveEnv.project.selectedDevice.deviceId.family
+		int nvicbits = daveEnv.project.selectedDevice.nvicPrioBits
+	
+		/* calculate max value for preemption priority */
+		gint_maxInterruptPreemptPriority.value = MF({
+								   Integer Priority = ((1 << gint_preemptPriorityBits.value) - 1) as Integer
+								   return Priority
+								}, Integer)
+		
+		
+		hwres_cpu = MVirtualResourceGroup("system_control", ["peripheral", "cpu", "0", "system_control"])
+	}
+	
+	// File Generation
+	def generateFiles(){
+		copy("cpu_ctrl_xmc1.c", "cpu_ctrl_xmc1.c")
+		copy("cpu_ctrl_xmc1.h", "cpu_ctrl_xmc1.h")
+		generate("cpu_ctrl_xmc1_confc.tmpl", "cpu_ctrl_xmc1_conf.c")
+		generate("cpu_ctrl_xmc1_confh.tmpl", "cpu_ctrl_xmc1_conf.h")
+		generate("cpu_ctrl_xmc1_externh.tmpl", "cpu_ctrl_xmc1_extern.h")
+	}
+	
+}

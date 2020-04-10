@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ResourceModel:DevicePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" name="TSSOP38" URI="http://resources/TSSOP38.0.0/devicepackage/0">
+  <provided xsi:type="ResourceModel:ResourceGroup" name="37" URI="http://resources/tssop38.0.0/devicepackage/0/37">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/ANALOG_IO/v4_0_4/ANALOG_IO_0.app#//@hwResources.1"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/TSSOP38.0.0/devicepackage/0/pin37"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="19" URI="http://resources/tssop38.0.0/devicepackage/0/19">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/DIGITAL_IO/v4_0_6/DIGITAL_IO_0.app#//@hwResources.1"/>
+    <resourcesList name="pin" requiredResourceUri="http://resources/TSSOP38.0.0/devicepackage/0/pin19"/>
+  </provided>
+</ResourceModel:DevicePackage>

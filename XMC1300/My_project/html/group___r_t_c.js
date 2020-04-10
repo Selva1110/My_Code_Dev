@@ -1,0 +1,106 @@
+var group___r_t_c =
+[
+    [ "XMC_RTC_ALARM", "struct_x_m_c___r_t_c___a_l_a_r_m.html", [
+      [ "__pad0__", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a3e57c2ef1c3ffb36722f000cc1156824", null ],
+      [ "__pad1__", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a6712ba6dd1d5b43d2d56ff8ac4e275a7", null ],
+      [ "__pad2__", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a9ce12a63de64ef64ae2d59d128251cae", null ],
+      [ "__pad3__", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a4854608c0e776f0704a4d9a4b98ea57d", null ],
+      [ "days", "struct_x_m_c___r_t_c___a_l_a_r_m.html#abeaa166317605a05f2f68d23fbe4ee46", null ],
+      [ "hours", "struct_x_m_c___r_t_c___a_l_a_r_m.html#af5561af906efc39d2ece55211ad03ce4", null ],
+      [ "minutes", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a2dcb690348d97b756f4d165c80c9af7d", null ],
+      [ "month", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a55a5fa57878363d803833666ddf3c16f", null ],
+      [ "raw0", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a1c9c29d7f8e7f061fe1b649d9bfb082a", null ],
+      [ "raw1", "struct_x_m_c___r_t_c___a_l_a_r_m.html#acbe7c18e421b751048bd70d61fa08577", null ],
+      [ "seconds", "struct_x_m_c___r_t_c___a_l_a_r_m.html#a6d5694839ec935781627e5c52de21fda", null ],
+      [ "year", "struct_x_m_c___r_t_c___a_l_a_r_m.html#aac3a162d2f192fe2360aba534eac7198", null ]
+    ] ],
+    [ "XMC_RTC_TIME", "struct_x_m_c___r_t_c___t_i_m_e.html", [
+      [ "__pad0__", "struct_x_m_c___r_t_c___t_i_m_e.html#a3e57c2ef1c3ffb36722f000cc1156824", null ],
+      [ "__pad1__", "struct_x_m_c___r_t_c___t_i_m_e.html#a6712ba6dd1d5b43d2d56ff8ac4e275a7", null ],
+      [ "__pad2__", "struct_x_m_c___r_t_c___t_i_m_e.html#a9ce12a63de64ef64ae2d59d128251cae", null ],
+      [ "__pad3__", "struct_x_m_c___r_t_c___t_i_m_e.html#a4854608c0e776f0704a4d9a4b98ea57d", null ],
+      [ "days", "struct_x_m_c___r_t_c___t_i_m_e.html#abeaa166317605a05f2f68d23fbe4ee46", null ],
+      [ "daysofweek", "struct_x_m_c___r_t_c___t_i_m_e.html#a7109410e83bf4dd9a6d4ac0beb261d03", null ],
+      [ "hours", "struct_x_m_c___r_t_c___t_i_m_e.html#af5561af906efc39d2ece55211ad03ce4", null ],
+      [ "minutes", "struct_x_m_c___r_t_c___t_i_m_e.html#a2dcb690348d97b756f4d165c80c9af7d", null ],
+      [ "month", "struct_x_m_c___r_t_c___t_i_m_e.html#a55a5fa57878363d803833666ddf3c16f", null ],
+      [ "raw0", "struct_x_m_c___r_t_c___t_i_m_e.html#a1c9c29d7f8e7f061fe1b649d9bfb082a", null ],
+      [ "raw1", "struct_x_m_c___r_t_c___t_i_m_e.html#acbe7c18e421b751048bd70d61fa08577", null ],
+      [ "seconds", "struct_x_m_c___r_t_c___t_i_m_e.html#a6d5694839ec935781627e5c52de21fda", null ],
+      [ "year", "struct_x_m_c___r_t_c___t_i_m_e.html#aac3a162d2f192fe2360aba534eac7198", null ]
+    ] ],
+    [ "XMC_RTC_CONFIG", "struct_x_m_c___r_t_c___c_o_n_f_i_g.html", [
+      [ "alarm", "struct_x_m_c___r_t_c___c_o_n_f_i_g.html#aa741ee9486069d3208eaf0ee34de5c34", null ],
+      [ "prescaler", "struct_x_m_c___r_t_c___c_o_n_f_i_g.html#aed7c15ebb12ef4b8e90c0c0e79d414a7", null ],
+      [ "time", "struct_x_m_c___r_t_c___c_o_n_f_i_g.html#a3e9e8827b63f041fbe7057861836b5bb", null ]
+    ] ],
+    [ "XMC_RTC_ALARM_t", "group___r_t_c.html#ga9bc121a5c3cdd076e66390087c4ace34", null ],
+    [ "XMC_RTC_CONFIG_t", "group___r_t_c.html#gacf41dad00e1edd0beadfda7a503f068f", null ],
+    [ "XMC_RTC_DEBUG_MODE_t", "group___r_t_c.html#ga9d64e56f87998f63c9db68d9ced6ec80", null ],
+    [ "XMC_RTC_EVENT_t", "group___r_t_c.html#ga88dae817c733ee1bd9751fc0be01af39", null ],
+    [ "XMC_RTC_MONTH_t", "group___r_t_c.html#ga72044b907359a80c71df2052de44c8e3", null ],
+    [ "XMC_RTC_STATUS_t", "group___r_t_c.html#ga0f76a2f29edd0927dc6e68c4aca4c971", null ],
+    [ "XMC_RTC_TIME_t", "group___r_t_c.html#gaaf0121ca445814d8a26c88aa8a70a609", null ],
+    [ "XMC_RTC_WEEKDAY_t", "group___r_t_c.html#gabb47de743f64d53115bc1181e2733d22", null ],
+    [ "XMC_RTC_DEBUG_MODE", "group___r_t_c.html#gaeb49c9f2a2ab519fbd234d3f7957c5de", [
+      [ "XMC_RTC_RUN_IN_DEBUG_MODE", "group___r_t_c.html#ggaeb49c9f2a2ab519fbd234d3f7957c5dea8049e80e8fc6e7ef16eff40146b35b32", null ],
+      [ "XMC_RTC_STOP_IN_DEBUG_MODE", "group___r_t_c.html#ggaeb49c9f2a2ab519fbd234d3f7957c5dea04d4f989e6cc62e6b133999741d8a6a0", null ]
+    ] ],
+    [ "XMC_RTC_EVENT", "group___r_t_c.html#ga4e7dd38e73ad522c87ddf2ab60d73c17", [
+      [ "XMC_RTC_EVENT_PERIODIC_SECONDS", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17abaf495d3fe42c40fe8ce9055db3d8bd6", null ],
+      [ "XMC_RTC_EVENT_PERIODIC_MINUTES", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17a70134c3b9338fe6548649885e4b55056", null ],
+      [ "XMC_RTC_EVENT_PERIODIC_HOURS", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17ab209cc2ec8a7edbb3230a3020d8104ed", null ],
+      [ "XMC_RTC_EVENT_PERIODIC_DAYS", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17afa22d124a4d8ff86f9d8f7e324eddc2a", null ],
+      [ "XMC_RTC_EVENT_PERIODIC_MONTHS", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17a317318fc7f639a462d8f42fea95f8031", null ],
+      [ "XMC_RTC_EVENT_PERIODIC_YEARS", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17ad4142a107e9a717b51cc93e52955bd06", null ],
+      [ "XMC_RTC_EVENT_ALARM", "group___r_t_c.html#gga4e7dd38e73ad522c87ddf2ab60d73c17a8113ac4db38433f2aab4bc993ef2a720", null ]
+    ] ],
+    [ "XMC_RTC_MONTH", "group___r_t_c.html#gaa1aaf0b2d93ccea1d89838d6b4c9882d", [
+      [ "XMC_RTC_MONTH_JANUARY", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882dad8f2fc3fbe4264245e0a3a351693ca3d", null ],
+      [ "XMC_RTC_MONTH_FEBRUARY", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da6a80979d89e754c12cb1395a037c7bee", null ],
+      [ "XMC_RTC_MONTH_MARCH", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882daea8059b559d7616899ed301d93e17253", null ],
+      [ "XMC_RTC_MONTH_APRIL", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882dadd6d73de5807a4d0a7ab74db8a06362c", null ],
+      [ "XMC_RTC_MONTH_MAY", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882daa8541aded1e25590b552ec84efb8b19f", null ],
+      [ "XMC_RTC_MONTH_JUNE", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da65519d95936f7e356ffc4f039ba7f861", null ],
+      [ "XMC_RTC_MONTH_JULY", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da9a6edaf1be418719dd94e2ab61ab78ed", null ],
+      [ "XMC_RTC_MONTH_AUGUST", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882dade38ab95923acc864cbdc942971133a1", null ],
+      [ "XMC_RTC_MONTH_SEPTEMBER", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da832487de9cefac6de2c8dc69e01b45eb", null ],
+      [ "XMC_RTC_MONTH_OCTOBER", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da5880432fe809ad20dd78ff8fe0ee35dc", null ],
+      [ "XMC_RTC_MONTH_NOVEMBER", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da695095c6dd6723ab5ae9851dccefdb8f", null ],
+      [ "XMC_RTC_MONTH_DECEMBER", "group___r_t_c.html#ggaa1aaf0b2d93ccea1d89838d6b4c9882da9838a31b0a567cf2eb9707cdb82a7761", null ]
+    ] ],
+    [ "XMC_RTC_STATUS", "group___r_t_c.html#ga3165c7ec15cd56809e05c3471c168303", [
+      [ "XMC_RTC_STATUS_OK", "group___r_t_c.html#gga3165c7ec15cd56809e05c3471c168303a47ea81dbacc888c447f4ed1a6069735c", null ],
+      [ "XMC_RTC_STATUS_ERROR", "group___r_t_c.html#gga3165c7ec15cd56809e05c3471c168303a1e6887b4d065d4dc6c263e9ae46e3b6d", null ],
+      [ "XMC_RTC_STATUS_BUSY", "group___r_t_c.html#gga3165c7ec15cd56809e05c3471c168303ab80d53d7e1846c83bcbfb2071f90f302", null ]
+    ] ],
+    [ "XMC_RTC_WEEKDAY", "group___r_t_c.html#gae14d1f8c25a200c05f0b23da6d855242", [
+      [ "XMC_RTC_WEEKDAY_SUNDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242a9b892585415c78a69ec240502f3bf22f", null ],
+      [ "XMC_RTC_WEEKDAY_MONDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242a7bba5f016fc9f26a7037515dce5d4db5", null ],
+      [ "XMC_RTC_WEEKDAY_TUESDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242ab7654790267cdb946542c43a4cf2306a", null ],
+      [ "XMC_RTC_WEEKDAY_WEDNESDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242abf593867c0c2aa40c57ff4b71cf3ece5", null ],
+      [ "XMC_RTC_WEEKDAY_THURSDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242a669c2c3f4c8543392fc6c496abca4170", null ],
+      [ "XMC_RTC_WEEKDAY_FRIDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242a42d7b0aadf4f45718a8a36dbb197eada", null ],
+      [ "XMC_RTC_WEEKDAY_SATURDAY", "group___r_t_c.html#ggae14d1f8c25a200c05f0b23da6d855242abda72236fedf1377359043467d0f29ea", null ]
+    ] ],
+    [ "XMC_RTC_ClearEvent", "group___r_t_c.html#ga68d13bcb9a9312844cba39d7792cef6a", null ],
+    [ "XMC_RTC_Disable", "group___r_t_c.html#ga304ac03dcebdf34bd64d8a4a55f68e7e", null ],
+    [ "XMC_RTC_DisableEvent", "group___r_t_c.html#ga9cdf252baa2e293e393b3bd75c1858a3", null ],
+    [ "XMC_RTC_Enable", "group___r_t_c.html#gaff18bac4a49b34e5e75db30ad226a6e2", null ],
+    [ "XMC_RTC_EnableEvent", "group___r_t_c.html#gabb9181ef4ea092ce09bc8c80318fad23", null ],
+    [ "XMC_RTC_GetAlarm", "group___r_t_c.html#ga59347e7f1a7647efca68561c97dc455c", null ],
+    [ "XMC_RTC_GetAlarmStdFormat", "group___r_t_c.html#gab7e150db371758a584a7efaf778ec65e", null ],
+    [ "XMC_RTC_GetEventStatus", "group___r_t_c.html#ga303f3ef19eaacd57fd05e4c65759c503", null ],
+    [ "XMC_RTC_GetPrescaler", "group___r_t_c.html#gac0a3ceb3522feb6b6729afaf495cd0dc", null ],
+    [ "XMC_RTC_GetTime", "group___r_t_c.html#ga073e95cbaffd55d6f7c96557bb63cc9c", null ],
+    [ "XMC_RTC_GetTimeStdFormat", "group___r_t_c.html#ga7ea79333ab81d7595d2d36f65d693c1c", null ],
+    [ "XMC_RTC_Init", "group___r_t_c.html#ga6d21f3c6b2be1975f1593301c4ba9698", null ],
+    [ "XMC_RTC_IsEnabled", "group___r_t_c.html#gaa43757597d99d09440fe053536b380e3", null ],
+    [ "XMC_RTC_IsRunning", "group___r_t_c.html#ga675fc6bac62024c8c94f1cb2e1fe6949", null ],
+    [ "XMC_RTC_SetAlarm", "group___r_t_c.html#gab729ddc6942f268a7775faf5b8dba8ea", null ],
+    [ "XMC_RTC_SetDebugMode", "group___r_t_c.html#gafe70c1437b9b4af0c0c8ac85870d631c", null ],
+    [ "XMC_RTC_SetPrescaler", "group___r_t_c.html#gae593067f20d83f3bfb78f9fbb55f2b66", null ],
+    [ "XMC_RTC_SetTime", "group___r_t_c.html#ga05d0802f267b55eee877eb96707658b1", null ],
+    [ "XMC_RTC_Start", "group___r_t_c.html#ga154a51800df4635e2ab026b3c89b3678", null ],
+    [ "XMC_RTC_Stop", "group___r_t_c.html#ga12b8b8ec35283763356be6f42acad92b", null ]
+];
