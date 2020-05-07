@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ResourceModel:Peripheral xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" name="CPU" URI="http://resources/1.0.1/peripheral/cpu/0" description="Central Processing Unit" baseAddress="0xE000E000">
+  <provided xsi:type="ResourceModel:ResourceGroup" name="SYSTEM_CONTROL" URI="http://resources/1.0.1/peripheral/cpu/0/system_control">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/CPU_CTRL_XMC1/v4_0_2/CPU_CTRL_XMC1_0.app#//@hwResources.0"/>
+    <resourcesList name="cpuid" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/cpuid"/>
+    <resourcesList name="icsr" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/icsr"/>
+    <resourcesList name="aircr" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/aircr"/>
+    <resourcesList name="ccr" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/ccr"/>
+  </provided>
+  <provided xsi:type="ResourceModel:ResourceGroup" name="LEDTS1_0_IRQHandler" URI="http://resources/1.0.1/peripheral/cpu/0/nvic/interrupt/30">
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/INTERRUPT/v4_0_4/INTERRUPT_0.app#//@hwResources.0"/>
+    <resourcesList name="iser_setena" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/iser/setena31"/>
+    <resourcesList name="icer_clrena" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/icer/clrena31"/>
+    <resourcesList name="ispr_setpend" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/ispr/setpend31"/>
+    <resourcesList name="icpr_clrpend" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/icpr/clrpend31"/>
+    <resourcesList name="ipr_pri" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/ipr7/pri_2"/>
+    <resourcesList name="signal_in" requiredResourceUri="http://resources/1.0.1/peripheral/cpu/0/ledts1_0_irqhandler"/>
+  </provided>
+  <categoryDescription description="Central Processing Unit (CPU)" name="cpu"/>
+  <addressBlock offset="0x0" size="0x1000" usage="registers"/>
+</ResourceModel:Peripheral>
