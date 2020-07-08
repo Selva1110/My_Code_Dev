@@ -1,0 +1,26 @@
+var hpl__sercom__config_8h =
+[
+    [ "CONF_SERCOM_2_SPI_ADDR", "hpl__sercom__config_8h.html#a81d062c4f6b91d5cfcae9adf3d5442d1", null ],
+    [ "CONF_SERCOM_2_SPI_ADDRMASK", "hpl__sercom__config_8h.html#ab19b0f4bed9342d00f4a5ae37f868777", null ],
+    [ "CONF_SERCOM_2_SPI_ADVANCED", "hpl__sercom__config_8h.html#a98043a369e4ba071f0c04f8db0faf88e", null ],
+    [ "CONF_SERCOM_2_SPI_AMODE", "hpl__sercom__config_8h.html#aa271de8517f6676de19955906b92342d", null ],
+    [ "CONF_SERCOM_2_SPI_AMODE_EN", "hpl__sercom__config_8h.html#ad7d291c67f66916893614bb68a88c83e", null ],
+    [ "CONF_SERCOM_2_SPI_BAUD", "hpl__sercom__config_8h.html#aed1152f37a939613656cce4173848238", null ],
+    [ "CONF_SERCOM_2_SPI_BAUD_RATE", "hpl__sercom__config_8h.html#afe8966aa8511604d9f86de0c58c3b9b1", null ],
+    [ "CONF_SERCOM_2_SPI_CHSIZE", "hpl__sercom__config_8h.html#aba2dd8b667be023c5afc849ff349110a", null ],
+    [ "CONF_SERCOM_2_SPI_CPHA", "hpl__sercom__config_8h.html#a96c4248fa570e703fcacc20b73a26eaf", null ],
+    [ "CONF_SERCOM_2_SPI_CPOL", "hpl__sercom__config_8h.html#a32a2844717b6a99676a04d43fa803a15", null ],
+    [ "CONF_SERCOM_2_SPI_DBGSTOP", "hpl__sercom__config_8h.html#a009557793e2c05bd9b8761bd58494d9e", null ],
+    [ "CONF_SERCOM_2_SPI_DORD", "hpl__sercom__config_8h.html#af4524f3f461fb95317e04256bb10a6c0", null ],
+    [ "CONF_SERCOM_2_SPI_DUMMYBYTE", "hpl__sercom__config_8h.html#a2986a806532a6ebd9aeb0d749ff60743", null ],
+    [ "CONF_SERCOM_2_SPI_ENABLE", "hpl__sercom__config_8h.html#aa71319d42811f7138b4f204a6af86ece", null ],
+    [ "CONF_SERCOM_2_SPI_IBON", "hpl__sercom__config_8h.html#ac28ddaecb2fbe75474713a64702addb1", null ],
+    [ "CONF_SERCOM_2_SPI_MODE", "hpl__sercom__config_8h.html#a5be68f5e675cfb46f5431c3a0f37bd20", null ],
+    [ "CONF_SERCOM_2_SPI_MSSEN", "hpl__sercom__config_8h.html#ac85d5112e81608bef6fde98cf2df7d81", null ],
+    [ "CONF_SERCOM_2_SPI_PLOADEN", "hpl__sercom__config_8h.html#a647ebc02fc5ebe8f21a9d1d66cc1db1a", null ],
+    [ "CONF_SERCOM_2_SPI_RUNSTDBY", "hpl__sercom__config_8h.html#ace9dcba8f0acdb5897e5a0b9b2110edb", null ],
+    [ "CONF_SERCOM_2_SPI_RXEN", "hpl__sercom__config_8h.html#a271065162e205da6707904a487777a98", null ],
+    [ "CONF_SERCOM_2_SPI_RXPO", "hpl__sercom__config_8h.html#adc12149e7d2ee67d02d7bd6bf6cba10c", null ],
+    [ "CONF_SERCOM_2_SPI_SSDE", "hpl__sercom__config_8h.html#a1a4658b85d188e3665e2669781cce0bd", null ],
+    [ "CONF_SERCOM_2_SPI_TXPO", "hpl__sercom__config_8h.html#a926a1a1b473a955e2e66b90ede03b1a8", null ]
+];

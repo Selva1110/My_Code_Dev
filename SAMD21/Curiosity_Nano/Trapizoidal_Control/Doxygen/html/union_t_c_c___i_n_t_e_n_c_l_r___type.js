@@ -1,0 +1,25 @@
+var union_t_c_c___i_n_t_e_n_c_l_r___type =
+[
+    [ "__pad0__", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a27b732f7933111d7e6fd562458673b78", null ],
+    [ "__pad1__", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a186ffa90d01bf17f0e3467cbc882ff55", null ],
+    [ "bit", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a883ef6e8e3602ddb6ba3a58fa3cab9c0", null ],
+    [ "bit", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a9c1146df4bd0ccb3914946fbfa7da85d", null ],
+    [ "CNT", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#aacf515c6455428ed6aae69f183a1e36b", null ],
+    [ "DFS", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a99c34aee5bebec5d35c839d04d8c6cd1", null ],
+    [ "ERR", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#aa71e499dcff0148d40a32b304221cc54", null ],
+    [ "FAULT0", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a5e68e07421de78e592d209263dd3a951", null ],
+    [ "FAULT1", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#ad6c33af61cc2e852e37ac5eeaeedf84f", null ],
+    [ "FAULTA", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a4c7c47dfdd5a3c509ff874555d77a2e1", null ],
+    [ "FAULTB", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#aa09b86bf223390a74a860b50ddde30de", null ],
+    [ "MC", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a3115b7d0a309a1eb888fa8eee3e89587", null ],
+    [ "MC0", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#aed23b70b82b1fb9b47583387bafa4b38", null ],
+    [ "MC1", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a5d8a106a385ab3b34a4c0d891fe45090", null ],
+    [ "MC2", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a2d8932501daab5264124bbbd22a58c6b", null ],
+    [ "MC3", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a163d420f51e19cf42ad557c4e0f8443c", null ],
+    [ "OVF", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#ac6a617a4402ed62ce8e251ef06f7e8a2", null ],
+    [ "reg", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#aa731aa9cfbd86eb5d3915db7308cc486", null ],
+    [ "TRG", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#afd0f3827e5f71bdecfddeb22e8f3c7a5", null ],
+    [ "UFS", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#a3b9fe4eeb44847abeb0ead00cc917c33", null ],
+    [ "vec", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#ade16088fdff175e4ff6c0e86c49ae720", null ],
+    [ "vec", "union_t_c_c___i_n_t_e_n_c_l_r___type.html#add0c081856d32f126239705328359915", null ]
+];

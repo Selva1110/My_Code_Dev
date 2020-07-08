@@ -1,0 +1,28 @@
+var instance_2adc_8h =
+[
+    [ "ADC_DMAC_ID_RESRDY", "instance_2adc_8h.html#abbf8fa357c5ffba1fa690c90cc7106b3", null ],
+    [ "ADC_EXTCHANNEL_MSB", "instance_2adc_8h.html#aacf536a2afbf9d0fb9ff3cdf644dd014", null ],
+    [ "ADC_GCLK_ID", "instance_2adc_8h.html#aca10b3c347649f130784e167e09ce7fe", null ],
+    [ "ADC_RESULT_BITS", "instance_2adc_8h.html#a6196ea0f100db3fcb3e6bd0c9c3f54f2", null ],
+    [ "ADC_RESULT_MSB", "instance_2adc_8h.html#a79ca5bb1a3a8ef297e242e13e8684e14", null ],
+    [ "REG_ADC_AVGCTRL", "instance_2adc_8h.html#a346b4a0918b3ef4e18f40f419310b6d2", null ],
+    [ "REG_ADC_CALIB", "instance_2adc_8h.html#a592e901c2fc8bb1ed32d8742aff525bf", null ],
+    [ "REG_ADC_CTRLA", "instance_2adc_8h.html#ae374228e288bcb628a49f328bb54d424", null ],
+    [ "REG_ADC_CTRLB", "instance_2adc_8h.html#ac55dec5fc972e3f8bc0f5213b971fc8c", null ],
+    [ "REG_ADC_DBGCTRL", "instance_2adc_8h.html#a175c74d9270d2a742e20a76697e987c3", null ],
+    [ "REG_ADC_EVCTRL", "instance_2adc_8h.html#ab81b23f24ee5cce71266eb989d138060", null ],
+    [ "REG_ADC_GAINCORR", "instance_2adc_8h.html#a521f46321a7cb1fdcb72c85589be1c72", null ],
+    [ "REG_ADC_INPUTCTRL", "instance_2adc_8h.html#a5ddaaa03579be757701b13be4c393bcc", null ],
+    [ "REG_ADC_INTENCLR", "instance_2adc_8h.html#a38e57de6f807ec4070617175f0226898", null ],
+    [ "REG_ADC_INTENSET", "instance_2adc_8h.html#a0002744331f258e0b6316f95e7637118", null ],
+    [ "REG_ADC_INTFLAG", "instance_2adc_8h.html#a6db94ffb32d46486d286f107930b7aab", null ],
+    [ "REG_ADC_OFFSETCORR", "instance_2adc_8h.html#a48d921252dab494655b547018ce0a56e", null ],
+    [ "REG_ADC_REFCTRL", "instance_2adc_8h.html#a14955a2fd34b7ea2f03882afcf22613d", null ],
+    [ "REG_ADC_RESULT", "instance_2adc_8h.html#aafb560c3d0dc02d2b2f0a6f92895fc51", null ],
+    [ "REG_ADC_SAMPCTRL", "instance_2adc_8h.html#a026930ddf50dcab597b579aa5e4a9ef4", null ],
+    [ "REG_ADC_STATUS", "instance_2adc_8h.html#ab40a000c5212e34d9e1aac7d4bce05ab", null ],
+    [ "REG_ADC_SWTRIG", "instance_2adc_8h.html#aa398b381df068a85f5ceb86870afef65", null ],
+    [ "REG_ADC_WINCTRL", "instance_2adc_8h.html#ab403194e142732c22d7c256e7b4743a8", null ],
+    [ "REG_ADC_WINLT", "instance_2adc_8h.html#a18b09a495a2bbb47928dedb7c7d5092b", null ],
+    [ "REG_ADC_WINUT", "instance_2adc_8h.html#af152de9a17a3dc43ba25c10b3af9c0cc", null ]
+];

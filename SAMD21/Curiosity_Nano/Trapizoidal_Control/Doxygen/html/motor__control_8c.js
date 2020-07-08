@@ -1,0 +1,28 @@
+var motor__control_8c =
+[
+    [ "_timer_get_count", "motor__control_8c.html#a92de3905ae6a78f444a5f058235e713b", null ],
+    [ "_timer_set_count", "motor__control_8c.html#a5c00025629005d1e00b0db4177c4147d", null ],
+    [ "_timer_start_a", "motor__control_8c.html#a5d2a89d076796a43873e22c6ae7722fd", null ],
+    [ "_timer_stop_a", "motor__control_8c.html#af90ac28fad4fc7c96d7d0b39d498ee46", null ],
+    [ "adp_receive_data", "motor__control_8c.html#a6d3a294a642d29e87e32c0a4f5388f6f", null ],
+    [ "app_one_ms_isr", "motor__control_8c.html#ab1b8dbc85f897a733e39323f2762afee", null ],
+    [ "init_global_variables", "motor__control_8c.html#a9c2731b3a2364a95da714de5ceaeb965", null ],
+    [ "motor_pwm_init", "motor__control_8c.html#a9c0909efcfc5d2d56c2acdb6d2381cd1", null ],
+    [ "motor_start", "motor__control_8c.html#af473ccc694c3f7b4e5ac3f1d771f8389", null ],
+    [ "motor_stop", "motor__control_8c.html#a01e9890bd4217e0108f26149af4ad05e", null ],
+    [ "register_hall_events", "motor__control_8c.html#a6b6a289cf56068e591f1a923999dbe45", null ],
+    [ "register_one_ms_timer_events", "motor__control_8c.html#a5f9bbdcb6a275d783e7d1356a351f550", null ],
+    [ "speed_measurement_init", "motor__control_8c.html#a1bc0b63ee81b269bc13164b93b97de8e", null ],
+    [ "update_commutation", "motor__control_8c.html#ac58d879a636ad11b5c0a7d2f1e20c425", null ],
+    [ "dashboardconfigured", "motor__control_8c.html#a711f7683159c8c0b8afe9f2182791e82", null ],
+    [ "direction", "motor__control_8c.html#ac6116d5235e13e059e591879c46d7174", null ],
+    [ "ki_ref", "motor__control_8c.html#a7f55854534638b6a275fcaa0799758f5", null ],
+    [ "kp_ref", "motor__control_8c.html#afe8d1e5f3a256464ba6477d11509096d", null ],
+    [ "num_input_streams", "motor__control_8c.html#a46aead8d34f5ff8bf5b53e05b2ed7f1f", null ],
+    [ "ramp_speedperms", "motor__control_8c.html#ac16c08f44886e516b94cb65692475fe2", null ],
+    [ "set_speed", "motor__control_8c.html#a93eba1c6df23be744adae901f81f4ac6", null ],
+    [ "speedpi", "motor__control_8c.html#a8accda6d9cf6c760989d58e22751f120", null ],
+    [ "start_toggle", "motor__control_8c.html#a6e5e5fcb4db0cef10007bbff2641b350", null ],
+    [ "state_run", "motor__control_8c.html#aed81e8debc1679d45479c24327a30420", null ],
+    [ "TIMER_ONE_MS", "motor__control_8c.html#a7c557831474ab23d26245b91e716c398", null ]
+];
