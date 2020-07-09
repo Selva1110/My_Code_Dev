@@ -5,37 +5,16 @@
 #include <utils.h>
 
 // TODO: Verify and Set the Hall sensor pins
-#ifdef __SAMD21E16L__
 #ifndef HALL_SENSOR_PINA
-#define HALL_SENSOR_PINA GPIO(GPIO_PORTA, 3)
+#define HALL_SENSOR_PINA GPIO(GPIO_PORTA, 21)
 #endif
 #ifndef HALL_SENSOR_PINB
-#define HALL_SENSOR_PINB GPIO(GPIO_PORTA, 2)
+#define HALL_SENSOR_PINB GPIO(GPIO_PORTA, 20)
 #endif
 #ifndef HALL_SENSOR_PINC
-#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 7)
+#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 07)
 #endif
-#elif __SAMD21J18A__
-#ifndef HALL_SENSOR_PINA
-#define HALL_SENSOR_PINA GPIO(GPIO_PORTA, 3)
-#endif
-#ifndef HALL_SENSOR_PINB
-#define HALL_SENSOR_PINB GPIO(GPIO_PORTA, 18)
-#endif
-#ifndef HALL_SENSOR_PINC
-#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 28)
-#endif
-#elif __SAMC21J18A__
-#ifndef HALL_SENSOR_PINA
-#define HALL_SENSOR_PINA GPIO(GPIO_PORTB, 11)
-#endif
-#ifndef HALL_SENSOR_PINB
-#define HALL_SENSOR_PINB GPIO(GPIO_PORTB, 4)
-#endif
-#ifndef HALL_SENSOR_PINC
-#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 28)
-#endif
-#endif
+
 
 void     init_global_variables(void);
 void     update_commutation(void);
