@@ -1,0 +1,1418 @@
+format_version: '2'
+name: Trapezoidal_Control
+versions:
+  api: '1.0'
+  backend: 1.7.391
+  commit: d4b7e9f65a05ebffcb0986e4060cb8c0a313e69a
+  content: unknown
+  content_pack_name: unknown
+  format: '2'
+  frontend: 1.7.391
+  packs_version_avr8: 1.0.1421
+  packs_version_qtouch: unknown
+  packs_version_sam: 1.0.1658
+  version_backend: 1.7.391
+  version_frontend: ''
+board:
+  identifier: CustomBoard
+  device: ATSAME70Q21A-AN
+details: null
+application: null
+middlewares: {}
+drivers:
+  ADC_0:
+    user_label: ADC_0
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::AFEC0::driver_config_definition::ADC::HAL:Driver:ADC.Sync
+    functionality: ADC
+    api: HAL:Driver:ADC_Sync
+    configuration:
+      afec_advanced_settings: false
+      afec_channel0_enable: false
+      afec_channel10_enable: false
+      afec_channel11_enable: false
+      afec_channel1_enable: false
+      afec_channel2_enable: false
+      afec_channel3_enable: false
+      afec_channel4_enable: false
+      afec_channel5_enable: false
+      afec_channel6_enable: false
+      afec_channel7_enable: false
+      afec_channel8_enable: false
+      afec_channel9_enable: false
+      afec_channel_diff0: false
+      afec_channel_diff1: false
+      afec_channel_diff10: false
+      afec_channel_diff11: false
+      afec_channel_diff2: false
+      afec_channel_diff3: false
+      afec_channel_diff4: false
+      afec_channel_diff5: false
+      afec_channel_diff6: false
+      afec_channel_diff7: false
+      afec_channel_diff8: false
+      afec_channel_diff9: false
+      afec_channel_dual0: false
+      afec_channel_dual1: false
+      afec_channel_dual10: false
+      afec_channel_dual11: false
+      afec_channel_dual2: false
+      afec_channel_dual3: false
+      afec_channel_dual4: false
+      afec_channel_dual5: false
+      afec_channel_dual6: false
+      afec_channel_dual7: false
+      afec_channel_dual8: false
+      afec_channel_dual9: false
+      afec_channel_ecorr0: false
+      afec_channel_ecorr1: false
+      afec_channel_ecorr10: false
+      afec_channel_ecorr11: false
+      afec_channel_ecorr2: false
+      afec_channel_ecorr3: false
+      afec_channel_ecorr4: false
+      afec_channel_ecorr5: false
+      afec_channel_ecorr6: false
+      afec_channel_ecorr7: false
+      afec_channel_ecorr8: false
+      afec_channel_ecorr9: false
+      afec_channel_gain0: '1'
+      afec_channel_gain1: '1'
+      afec_channel_gain10: '1'
+      afec_channel_gain11: '1'
+      afec_channel_gain2: '1'
+      afec_channel_gain3: '1'
+      afec_channel_gain4: '1'
+      afec_channel_gain5: '1'
+      afec_channel_gain6: '1'
+      afec_channel_gain7: '1'
+      afec_channel_gain8: '1'
+      afec_channel_gain9: '1'
+      afec_channel_offset0: 512
+      afec_channel_offset1: 512
+      afec_channel_offset10: 512
+      afec_channel_offset11: 512
+      afec_channel_offset2: 512
+      afec_channel_offset3: 512
+      afec_channel_offset4: 512
+      afec_channel_offset5: 512
+      afec_channel_offset6: 512
+      afec_channel_offset7: 512
+      afec_channel_offset8: 512
+      afec_channel_offset9: 512
+      afec_cmpmode: The converted data is lower than the low threshold of the window.
+      afec_cmpsel: Channel 0
+      afec_compare_all_channels: false
+      afec_comparison_settings: false
+      afec_cosr_csel: false
+      afec_fast_wakeup_mode: false
+      afec_freerunning_mode: false
+      afec_gaincorr: 0
+      afec_highthres: 0
+      afec_ibctl: 1
+      afec_lowthres: 0
+      afec_offsetcorr: 0
+      afec_prescaler: 49
+      afec_resolution: 12-bit
+      afec_sign_mode: 'Single-Ended channels: Unsigned. Differential channels: Signed.'
+      afec_sleep_mode: false
+      afec_startup_time: 64 periods of AFE clock
+      afec_stm: true
+      afec_tag: true
+      afec_tracktim: 15
+      afec_transfer: 2
+      afec_trigger_enable: false
+      afec_trigger_selection: AFE0_ADTRG for AFEC0 / AFE1_ADTRG for AFEC1
+      afec_usch0: None
+      afec_usch1: None
+      afec_usch10: None
+      afec_usch11: None
+      afec_usch2: None
+      afec_usch3: None
+      afec_usch4: None
+      afec_usch5: None
+      afec_usch6: None
+      afec_usch7: None
+      afec_usch8: None
+      afec_usch9: None
+      afec_useq: false
+    optional_signals:
+    - identifier: ADC_0:AD/0
+      pad: PD30
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC0.AD.0
+      name: AFEC0/AD/0
+      label: AD/0
+    - identifier: ADC_0:AD/2
+      pad: PB3
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC0.AD.2
+      name: AFEC0/AD/2
+      label: AD/2
+    - identifier: ADC_0:AD/5
+      pad: PB2
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC0.AD.5
+      name: AFEC0/AD/5
+      label: AD/5
+    - identifier: ADC_0:AD/8
+      pad: PA19
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC0.AD.8
+      name: AFEC0/AD/8
+      label: AD/8
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: AFEC
+          input: Master Clock (MCK)
+          external: false
+          external_frequency: 0
+        configuration:
+          afec_clock_source: Master Clock (MCK)
+  ADC_1:
+    user_label: ADC_1
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::AFEC1::driver_config_definition::ADC::HAL:Driver:ADC.Sync
+    functionality: ADC
+    api: HAL:Driver:ADC_Sync
+    configuration:
+      afec_advanced_settings: false
+      afec_channel0_enable: false
+      afec_channel10_enable: false
+      afec_channel11_enable: false
+      afec_channel1_enable: false
+      afec_channel2_enable: false
+      afec_channel3_enable: false
+      afec_channel4_enable: false
+      afec_channel5_enable: false
+      afec_channel6_enable: false
+      afec_channel7_enable: false
+      afec_channel8_enable: false
+      afec_channel9_enable: false
+      afec_channel_diff0: false
+      afec_channel_diff1: false
+      afec_channel_diff10: false
+      afec_channel_diff11: false
+      afec_channel_diff2: false
+      afec_channel_diff3: false
+      afec_channel_diff4: false
+      afec_channel_diff5: false
+      afec_channel_diff6: false
+      afec_channel_diff7: false
+      afec_channel_diff8: false
+      afec_channel_diff9: false
+      afec_channel_dual0: false
+      afec_channel_dual1: false
+      afec_channel_dual10: false
+      afec_channel_dual11: false
+      afec_channel_dual2: false
+      afec_channel_dual3: false
+      afec_channel_dual4: false
+      afec_channel_dual5: false
+      afec_channel_dual6: false
+      afec_channel_dual7: false
+      afec_channel_dual8: false
+      afec_channel_dual9: false
+      afec_channel_ecorr0: false
+      afec_channel_ecorr1: false
+      afec_channel_ecorr10: false
+      afec_channel_ecorr11: false
+      afec_channel_ecorr2: false
+      afec_channel_ecorr3: false
+      afec_channel_ecorr4: false
+      afec_channel_ecorr5: false
+      afec_channel_ecorr6: false
+      afec_channel_ecorr7: false
+      afec_channel_ecorr8: false
+      afec_channel_ecorr9: false
+      afec_channel_gain0: '1'
+      afec_channel_gain1: '1'
+      afec_channel_gain10: '1'
+      afec_channel_gain11: '1'
+      afec_channel_gain2: '1'
+      afec_channel_gain3: '1'
+      afec_channel_gain4: '1'
+      afec_channel_gain5: '1'
+      afec_channel_gain6: '1'
+      afec_channel_gain7: '1'
+      afec_channel_gain8: '1'
+      afec_channel_gain9: '1'
+      afec_channel_offset0: 512
+      afec_channel_offset1: 512
+      afec_channel_offset10: 512
+      afec_channel_offset11: 512
+      afec_channel_offset2: 512
+      afec_channel_offset3: 512
+      afec_channel_offset4: 512
+      afec_channel_offset5: 512
+      afec_channel_offset6: 512
+      afec_channel_offset7: 512
+      afec_channel_offset8: 512
+      afec_channel_offset9: 512
+      afec_cmpmode: The converted data is lower than the low threshold of the window.
+      afec_cmpsel: Channel 0
+      afec_compare_all_channels: false
+      afec_comparison_settings: false
+      afec_cosr_csel: false
+      afec_fast_wakeup_mode: false
+      afec_freerunning_mode: false
+      afec_gaincorr: 0
+      afec_highthres: 0
+      afec_ibctl: 1
+      afec_lowthres: 0
+      afec_offsetcorr: 0
+      afec_prescaler: 49
+      afec_resolution: 12-bit
+      afec_sign_mode: 'Single-Ended channels: Unsigned. Differential channels: Signed.'
+      afec_sleep_mode: false
+      afec_startup_time: 64 periods of AFE clock
+      afec_stm: true
+      afec_tag: true
+      afec_tracktim: 15
+      afec_transfer: 2
+      afec_trigger_enable: false
+      afec_trigger_selection: AFE0_ADTRG for AFEC0 / AFE1_ADTRG for AFEC1
+      afec_usch0: None
+      afec_usch1: None
+      afec_usch10: None
+      afec_usch11: None
+      afec_usch2: None
+      afec_usch3: None
+      afec_usch4: None
+      afec_usch5: None
+      afec_usch6: None
+      afec_usch7: None
+      afec_usch8: None
+      afec_usch9: None
+      afec_useq: false
+    optional_signals:
+    - identifier: ADC_1:AD/1
+      pad: PC13
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC1.AD.1
+      name: AFEC1/AD/1
+      label: AD/1
+    - identifier: ADC_1:AD/3
+      pad: PC12
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC1.AD.3
+      name: AFEC1/AD/3
+      label: AD/3
+    - identifier: ADC_1:AD/5
+      pad: PC30
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC1.AD.5
+      name: AFEC1/AD/5
+      label: AD/5
+    - identifier: ADC_1:AD/6
+      pad: PC31
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::AFEC1.AD.6
+      name: AFEC1/AD/6
+      label: AD/6
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: AFEC
+          input: Master Clock (MCK)
+          external: false
+          external_frequency: 0
+        configuration:
+          afec_clock_source: Master Clock (MCK)
+  EXTERNAL_IRQ_0:
+    user_label: EXTERNAL_IRQ_0
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::PIOC::driver_config_definition::External.IRQ::HAL:Driver:Ext.IRQ
+    functionality: External_IRQ
+    api: HAL:Driver:Ext_IRQ
+    configuration:
+      gpio_ext_irq_sense0: Any change detection
+      gpio_ext_irq_sense1: Any change detection
+      gpio_ext_irq_sense10: Any change detection
+      gpio_ext_irq_sense11: Any change detection
+      gpio_ext_irq_sense12: Any change detection
+      gpio_ext_irq_sense13: Any change detection
+      gpio_ext_irq_sense14: Any change detection
+      gpio_ext_irq_sense15: Any change detection
+      gpio_ext_irq_sense16: Any change detection
+      gpio_ext_irq_sense17: Any change detection
+      gpio_ext_irq_sense18: Any change detection
+      gpio_ext_irq_sense19: Any change detection
+      gpio_ext_irq_sense2: Any change detection
+      gpio_ext_irq_sense20: Any change detection
+      gpio_ext_irq_sense21: Any change detection
+      gpio_ext_irq_sense22: Any change detection
+      gpio_ext_irq_sense23: Any change detection
+      gpio_ext_irq_sense24: Any change detection
+      gpio_ext_irq_sense25: Any change detection
+      gpio_ext_irq_sense26: Any change detection
+      gpio_ext_irq_sense27: Any change detection
+      gpio_ext_irq_sense28: Any change detection
+      gpio_ext_irq_sense29: Any change detection
+      gpio_ext_irq_sense3: Any change detection
+      gpio_ext_irq_sense30: Any change detection
+      gpio_ext_irq_sense31: Any change detection
+      gpio_ext_irq_sense4: Any change detection
+      gpio_ext_irq_sense5: Any change detection
+      gpio_ext_irq_sense6: Any change detection
+      gpio_ext_irq_sense7: Any change detection
+      gpio_ext_irq_sense8: Any change detection
+      gpio_ext_irq_sense9: Any change detection
+      pio_ext_irq_enable_setting0: false
+      pio_ext_irq_enable_setting1: false
+      pio_ext_irq_enable_setting10: false
+      pio_ext_irq_enable_setting11: false
+      pio_ext_irq_enable_setting12: false
+      pio_ext_irq_enable_setting13: false
+      pio_ext_irq_enable_setting14: false
+      pio_ext_irq_enable_setting15: false
+      pio_ext_irq_enable_setting16: false
+      pio_ext_irq_enable_setting17: false
+      pio_ext_irq_enable_setting18: false
+      pio_ext_irq_enable_setting19: true
+      pio_ext_irq_enable_setting2: false
+      pio_ext_irq_enable_setting20: false
+      pio_ext_irq_enable_setting21: false
+      pio_ext_irq_enable_setting22: false
+      pio_ext_irq_enable_setting23: false
+      pio_ext_irq_enable_setting24: false
+      pio_ext_irq_enable_setting25: false
+      pio_ext_irq_enable_setting26: false
+      pio_ext_irq_enable_setting27: false
+      pio_ext_irq_enable_setting28: false
+      pio_ext_irq_enable_setting29: false
+      pio_ext_irq_enable_setting3: false
+      pio_ext_irq_enable_setting30: false
+      pio_ext_irq_enable_setting31: false
+      pio_ext_irq_enable_setting4: false
+      pio_ext_irq_enable_setting5: false
+      pio_ext_irq_enable_setting6: false
+      pio_ext_irq_enable_setting7: false
+      pio_ext_irq_enable_setting8: false
+      pio_ext_irq_enable_setting9: true
+    optional_signals:
+    - identifier: EXTERNAL_IRQ_0:P/73
+      pad: PC9
+      mode: Ext IRQ Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PIOC.P.73
+      name: PIOC/P/73
+      label: P/73
+    - identifier: EXTERNAL_IRQ_0:P/83
+      pad: PC19
+      mode: Ext IRQ Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PIOC.P.83
+      name: PIOC/P/83
+      label: P/83
+    variant: null
+    clocks:
+      domain_group: null
+  EXTERNAL_IRQ_1:
+    user_label: EXTERNAL_IRQ_1
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::PIOA::driver_config_definition::External.IRQ::HAL:Driver:Ext.IRQ
+    functionality: External_IRQ
+    api: HAL:Driver:Ext_IRQ
+    configuration:
+      gpio_ext_irq_sense0: Any change detection
+      gpio_ext_irq_sense1: Any change detection
+      gpio_ext_irq_sense10: Any change detection
+      gpio_ext_irq_sense11: Any change detection
+      gpio_ext_irq_sense12: Any change detection
+      gpio_ext_irq_sense13: Any change detection
+      gpio_ext_irq_sense14: Any change detection
+      gpio_ext_irq_sense15: Any change detection
+      gpio_ext_irq_sense16: Any change detection
+      gpio_ext_irq_sense17: Any change detection
+      gpio_ext_irq_sense18: Any change detection
+      gpio_ext_irq_sense19: Any change detection
+      gpio_ext_irq_sense2: Any change detection
+      gpio_ext_irq_sense20: Any change detection
+      gpio_ext_irq_sense21: Any change detection
+      gpio_ext_irq_sense22: Any change detection
+      gpio_ext_irq_sense23: Any change detection
+      gpio_ext_irq_sense24: Any change detection
+      gpio_ext_irq_sense25: Any change detection
+      gpio_ext_irq_sense26: Any change detection
+      gpio_ext_irq_sense27: Any change detection
+      gpio_ext_irq_sense28: Any change detection
+      gpio_ext_irq_sense29: Any change detection
+      gpio_ext_irq_sense3: Any change detection
+      gpio_ext_irq_sense30: Any change detection
+      gpio_ext_irq_sense31: Any change detection
+      gpio_ext_irq_sense4: Any change detection
+      gpio_ext_irq_sense5: Any change detection
+      gpio_ext_irq_sense6: Any change detection
+      gpio_ext_irq_sense7: Any change detection
+      gpio_ext_irq_sense8: Any change detection
+      gpio_ext_irq_sense9: Any change detection
+      pio_ext_irq_enable_setting0: false
+      pio_ext_irq_enable_setting1: false
+      pio_ext_irq_enable_setting10: false
+      pio_ext_irq_enable_setting11: false
+      pio_ext_irq_enable_setting12: false
+      pio_ext_irq_enable_setting13: false
+      pio_ext_irq_enable_setting14: false
+      pio_ext_irq_enable_setting15: false
+      pio_ext_irq_enable_setting16: false
+      pio_ext_irq_enable_setting17: false
+      pio_ext_irq_enable_setting18: false
+      pio_ext_irq_enable_setting19: false
+      pio_ext_irq_enable_setting2: true
+      pio_ext_irq_enable_setting20: false
+      pio_ext_irq_enable_setting21: false
+      pio_ext_irq_enable_setting22: false
+      pio_ext_irq_enable_setting23: false
+      pio_ext_irq_enable_setting24: false
+      pio_ext_irq_enable_setting25: false
+      pio_ext_irq_enable_setting26: false
+      pio_ext_irq_enable_setting27: false
+      pio_ext_irq_enable_setting28: false
+      pio_ext_irq_enable_setting29: false
+      pio_ext_irq_enable_setting3: false
+      pio_ext_irq_enable_setting30: false
+      pio_ext_irq_enable_setting31: false
+      pio_ext_irq_enable_setting4: false
+      pio_ext_irq_enable_setting5: false
+      pio_ext_irq_enable_setting6: false
+      pio_ext_irq_enable_setting7: false
+      pio_ext_irq_enable_setting8: false
+      pio_ext_irq_enable_setting9: false
+    optional_signals:
+    - identifier: EXTERNAL_IRQ_1:P/2
+      pad: PA2
+      mode: Ext IRQ Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PIOA.P.2
+      name: PIOA/P/2
+      label: P/2
+    variant: null
+    clocks:
+      domain_group: null
+  PMC:
+    user_label: PMC
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::PMC::driver_config_definition::PMC::HAL:HPL:PMC
+    functionality: System
+    api: HAL:HPL:PMC
+    configuration:
+      clk_gen_cfden_enable: false
+      clk_gen_fclk_oscillator: Master Clock Controller (PMC_MCKR)
+      clk_gen_gclk0_arch_enable: true
+      clk_gen_gclk0_oscillator: Master Clock (MCK)
+      clk_gen_gclk1_arch_enable: true
+      clk_gen_gclk1_oscillator: PLLA Clock (PLLACK)
+      clk_gen_mainck_arch_enable: true
+      clk_gen_mainck_oscillator: External 3-20MHz Oscillator (XOSC20M)
+      clk_gen_mck_oscillator: Master Clock Controller (PMC_MCKR)
+      clk_gen_mckr_arch_enable: true
+      clk_gen_mckr_oscillator: PLLA Clock (PLLACK)
+      clk_gen_pck0_arch_enable: false
+      clk_gen_pck0_oscillator: Main Clock (MAINCK)
+      clk_gen_pck1_arch_enable: false
+      clk_gen_pck1_oscillator: Main Clock (MAINCK)
+      clk_gen_pck2_arch_enable: false
+      clk_gen_pck2_oscillator: Main Clock (MAINCK)
+      clk_gen_pck3_arch_enable: false
+      clk_gen_pck3_oscillator: Main Clock (MAINCK)
+      clk_gen_pck4_arch_enable: false
+      clk_gen_pck4_oscillator: Main Clock (MAINCK)
+      clk_gen_pck5_arch_enable: false
+      clk_gen_pck5_oscillator: Main Clock (MAINCK)
+      clk_gen_pck6_arch_enable: false
+      clk_gen_pck6_oscillator: Main Clock (MAINCK)
+      clk_gen_slck2_oscillator: Slow Clock (SLCK)
+      clk_gen_slck_arch_enable: true
+      clk_gen_slck_oscillator: 32kHz High Accuracy Internal Oscillator (OSC32K)
+      clk_gen_systick_oscillator: Master Clock Controller (PMC_MCKR)
+      clk_gen_usb_480m_oscillator: USB 480M Clock (UPLLCK)
+      clk_gen_usb_48m_arch_enable: false
+      clk_gen_usb_48m_oscillator: PLLA Clock (PLLACK)
+      dummy_ext_clk_src: External Clock Input
+      dummy_ext_src: Specific clock input from specific pin
+      efc_fws: 7 cycles
+      enable_clk_gen_fclk: true
+      enable_clk_gen_gclk0: true
+      enable_clk_gen_gclk1: true
+      enable_clk_gen_mainck: true
+      enable_clk_gen_mck: true
+      enable_clk_gen_mckr: true
+      enable_clk_gen_pck0: true
+      enable_clk_gen_pck1: true
+      enable_clk_gen_pck2: true
+      enable_clk_gen_pck3: true
+      enable_clk_gen_pck4: true
+      enable_clk_gen_pck5: true
+      enable_clk_gen_pck6: true
+      enable_clk_gen_slck: true
+      enable_clk_gen_slck2: true
+      enable_clk_gen_systick: true
+      enable_clk_gen_usb_480m: true
+      enable_clk_gen_usb_48m: true
+      enable_dummy_ext: true
+      enable_dummy_ext_clk: true
+      enable_hclk_clock: true
+      enable_mck_div_8: false
+      enable_osc12m: false
+      enable_osc32k: true
+      enable_pllack: true
+      enable_systick_clk_clock: true
+      enable_upllck: false
+      enable_upllckdiv: true
+      enable_xosc20m: true
+      enable_xosc32k: false
+      gclk0_div: 2
+      gclk0_gclken_enable: false
+      gclk1_div: 3
+      gclk1_gclken_enable: false
+      hclk_clock_source: Master Clock Controller (PMC_MCKR)
+      mck_div: '2'
+      mck_div_8_src: Master Clock (MCK)
+      mckr_presc: '1'
+      osc12m_arch_enable: false
+      osc12m_selector: '12000000'
+      osc32k_arch_enable: true
+      pck0_presc: 1
+      pck1_presc: 1
+      pck2_presc: 1
+      pck3_presc: 1
+      pck4_presc: 1
+      pck5_presc: 1
+      pck6_presc: 1
+      pllack_arch_enable: true
+      pllack_div: 1
+      pllack_mul: 25
+      pllack_ref_clock: Main Clock (MAINCK)
+      systick_clk_clock_div: '8'
+      systick_clk_clock_source: Master Clock Controller (PMC_MCKR)
+      systick_clock_div: '8'
+      upllck_arch_enable: false
+      upllck_ref_clock: External 3-20MHz Oscillator (XOSC20M)
+      upllckdiv_div: '2'
+      upllckdiv_ref_clock: USB 480M Clock (UPLLCK)
+      usb_48m_div: 1
+      xosc20m_arch_enable: true
+      xosc20m_bypass: The external crystal oscillator is not bypassed.
+      xosc20m_selector: 12000000
+      xosc20m_startup_time: 62
+      xosc32k_arch_enable: false
+      xosc32k_bypass: The 32kHz crystal oscillator is not bypassed.
+    optional_signals: []
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: CPU
+          input: CPU
+          external: false
+          external_frequency: 0
+        configuration: {}
+  PWM_0:
+    user_label: PWM_0
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::PWM0::driver_config_definition::PWM::HAL:Driver:PWM
+    functionality: PWM
+    api: HAL:Driver:PWM
+    configuration:
+      channel0_settings: true
+      channel1_settings: true
+      channel2_settings: true
+      channel3_settings: true
+      pwm_channel0_CDTY: 512
+      pwm_channel0_CPRD: 1024
+      pwm_channel0_alignment: The period is left-aligned
+      pwm_channel0_clk_src: Peripheral clock
+      pwm_channel0_disabled_polarity_inverted: false
+      pwm_channel0_fault_config: false
+      pwm_channel0_output_polarity: The OCx output waveform starts at a low level
+      pwm_channel1_CDTY: 512
+      pwm_channel1_CPRD: 1024
+      pwm_channel1_alignment: The period is left-aligned
+      pwm_channel1_clk_src: Peripheral clock
+      pwm_channel1_disabled_polarity_inverted: false
+      pwm_channel1_fault_config: false
+      pwm_channel1_output_polarity: The OCx output waveform starts at a low level
+      pwm_channel1_rfen: false
+      pwm_channel1_trgedge: Falling edge or level 0
+      pwm_channel1_trgfilt: false
+      pwm_channel1_trgmode: External trigger is not enabled.
+      pwm_channel1_trgsrc: By the PWMTRG input
+      pwm_channel1_trigger_enable: false
+      pwm_channel2_CDTY: 512
+      pwm_channel2_CPRD: 1024
+      pwm_channel2_alignment: The period is left-aligned
+      pwm_channel2_clk_src: Peripheral clock
+      pwm_channel2_disabled_polarity_inverted: true
+      pwm_channel2_fault_config: false
+      pwm_channel2_output_polarity: The OCx output waveform starts at a low level
+      pwm_channel2_rfen: false
+      pwm_channel2_trgedge: Falling edge or level 0
+      pwm_channel2_trgfilt: false
+      pwm_channel2_trgmode: External trigger is not enabled.
+      pwm_channel2_trgsrc: By the PWMTRG input
+      pwm_channel2_trigger_enable: false
+      pwm_channel3_CDTY: 512
+      pwm_channel3_CPRD: 1024
+      pwm_channel3_alignment: The period is left-aligned
+      pwm_channel3_clk_src: Peripheral clock
+      pwm_channel3_disabled_polarity_inverted: false
+      pwm_channel3_fault_config: false
+      pwm_channel3_output_polarity: The OCx output waveform starts at a low level
+      pwm_comp_enable0: false
+      pwm_comp_enable1: false
+      pwm_comp_enable2: false
+      pwm_comp_enable3: false
+      pwm_comp_enable4: false
+      pwm_comp_enable5: false
+      pwm_comp_enable6: false
+      pwm_comp_enable7: false
+      pwm_cpr0: 0
+      pwm_cpr1: 0
+      pwm_cpr2: 0
+      pwm_cpr3: 0
+      pwm_cpr4: 0
+      pwm_cpr5: 0
+      pwm_cpr6: 0
+      pwm_cpr7: 0
+      pwm_ctr0: 0
+      pwm_ctr1: 0
+      pwm_ctr2: 0
+      pwm_ctr3: 0
+      pwm_ctr4: 0
+      pwm_ctr5: 0
+      pwm_ctr6: 0
+      pwm_ctr7: 0
+      pwm_cupr0: 0
+      pwm_cupr1: 0
+      pwm_cupr2: 0
+      pwm_cupr3: 0
+      pwm_cupr4: 0
+      pwm_cupr5: 0
+      pwm_cupr6: 0
+      pwm_cupr7: 0
+      pwm_cv0: 0
+      pwm_cv1: 0
+      pwm_cv2: 0
+      pwm_cv3: 0
+      pwm_cv4: 0
+      pwm_cv5: 0
+      pwm_cv6: 0
+      pwm_cv7: 0
+      pwm_cvm0: The comparison value is performed when this counter is incrementing.
+      pwm_cvm1: The comparison value is performed when this counter is incrementing.
+      pwm_cvm2: The comparison value is performed when this counter is incrementing.
+      pwm_cvm3: The comparison value is performed when this counter is incrementing.
+      pwm_cvm4: The comparison value is performed when this counter is incrementing.
+      pwm_cvm5: The comparison value is performed when this counter is incrementing.
+      pwm_cvm6: The comparison value is performed when this counter is incrementing.
+      pwm_cvm7: The comparison value is performed when this counter is incrementing.
+      pwm_diva: 1
+      pwm_divb: 1
+      pwm_elmr0_csel0_enable: false
+      pwm_elmr0_csel1_enable: false
+      pwm_elmr0_csel2_enable: false
+      pwm_elmr0_csel3_enable: false
+      pwm_elmr0_csel4_enable: false
+      pwm_elmr0_csel5_enable: false
+      pwm_elmr0_csel6_enable: false
+      pwm_elmr0_csel7_enable: false
+      pwm_elmr1_csel0_enable: false
+      pwm_elmr1_csel1_enable: false
+      pwm_elmr1_csel2_enable: false
+      pwm_elmr1_csel3_enable: false
+      pwm_elmr1_csel4_enable: false
+      pwm_elmr1_csel5_enable: false
+      pwm_elmr1_csel6_enable: false
+      pwm_elmr1_csel7_enable: false
+      pwm_fault0_enable: false
+      pwm_fault1_enable: false
+      pwm_fault2_enable: false
+      pwm_fault3_enable: false
+      pwm_fault4_enable: false
+      pwm_fault5_enable: false
+      pwm_fault6_enable: false
+      pwm_fault7_enable: false
+      pwm_fmr_ffil_fault0: false
+      pwm_fmr_ffil_fault1: false
+      pwm_fmr_ffil_fault2: false
+      pwm_fmr_ffil_fault3: false
+      pwm_fmr_ffil_fault4: false
+      pwm_fmr_ffil_fault5: false
+      pwm_fmr_ffil_fault6: false
+      pwm_fmr_ffil_fault7: false
+      pwm_fmr_fmod_fault0: The fault 0 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault1: The fault 1 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault2: The fault 2 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault3: The fault 3 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault4: The fault 4 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault5: The fault 5 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault6: The fault 6 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fmod_fault7: The fault 7 is active until the fault condition is removed
+        at the peripheral level.
+      pwm_fmr_fpol_fault0: true
+      pwm_fmr_fpol_fault1: true
+      pwm_fmr_fpol_fault2: true
+      pwm_fmr_fpol_fault3: true
+      pwm_fmr_fpol_fault4: true
+      pwm_fmr_fpol_fault5: true
+      pwm_fmr_fpol_fault6: true
+      pwm_fmr_fpol_fault7: true
+      pwm_fpe_fpe0_fault0_enable: false
+      pwm_fpe_fpe0_fault1_enable: false
+      pwm_fpe_fpe0_fault2_enable: false
+      pwm_fpe_fpe0_fault3_enable: false
+      pwm_fpe_fpe0_fault4_enable: false
+      pwm_fpe_fpe0_fault5_enable: false
+      pwm_fpe_fpe0_fault6_enable: false
+      pwm_fpe_fpe0_fault7_enable: false
+      pwm_fpe_fpe1_fault0_enable: false
+      pwm_fpe_fpe1_fault1_enable: false
+      pwm_fpe_fpe1_fault2_enable: false
+      pwm_fpe_fpe1_fault3_enable: false
+      pwm_fpe_fpe1_fault4_enable: false
+      pwm_fpe_fpe1_fault5_enable: false
+      pwm_fpe_fpe1_fault6_enable: false
+      pwm_fpe_fpe1_fault7_enable: false
+      pwm_fpe_fpe2_fault0_enable: false
+      pwm_fpe_fpe2_fault1_enable: false
+      pwm_fpe_fpe2_fault2_enable: false
+      pwm_fpe_fpe2_fault3_enable: false
+      pwm_fpe_fpe2_fault4_enable: false
+      pwm_fpe_fpe2_fault5_enable: false
+      pwm_fpe_fpe2_fault6_enable: false
+      pwm_fpe_fpe2_fault7_enable: false
+      pwm_fpe_fpe3_fault0_enable: false
+      pwm_fpe_fpe3_fault1_enable: false
+      pwm_fpe_fpe3_fault2_enable: false
+      pwm_fpe_fpe3_fault3_enable: false
+      pwm_fpe_fpe3_fault4_enable: false
+      pwm_fpe_fpe3_fault5_enable: false
+      pwm_fpe_fpe3_fault6_enable: false
+      pwm_fpe_fpe3_fault7_enable: false
+      pwm_fpv1_fpvh0: Be is forced to high-impedance state
+      pwm_fpv1_fpvh1: Be is forced to high-impedance state
+      pwm_fpv1_fpvh2: Be is forced to high-impedance state
+      pwm_fpv1_fpvh3: Be is forced to high-impedance state
+      pwm_fpv1_fpvl0: Be is forced to high-impedance state
+      pwm_fpv1_fpvl1: Be is forced to high-impedance state
+      pwm_fpv1_fpvl2: Be is forced to high-impedance state
+      pwm_fpv1_fpvl3: Be is forced to high-impedance state
+      pwm_prea: Peripheral clock
+      pwm_preb: Peripheral clock
+    optional_signals:
+    - identifier: PWM_0:PWMH/0
+      pad: PD20
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWMH.0
+      name: PWM0/PWMH/0
+      label: PWMH/0
+    - identifier: PWM_0:PWMH/1
+      pad: PD21
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWMH.1
+      name: PWM0/PWMH/1
+      label: PWMH/1
+    - identifier: PWM_0:PWMH/2
+      pad: PA13
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWMH.2
+      name: PWM0/PWMH/2
+      label: PWMH/2
+    - identifier: PWM_0:PWMH/3
+      pad: PA17
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWMH.3
+      name: PWM0/PWMH/3
+      label: PWMH/3
+    - identifier: PWM_0:PWML/0
+      pad: PD10
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWML.0
+      name: PWM0/PWML/0
+      label: PWML/0
+    - identifier: PWM_0:PWML/1
+      pad: PD25
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWML.1
+      name: PWM0/PWML/1
+      label: PWML/1
+    - identifier: PWM_0:PWML/2
+      pad: PA30
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWML.2
+      name: PWM0/PWML/2
+      label: PWML/2
+    - identifier: PWM_0:PWML/3
+      pad: PD27
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::PWM0.PWML.3
+      name: PWM0/PWML/3
+      label: PWML/3
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: PWM
+          input: Master Clock (MCK)
+          external: false
+          external_frequency: 0
+        configuration:
+          pwm_clock_source: Master Clock (MCK)
+  TIMER_0:
+    user_label: TIMER_0
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::TC0::driver_config_definition::Timer::HAL:Driver:Timer
+    functionality: Timer
+    api: HAL:Driver:Timer
+    configuration:
+      timer_abetrg: TIOB is used as an external trigger
+      timer_div_clock: true
+      timer_etrgedg: The clock is not gated by an external signal
+      timer_event_output_wave: true
+      timer_external_trigger_enable: false
+      timer_fault_chan0_enable: false
+      timer_fault_chan1_enable: false
+      timer_fault_control: false
+      timer_prescaler: TIMER_CLOCK2 (MCK/8)
+      timer_ra_tick: 1000
+      timer_tick: 10
+    optional_signals:
+    - identifier: TIMER_0:TCLK/0
+      pad: PA4
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::TC0.TCLK.0
+      name: TC0/TCLK/0
+      label: TCLK/0
+    - identifier: TIMER_0:TCLK/1
+      pad: PA28
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::TC0.TCLK.1
+      name: TC0/TCLK/1
+      label: TCLK/1
+    - identifier: TIMER_0:TIOA/0
+      pad: PA0
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::TC0.TIOA.0
+      name: TC0/TIOA/0
+      label: TIOA/0
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: TC
+          input: Master Clock (MCK)
+          external: false
+          external_frequency: 0
+        configuration:
+          tc_clock_source: Master Clock (MCK)
+  TIMER_1:
+    user_label: TIMER_1
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::TC1::driver_config_definition::Timer::HAL:Driver:Timer
+    functionality: Timer
+    api: HAL:Driver:Timer
+    configuration:
+      timer_abetrg: TIOB is used as an external trigger
+      timer_div_clock: true
+      timer_etrgedg: The clock is not gated by an external signal
+      timer_event_output_wave: false
+      timer_external_trigger_enable: false
+      timer_fault_chan0_enable: false
+      timer_fault_chan1_enable: false
+      timer_fault_control: false
+      timer_prescaler: TIMER_CLOCK2 (MCK/8)
+      timer_ra_tick: 500
+      timer_tick: 1000
+    optional_signals:
+    - identifier: TIMER_1:TCLK/3
+      pad: PC25
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::TC1.TCLK.3
+      name: TC1/TCLK/3
+      label: TCLK/3
+    - identifier: TIMER_1:TCLK/4
+      pad: PC28
+      mode: Enable
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::TC1.TCLK.4
+      name: TC1/TCLK/4
+      label: TCLK/4
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: TC
+          input: Master Clock (MCK)
+          external: false
+          external_frequency: 0
+        configuration:
+          tc_clock_source: Master Clock (MCK)
+  USART_0:
+    user_label: USART_0
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::UART4::driver_config_definition::UART::HAL:Driver:USART.Sync
+    functionality: USART
+    api: HAL:Driver:USART_Sync
+    configuration:
+      uart_advanced: false
+      uart_baud_rate: 38400
+      uart_channel_mode: Normal Mode
+      uart_parity: No parity
+      uart_receive_filter_enable: false
+      uart_usclks: Peripheral clock is selected
+    optional_signals:
+    - identifier: USART_0:URXD/4
+      pad: PD18
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::UART4.URXD.4
+      name: UART4/URXD/4
+      label: URXD/4
+    - identifier: USART_0:UTXD/4
+      pad: PD19
+      mode: Enabled
+      configuration: null
+      definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::optional_signal_definition::UART4.UTXD.4
+      name: UART4/UTXD/4
+      label: UTXD/4
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: UART
+          input: Master Clock (MCK)
+          external: false
+          external_frequency: 0
+        configuration:
+          uart_clock_source: Master Clock (MCK)
+  XDMAC:
+    user_label: XDMAC
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::XDMAC::driver_config_definition::DMAC::HAL:HPL:DMAC
+    functionality: System
+    api: HAL:HPL:DMAC
+    configuration:
+      dma_des_interface_0: AHB_IF0
+      dma_des_interface_1: AHB_IF0
+      dma_des_interface_10: AHB_IF0
+      dma_des_interface_11: AHB_IF0
+      dma_des_interface_12: AHB_IF0
+      dma_des_interface_13: AHB_IF0
+      dma_des_interface_14: AHB_IF0
+      dma_des_interface_15: AHB_IF0
+      dma_des_interface_16: AHB_IF0
+      dma_des_interface_17: AHB_IF0
+      dma_des_interface_18: AHB_IF0
+      dma_des_interface_19: AHB_IF0
+      dma_des_interface_2: AHB_IF0
+      dma_des_interface_20: AHB_IF0
+      dma_des_interface_21: AHB_IF0
+      dma_des_interface_22: AHB_IF0
+      dma_des_interface_23: AHB_IF0
+      dma_des_interface_3: AHB_IF0
+      dma_des_interface_4: AHB_IF0
+      dma_des_interface_5: AHB_IF0
+      dma_des_interface_6: AHB_IF0
+      dma_des_interface_7: AHB_IF0
+      dma_des_interface_8: AHB_IF0
+      dma_des_interface_9: AHB_IF0
+      dma_src_interface_0: AHB_IF0
+      dma_src_interface_1: AHB_IF0
+      dma_src_interface_10: AHB_IF0
+      dma_src_interface_11: AHB_IF0
+      dma_src_interface_12: AHB_IF0
+      dma_src_interface_13: AHB_IF0
+      dma_src_interface_14: AHB_IF0
+      dma_src_interface_15: AHB_IF0
+      dma_src_interface_16: AHB_IF0
+      dma_src_interface_17: AHB_IF0
+      dma_src_interface_18: AHB_IF0
+      dma_src_interface_19: AHB_IF0
+      dma_src_interface_2: AHB_IF0
+      dma_src_interface_20: AHB_IF0
+      dma_src_interface_21: AHB_IF0
+      dma_src_interface_22: AHB_IF0
+      dma_src_interface_23: AHB_IF0
+      dma_src_interface_3: AHB_IF0
+      dma_src_interface_4: AHB_IF0
+      dma_src_interface_5: AHB_IF0
+      dma_src_interface_6: AHB_IF0
+      dma_src_interface_7: AHB_IF0
+      dma_src_interface_8: AHB_IF0
+      dma_src_interface_9: AHB_IF0
+      dma_trans_type_0: Memory to Memory Transfer
+      dma_trans_type_1: Memory to Memory Transfer
+      dma_trans_type_10: Memory to Memory Transfer
+      dma_trans_type_11: Memory to Memory Transfer
+      dma_trans_type_12: Memory to Memory Transfer
+      dma_trans_type_13: Memory to Memory Transfer
+      dma_trans_type_14: Memory to Memory Transfer
+      dma_trans_type_15: Memory to Memory Transfer
+      dma_trans_type_16: Memory to Memory Transfer
+      dma_trans_type_17: Memory to Memory Transfer
+      dma_trans_type_18: Memory to Memory Transfer
+      dma_trans_type_19: Memory to Memory Transfer
+      dma_trans_type_2: Memory to Memory Transfer
+      dma_trans_type_20: Memory to Memory Transfer
+      dma_trans_type_21: Memory to Memory Transfer
+      dma_trans_type_22: Memory to Memory Transfer
+      dma_trans_type_23: Memory to Memory Transfer
+      dma_trans_type_3: Memory to Memory Transfer
+      dma_trans_type_4: Memory to Memory Transfer
+      dma_trans_type_5: Memory to Memory Transfer
+      dma_trans_type_6: Memory to Memory Transfer
+      dma_trans_type_7: Memory to Memory Transfer
+      dma_trans_type_8: Memory to Memory Transfer
+      dma_trans_type_9: Memory to Memory Transfer
+      dmac_beatsize_0: 8-bit bus transfer
+      dmac_beatsize_1: 8-bit bus transfer
+      dmac_beatsize_10: 8-bit bus transfer
+      dmac_beatsize_11: 8-bit bus transfer
+      dmac_beatsize_12: 8-bit bus transfer
+      dmac_beatsize_13: 8-bit bus transfer
+      dmac_beatsize_14: 8-bit bus transfer
+      dmac_beatsize_15: 8-bit bus transfer
+      dmac_beatsize_16: 8-bit bus transfer
+      dmac_beatsize_17: 8-bit bus transfer
+      dmac_beatsize_18: 8-bit bus transfer
+      dmac_beatsize_19: 8-bit bus transfer
+      dmac_beatsize_2: 8-bit bus transfer
+      dmac_beatsize_20: 8-bit bus transfer
+      dmac_beatsize_21: 8-bit bus transfer
+      dmac_beatsize_22: 8-bit bus transfer
+      dmac_beatsize_23: 8-bit bus transfer
+      dmac_beatsize_3: 8-bit bus transfer
+      dmac_beatsize_4: 8-bit bus transfer
+      dmac_beatsize_5: 8-bit bus transfer
+      dmac_beatsize_6: 8-bit bus transfer
+      dmac_beatsize_7: 8-bit bus transfer
+      dmac_beatsize_8: 8-bit bus transfer
+      dmac_beatsize_9: 8-bit bus transfer
+      dmac_burstsize_0: 1 burst size
+      dmac_burstsize_1: 1 burst size
+      dmac_burstsize_10: 1 burst size
+      dmac_burstsize_11: 1 burst size
+      dmac_burstsize_12: 1 burst size
+      dmac_burstsize_13: 1 burst size
+      dmac_burstsize_14: 1 burst size
+      dmac_burstsize_15: 1 burst size
+      dmac_burstsize_16: 1 burst size
+      dmac_burstsize_17: 1 burst size
+      dmac_burstsize_18: 1 burst size
+      dmac_burstsize_19: 1 burst size
+      dmac_burstsize_2: 1 burst size
+      dmac_burstsize_20: 1 burst size
+      dmac_burstsize_21: 1 burst size
+      dmac_burstsize_22: 1 burst size
+      dmac_burstsize_23: 1 burst size
+      dmac_burstsize_3: 1 burst size
+      dmac_burstsize_4: 1 burst size
+      dmac_burstsize_5: 1 burst size
+      dmac_burstsize_6: 1 burst size
+      dmac_burstsize_7: 1 burst size
+      dmac_burstsize_8: 1 burst size
+      dmac_burstsize_9: 1 burst size
+      dmac_channel_0_settings: false
+      dmac_channel_10_settings: false
+      dmac_channel_11_settings: false
+      dmac_channel_12_settings: false
+      dmac_channel_13_settings: false
+      dmac_channel_14_settings: false
+      dmac_channel_15_settings: false
+      dmac_channel_16_settings: false
+      dmac_channel_17_settings: false
+      dmac_channel_18_settings: false
+      dmac_channel_19_settings: false
+      dmac_channel_1_settings: false
+      dmac_channel_20_settings: false
+      dmac_channel_21_settings: false
+      dmac_channel_22_settings: false
+      dmac_channel_23_settings: false
+      dmac_channel_2_settings: false
+      dmac_channel_3_settings: false
+      dmac_channel_4_settings: false
+      dmac_channel_5_settings: false
+      dmac_channel_6_settings: false
+      dmac_channel_7_settings: false
+      dmac_channel_8_settings: false
+      dmac_channel_9_settings: false
+      dmac_chunksize_0: 1 data transferred
+      dmac_chunksize_1: 1 data transferred
+      dmac_chunksize_10: 1 data transferred
+      dmac_chunksize_11: 1 data transferred
+      dmac_chunksize_12: 1 data transferred
+      dmac_chunksize_13: 1 data transferred
+      dmac_chunksize_14: 1 data transferred
+      dmac_chunksize_15: 1 data transferred
+      dmac_chunksize_16: 1 data transferred
+      dmac_chunksize_17: 1 data transferred
+      dmac_chunksize_18: 1 data transferred
+      dmac_chunksize_19: 1 data transferred
+      dmac_chunksize_2: 1 data transferred
+      dmac_chunksize_20: 1 data transferred
+      dmac_chunksize_21: 1 data transferred
+      dmac_chunksize_22: 1 data transferred
+      dmac_chunksize_23: 1 data transferred
+      dmac_chunksize_3: 1 data transferred
+      dmac_chunksize_4: 1 data transferred
+      dmac_chunksize_5: 1 data transferred
+      dmac_chunksize_6: 1 data transferred
+      dmac_chunksize_7: 1 data transferred
+      dmac_chunksize_8: 1 data transferred
+      dmac_chunksize_9: 1 data transferred
+      dmac_dstinc_0: false
+      dmac_dstinc_1: false
+      dmac_dstinc_10: false
+      dmac_dstinc_11: false
+      dmac_dstinc_12: false
+      dmac_dstinc_13: false
+      dmac_dstinc_14: false
+      dmac_dstinc_15: false
+      dmac_dstinc_16: false
+      dmac_dstinc_17: false
+      dmac_dstinc_18: false
+      dmac_dstinc_19: false
+      dmac_dstinc_2: false
+      dmac_dstinc_20: false
+      dmac_dstinc_21: false
+      dmac_dstinc_22: false
+      dmac_dstinc_23: false
+      dmac_dstinc_3: false
+      dmac_dstinc_4: false
+      dmac_dstinc_5: false
+      dmac_dstinc_6: false
+      dmac_dstinc_7: false
+      dmac_dstinc_8: false
+      dmac_dstinc_9: false
+      dmac_srcinc_0: false
+      dmac_srcinc_1: false
+      dmac_srcinc_10: false
+      dmac_srcinc_11: false
+      dmac_srcinc_12: false
+      dmac_srcinc_13: false
+      dmac_srcinc_14: false
+      dmac_srcinc_15: false
+      dmac_srcinc_16: false
+      dmac_srcinc_17: false
+      dmac_srcinc_18: false
+      dmac_srcinc_19: false
+      dmac_srcinc_2: false
+      dmac_srcinc_20: false
+      dmac_srcinc_21: false
+      dmac_srcinc_22: false
+      dmac_srcinc_23: false
+      dmac_srcinc_3: false
+      dmac_srcinc_4: false
+      dmac_srcinc_5: false
+      dmac_srcinc_6: false
+      dmac_srcinc_7: false
+      dmac_srcinc_8: false
+      dmac_srcinc_9: false
+      dmac_trifsrc_0: Software Trigger
+      dmac_trifsrc_1: Software Trigger
+      dmac_trifsrc_10: Software Trigger
+      dmac_trifsrc_11: Software Trigger
+      dmac_trifsrc_12: Software Trigger
+      dmac_trifsrc_13: Software Trigger
+      dmac_trifsrc_14: Software Trigger
+      dmac_trifsrc_15: Software Trigger
+      dmac_trifsrc_16: Software Trigger
+      dmac_trifsrc_17: Software Trigger
+      dmac_trifsrc_18: Software Trigger
+      dmac_trifsrc_19: Software Trigger
+      dmac_trifsrc_2: Software Trigger
+      dmac_trifsrc_20: Software Trigger
+      dmac_trifsrc_21: Software Trigger
+      dmac_trifsrc_22: Software Trigger
+      dmac_trifsrc_23: Software Trigger
+      dmac_trifsrc_3: Software Trigger
+      dmac_trifsrc_4: Software Trigger
+      dmac_trifsrc_5: Software Trigger
+      dmac_trifsrc_6: Software Trigger
+      dmac_trifsrc_7: Software Trigger
+      dmac_trifsrc_8: Software Trigger
+      dmac_trifsrc_9: Software Trigger
+      xdmac_enable: false
+    optional_signals: []
+    variant: null
+    clocks:
+      domain_group: null
+pads:
+  PC31:
+    name: PC31
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC31
+    mode: Analog
+    user_label: PC31
+    configuration: null
+  PC30:
+    name: PC30
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC30
+    mode: Analog
+    user_label: PC30
+    configuration: null
+  PC12:
+    name: PC12
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC12
+    mode: Analog
+    user_label: PC12
+    configuration: null
+  PC13:
+    name: PC13
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC13
+    mode: Analog
+    user_label: PC13
+    configuration: null
+  PA19:
+    name: PA19
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA19
+    mode: Analog
+    user_label: PA19
+    configuration: null
+  PA17:
+    name: PA17
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA17
+    mode: Peripheral IO
+    user_label: PA17
+    configuration: null
+  PB2:
+    name: PB2
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PB2
+    mode: Analog
+    user_label: PB2
+    configuration: null
+  PB3:
+    name: PB3
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PB3
+    mode: Analog
+    user_label: PB3
+    configuration: null
+  PD30:
+    name: PD30
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD30
+    mode: Analog
+    user_label: PD30
+    configuration: null
+  PA13:
+    name: PA13
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA13
+    mode: Peripheral IO
+    user_label: PA13
+    configuration: null
+  PD27:
+    name: PD27
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD27
+    mode: Peripheral IO
+    user_label: PD27
+    configuration: null
+  PD25:
+    name: PD25
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD25
+    mode: Peripheral IO
+    user_label: PD25
+    configuration: null
+  PD21:
+    name: PD21
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD21
+    mode: Peripheral IO
+    user_label: PD21
+    configuration: null
+  PD20:
+    name: PD20
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD20
+    mode: Peripheral IO
+    user_label: PD20
+    configuration: null
+  PD19:
+    name: PD19
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD19
+    mode: Peripheral IO
+    user_label: PD19
+    configuration: null
+  PD18:
+    name: PD18
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD18
+    mode: Peripheral IO
+    user_label: PD18
+    configuration: null
+  PC28:
+    name: PC28
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC28
+    mode: Peripheral IO
+    user_label: PC28
+    configuration: null
+  PA4:
+    name: PA4
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA4
+    mode: Peripheral IO
+    user_label: PA4
+    configuration: null
+  PC9:
+    name: PC9
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC9
+    mode: Digital input
+    user_label: PC9
+    configuration: null
+  PA2:
+    name: PA2
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA2
+    mode: Digital input
+    user_label: PA2
+    configuration: null
+  PD10:
+    name: PD10
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PD10
+    mode: Peripheral IO
+    user_label: PD10
+    configuration: null
+  PA0:
+    name: PA0
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA0
+    mode: Peripheral IO
+    user_label: PA0
+    configuration: null
+  PA28:
+    name: PA28
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA28
+    mode: Peripheral IO
+    user_label: PA28
+    configuration: null
+  PA30:
+    name: PA30
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PA30
+    mode: Peripheral IO
+    user_label: PA30
+    configuration: null
+  PC19:
+    name: PC19
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC19
+    mode: Digital input
+    user_label: PC19
+    configuration: null
+  PC25:
+    name: PC25
+    definition: Atmel:SAME70_Drivers:0.0.1::ATSAME70Q21A-AN::pad::PC25
+    mode: Peripheral IO
+    user_label: PC25
+    configuration: null
+toolchain_options: []
