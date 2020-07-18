@@ -48,6 +48,18 @@ void EIC_HALL_SENSOR_example(void)
 }
 
 /**
+ * Example of using USART_0 to write "Hello World" using the IO abstraction.
+ */
+void USART_0_example(void)
+{
+	struct io_descriptor *io;
+	usart_sync_get_io_descriptor(&USART_0, &io);
+	usart_sync_enable(&USART_0);
+
+	io_write(io, (uint8_t *)"Hello World!", 12);
+}
+
+/**
  * Example of using INTERFACE_INSTANCE to write "Hello World" using the IO abstraction.
  */
 static uint8_t example_INTERFACE_INSTANCE[12] = "Hello World!";

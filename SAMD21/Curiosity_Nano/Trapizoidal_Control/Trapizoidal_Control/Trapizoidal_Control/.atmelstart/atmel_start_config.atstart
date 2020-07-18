@@ -387,9 +387,58 @@ drivers:
           external: false
           external_frequency: 0
         configuration: {}
+  USART_0:
+    user_label: USART_0
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::SERCOM2::driver_config_definition::UART::HAL:Driver:USART.Sync
+    functionality: USART
+    api: HAL:Driver:USART_Sync
+    configuration:
+      usart_advanced: false
+      usart_arch_clock_mode: USART with internal clock
+      usart_arch_cloden: false
+      usart_arch_dbgstop: Keep running
+      usart_arch_dord: LSB is transmitted first
+      usart_arch_enc: No encoding
+      usart_arch_fractional: 0
+      usart_arch_ibon: false
+      usart_arch_lin_slave_enable: Disable
+      usart_arch_runstdby: false
+      usart_arch_sampa: 7-8-9 (3-4-5 8-bit over-sampling)
+      usart_arch_sampr: 16x arithmetic
+      usart_arch_sfde: false
+      usart_baud_rate: 9600
+      usart_character_size: 8 bits
+      usart_parity: No parity
+      usart_rx_enable: true
+      usart_stop_bit: One stop bit
+      usart_tx_enable: true
+    optional_signals: []
+    variant:
+      specification: TXPO=1, RXPO=3, CMODE=0
+      required_signals:
+      - name: SERCOM2/PAD/2
+        pad: PA10
+        label: TX
+      - name: SERCOM2/PAD/3
+        pad: PA11
+        label: RX
+    clocks:
+      domain_group:
+        nodes:
+        - name: Core
+          input: Generic clock generator 0
+          external: false
+          external_frequency: 0
+        - name: Slow
+          input: Generic clock generator 3
+          external: false
+          external_frequency: 0
+        configuration:
+          core_gclk_selection: Generic clock generator 0
+          slow_gclk_selection: Generic clock generator 3
   INTERFACE_INSTANCE:
     user_label: INTERFACE_INSTANCE
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::SERCOM2::driver_config_definition::SPI.Master::HAL:Driver:SPI.Master.Sync
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::SERCOM5::driver_config_definition::SPI.Master::HAL:Driver:SPI.Master.Sync
     functionality: SPI
     api: HAL:Driver:SPI_Master_Sync
     configuration:
@@ -406,17 +455,17 @@ drivers:
       spi_master_rx_enable: true
     optional_signals: []
     variant:
-      specification: TXPO=1, RXPO=0
+      specification: TXPO=0, RXPO=2
       required_signals:
-      - name: SERCOM2/PAD/0
-        pad: PA12
-        label: MISO
-      - name: SERCOM2/PAD/2
-        pad: PA10
+      - name: SERCOM5/PAD/0
+        pad: PA22
         label: MOSI
-      - name: SERCOM2/PAD/3
-        pad: PA11
+      - name: SERCOM5/PAD/1
+        pad: PA23
         label: SCK
+      - name: SERCOM5/PAD/2
+        pad: PB22
+        label: MISO
     clocks:
       domain_group:
         nodes:
@@ -1025,20 +1074,14 @@ pads:
   PA10:
     name: PA10
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA10
-    mode: Digital output
+    mode: Peripheral IO
     user_label: PA10
     configuration: null
   PA11:
     name: PA11
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA11
-    mode: Digital output
+    mode: Peripheral IO
     user_label: PA11
-    configuration: null
-  PA12:
-    name: PA12
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA12
-    mode: Digital input
-    user_label: PA12
     configuration: null
   PA14:
     name: PA14
@@ -1076,6 +1119,18 @@ pads:
     mode: Digital input
     user_label: PA21
     configuration: null
+  PA22:
+    name: PA22
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA22
+    mode: Digital output
+    user_label: PA22
+    configuration: null
+  PA23:
+    name: PA23
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA23
+    mode: Digital output
+    user_label: PA23
+    configuration: null
   PA24:
     name: PA24
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA24
@@ -1087,6 +1142,12 @@ pads:
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA25
     mode: Peripheral IO
     user_label: PA25
+    configuration: null
+  PB22:
+    name: PB22
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PB22
+    mode: Digital input
+    user_label: PB22
     configuration: null
   PB02:
     name: PB02

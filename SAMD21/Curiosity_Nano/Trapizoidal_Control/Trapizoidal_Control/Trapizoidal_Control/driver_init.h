@@ -24,6 +24,7 @@ extern "C" {
 #include <hal_adc_sync.h>
 #include <hal_ext_irq.h>
 
+#include <hal_usart_sync.h>
 #include <hal_spi_m_sync.h>
 #include <hal_timer.h>
 #include <hal_timer.h>
@@ -32,7 +33,9 @@ extern "C" {
 #include <hal_pwm.h>
 #include <hpl_tcc.h>
 
-extern struct adc_sync_descriptor   ADC_0;
+extern struct adc_sync_descriptor ADC_0;
+
+extern struct usart_sync_descriptor USART_0;
 extern struct spi_m_sync_descriptor INTERFACE_INSTANCE;
 extern struct timer_descriptor      TIMER_SPEED_MEASURE;
 extern struct timer_descriptor      TIMER_ONE_MS;
@@ -42,6 +45,10 @@ extern struct pwm_descriptor PWM_MOTOR_DRIVER;
 void ADC_0_PORT_init(void);
 void ADC_0_CLOCK_init(void);
 void ADC_0_init(void);
+
+void USART_0_PORT_init(void);
+void USART_0_CLOCK_init(void);
+void USART_0_init(void);
 
 void INTERFACE_INSTANCE_PORT_init(void);
 void INTERFACE_INSTANCE_CLOCK_init(void);

@@ -16,6 +16,8 @@ void ADC_0_example(void);
 
 void EIC_HALL_SENSOR_example(void);
 
+void USART_0_example(void);
+
 void TIMER_SPEED_MEASURE_example(void);
 
 void TIMER_ONE_MS_example(void);
