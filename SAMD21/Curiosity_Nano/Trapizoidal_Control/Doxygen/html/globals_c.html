@@ -114,22 +114,19 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>calendar_drv_cb_alarm_t
 : <a class="el" href="hpl__calendar_8h.html#abcfc6fb9cb2f4363732797af36b407a1">hpl_calendar.h</a>
 </li>
-<li>CCSIDR_SETS
-: <a class="el" href="group___c_m_s_i_s___core___cache_functions.html#gaf20feee7c52fee32b48ee0d2ceaaf932">core_cm7.h</a>
-</li>
-<li>CCSIDR_WAYS
-: <a class="el" href="group___c_m_s_i_s___core___cache_functions.html#ga3d672529cd193537fe2a0141931c6ad9">core_cm7.h</a>
-</li>
 <li>clz
 : <a class="el" href="group__doc__driver__hal__utils__macro.html#ga004f88903a09b9c23017e697eaf5a845">utils.h</a>
 </li>
 <li>CMD_STOP
 : <a class="el" href="hpl__sercom_8c.html#a46dc7ae84992bfe62cc00731959a67f4">hpl_sercom.c</a>
 </li>
+<li>COMMUTATION_ARRAY
+: <a class="el" href="motor__control_8c.html#a85a831451272c3555daf0ff9e5d0ec9a">motor_control.c</a>
+</li>
 <li>COMPILER_PACK_RESET()
-: <a class="el" href="adp_8h.html#abe317a1520896eaf568afab27dc71540">adp.h</a>
-, <a class="el" href="adp__ext_8h.html#abe317a1520896eaf568afab27dc71540">adp_ext.h</a>
+: <a class="el" href="adp__ext_8h.html#abe317a1520896eaf568afab27dc71540">adp_ext.h</a>
 , <a class="el" href="group__doc__driver__hal__utils__macro.html#gabe317a1520896eaf568afab27dc71540">utils.h</a>
+, <a class="el" href="adp_8h.html#abe317a1520896eaf568afab27dc71540">adp.h</a>
 </li>
 <li>COMPILER_PACK_SET
 : <a class="el" href="group__doc__driver__hal__utils__macro.html#gae2c02ff865ca6538b4b1bddbf2a6876c">utils.h</a>
@@ -138,21 +135,6 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 </li>
 <li>COMPILER_PRAGMA
 : <a class="el" href="group__doc__driver__hal__utils__macro.html#ga85a3ab5701281268521f109ed0078668">utils.h</a>
-</li>
-<li>COMPONENT_DATE_STRING
-: <a class="el" href="component-version_8h.html#a2ab4a55498ad62808fac28e2eff1a636">component-version.h</a>
-</li>
-<li>COMPONENT_VERSION
-: <a class="el" href="component-version_8h.html#ae2e7cb04d9119d210f8dde8eb35447cc">component-version.h</a>
-</li>
-<li>COMPONENT_VERSION_MAJOR
-: <a class="el" href="component-version_8h.html#af83ce109b1068b2fd4a87179949e7f98">component-version.h</a>
-</li>
-<li>COMPONENT_VERSION_MINOR
-: <a class="el" href="component-version_8h.html#aa7579c26d50b3ddc70cecdc2949dab7a">component-version.h</a>
-</li>
-<li>COMPONENT_VERSION_STRING
-: <a class="el" href="component-version_8h.html#a4bd445cb09c5138964ed9507436cc0b0">component-version.h</a>
 </li>
 <li>CONF_ADC_0_ADJRES
 : <a class="el" href="hpl__adc__config_8h.html#a9ff0fcc42ea0bd7f28b7b9d33c42ae90">hpl_adc_config.h</a>
@@ -1628,6 +1610,18 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>CONF_GCLK_SERCOM2_SLOW_SRC
 : <a class="el" href="peripheral__clk__config_8h.html#a074eeb52c5e34664d5c9c7f5a683c020">peripheral_clk_config.h</a>
 </li>
+<li>CONF_GCLK_SERCOM5_CORE_FREQUENCY
+: <a class="el" href="peripheral__clk__config_8h.html#af7264399c2e449fff062314baf8f3215">peripheral_clk_config.h</a>
+</li>
+<li>CONF_GCLK_SERCOM5_CORE_SRC
+: <a class="el" href="peripheral__clk__config_8h.html#a0c91c329bb15578662e6f8f37a6ff3fd">peripheral_clk_config.h</a>
+</li>
+<li>CONF_GCLK_SERCOM5_SLOW_FREQUENCY
+: <a class="el" href="peripheral__clk__config_8h.html#ace5bcf499c4c7c41ca6811e817c0379e">peripheral_clk_config.h</a>
+</li>
+<li>CONF_GCLK_SERCOM5_SLOW_SRC
+: <a class="el" href="peripheral__clk__config_8h.html#ad1c878dfe6dc26630de14157baa2fcec">peripheral_clk_config.h</a>
+</li>
 <li>CONF_GCLK_TC5_FREQUENCY
 : <a class="el" href="peripheral__clk__config_8h.html#a1b3d78ffa24fc0a698327c5b5c93f8fe">peripheral_clk_config.h</a>
 </li>
@@ -1805,78 +1799,93 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>CONF_SERCOM_2_I2CS_ENABLE
 : <a class="el" href="hpl__sercom_8c.html#ac4047b7c38705f9467da709e4cbbdbd1">hpl_sercom.c</a>
 </li>
-<li>CONF_SERCOM_2_SPI_ADDR
-: <a class="el" href="hpl__sercom__config_8h.html#a81d062c4f6b91d5cfcae9adf3d5442d1">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_ADDRMASK
-: <a class="el" href="hpl__sercom__config_8h.html#ab19b0f4bed9342d00f4a5ae37f868777">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_ADVANCED
-: <a class="el" href="hpl__sercom__config_8h.html#a98043a369e4ba071f0c04f8db0faf88e">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_AMODE
-: <a class="el" href="hpl__sercom__config_8h.html#aa271de8517f6676de19955906b92342d">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_AMODE_EN
-: <a class="el" href="hpl__sercom__config_8h.html#ad7d291c67f66916893614bb68a88c83e">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_BAUD
-: <a class="el" href="hpl__sercom__config_8h.html#aed1152f37a939613656cce4173848238">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_BAUD_RATE
-: <a class="el" href="hpl__sercom__config_8h.html#afe8966aa8511604d9f86de0c58c3b9b1">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_CHSIZE
-: <a class="el" href="hpl__sercom__config_8h.html#aba2dd8b667be023c5afc849ff349110a">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_CPHA
-: <a class="el" href="hpl__sercom__config_8h.html#a96c4248fa570e703fcacc20b73a26eaf">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_CPOL
-: <a class="el" href="hpl__sercom__config_8h.html#a32a2844717b6a99676a04d43fa803a15">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_DBGSTOP
-: <a class="el" href="hpl__sercom__config_8h.html#a009557793e2c05bd9b8761bd58494d9e">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_DORD
-: <a class="el" href="hpl__sercom__config_8h.html#af4524f3f461fb95317e04256bb10a6c0">hpl_sercom_config.h</a>
-</li>
-<li>CONF_SERCOM_2_SPI_DUMMYBYTE
-: <a class="el" href="hpl__sercom__config_8h.html#a2986a806532a6ebd9aeb0d749ff60743">hpl_sercom_config.h</a>
-</li>
 <li>CONF_SERCOM_2_SPI_ENABLE
-: <a class="el" href="hpl__sercom__config_8h.html#aa71319d42811f7138b4f204a6af86ece">hpl_sercom_config.h</a>
-, <a class="el" href="hpl__sercom_8c.html#aa71319d42811f7138b4f204a6af86ece">hpl_sercom.c</a>
+: <a class="el" href="hpl__sercom_8c.html#aa71319d42811f7138b4f204a6af86ece">hpl_sercom.c</a>
 </li>
-<li>CONF_SERCOM_2_SPI_IBON
-: <a class="el" href="hpl__sercom__config_8h.html#ac28ddaecb2fbe75474713a64702addb1">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_ADVANCED_CONFIG
+: <a class="el" href="hpl__sercom__config_8h.html#afa05517123efdd67c75c143747afcdeb">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_MODE
-: <a class="el" href="hpl__sercom__config_8h.html#a5be68f5e675cfb46f5431c3a0f37bd20">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_BAUD
+: <a class="el" href="hpl__sercom__config_8h.html#aefa3490e88c9eab37226aa97b5b3626b">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_MSSEN
-: <a class="el" href="hpl__sercom__config_8h.html#ac85d5112e81608bef6fde98cf2df7d81">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_BAUD_RATE
+: <a class="el" href="hpl__sercom__config_8h.html#a86d4bc9b83ed190d532c28d8f554d4da">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_PLOADEN
-: <a class="el" href="hpl__sercom__config_8h.html#a647ebc02fc5ebe8f21a9d1d66cc1db1a">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_CHSIZE
+: <a class="el" href="hpl__sercom__config_8h.html#ae7a188967937116a7601fd759e22be1b">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_RUNSTDBY
-: <a class="el" href="hpl__sercom__config_8h.html#ace9dcba8f0acdb5897e5a0b9b2110edb">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_CLODEN
+: <a class="el" href="hpl__sercom__config_8h.html#a77792b313148ae84c2b73ce14f239a01">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_RXEN
-: <a class="el" href="hpl__sercom__config_8h.html#a271065162e205da6707904a487777a98">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_CMODE
+: <a class="el" href="hpl__sercom__config_8h.html#aabf34a5aed5ac207e3ab56edbd15bcbb">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_RXPO
-: <a class="el" href="hpl__sercom__config_8h.html#adc12149e7d2ee67d02d7bd6bf6cba10c">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_CPOL
+: <a class="el" href="hpl__sercom__config_8h.html#a0a3c9fb6226e4647691d623144a3a033">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_SSDE
-: <a class="el" href="hpl__sercom__config_8h.html#a1a4658b85d188e3665e2669781cce0bd">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_DEBUG_STOP_MODE
+: <a class="el" href="hpl__sercom__config_8h.html#af0d6da865fa4ba9a88c95556f8e2f8e0">hpl_sercom_config.h</a>
 </li>
-<li>CONF_SERCOM_2_SPI_TXPO
-: <a class="el" href="hpl__sercom__config_8h.html#a926a1a1b473a955e2e66b90ede03b1a8">hpl_sercom_config.h</a>
+<li>CONF_SERCOM_2_USART_DORD
+: <a class="el" href="hpl__sercom__config_8h.html#afb89d54c4d5d379ac7a74bc34f074a19">hpl_sercom_config.h</a>
 </li>
 <li>CONF_SERCOM_2_USART_ENABLE
-: <a class="el" href="hpl__sercom_8c.html#af82f36c624dfa3778fab5076d5373e52">hpl_sercom.c</a>
+: <a class="el" href="hpl__sercom__config_8h.html#af82f36c624dfa3778fab5076d5373e52">hpl_sercom_config.h</a>
+, <a class="el" href="hpl__sercom_8c.html#af82f36c624dfa3778fab5076d5373e52">hpl_sercom.c</a>
+</li>
+<li>CONF_SERCOM_2_USART_ENC
+: <a class="el" href="hpl__sercom__config_8h.html#a3a6549c7b76fbbb6c7b8255c6a45cc1e">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_FORM
+: <a class="el" href="hpl__sercom__config_8h.html#a8f896c13cb69a6d710bf2ee4b2dd7e18">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_FRACTIONAL
+: <a class="el" href="hpl__sercom__config_8h.html#a170d53a8a9739e4986404eb1083abb18">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_IBON
+: <a class="el" href="hpl__sercom__config_8h.html#acdabd47b90ec00c3caa2b15cd5df1fca">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_LIN_SLAVE_ENABLE
+: <a class="el" href="hpl__sercom__config_8h.html#a778e2f49ed842ca5e771f1f4c1fb1dfe">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_MODE
+: <a class="el" href="hpl__sercom__config_8h.html#acbb05d92948c04d130dfe9c131b41dbb">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_PARITY
+: <a class="el" href="hpl__sercom__config_8h.html#a6a109bf0bb82eac334cd793b27a5951a">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_PMODE
+: <a class="el" href="hpl__sercom__config_8h.html#afa11f37b0026d227d567c75173663902">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_RECEIVE_PULSE_LENGTH
+: <a class="el" href="hpl__sercom__config_8h.html#a8f8e6a05bf5296a5be507eeb55c51819">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_RUNSTDBY
+: <a class="el" href="hpl__sercom__config_8h.html#ae2b0322764aa355de0c71d9a0394d050">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_RXEN
+: <a class="el" href="hpl__sercom__config_8h.html#a9f19896c2d3791a015ee72ccbeb8b340">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_RXPO
+: <a class="el" href="hpl__sercom__config_8h.html#a91f2cbece89b8b42c502eb08da14425a">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_SAMPA
+: <a class="el" href="hpl__sercom__config_8h.html#aa81ff233099fd5563f5650c2d42c2684">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_SAMPR
+: <a class="el" href="hpl__sercom__config_8h.html#ad94f66f5461c5f58fea22f3f3b7aea04">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_SBMODE
+: <a class="el" href="hpl__sercom__config_8h.html#a0ab279b2a0afab5b43f85a803e640927">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_SFDE
+: <a class="el" href="hpl__sercom__config_8h.html#af16cb241c36f7eb8496d2091a74546d1">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_TXEN
+: <a class="el" href="hpl__sercom__config_8h.html#a3db06e589cfb32cfedddb2f3484ad2dc">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_2_USART_TXPO
+: <a class="el" href="hpl__sercom__config_8h.html#aca1edf9967d25cade1b4fae48d4d9dfc">hpl_sercom_config.h</a>
 </li>
 <li>CONF_SERCOM_3_I2CM_ENABLE
 : <a class="el" href="hpl__sercom_8c.html#aeccc41762841b0ac6928a912d17eb2db">hpl_sercom.c</a>
@@ -1908,8 +1917,75 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>CONF_SERCOM_5_I2CS_ENABLE
 : <a class="el" href="hpl__sercom_8c.html#aef2cb890d7616a3538429ca898cf149b">hpl_sercom.c</a>
 </li>
+<li>CONF_SERCOM_5_SPI_ADDR
+: <a class="el" href="hpl__sercom__config_8h.html#a038477e16eb7534677c13ea55a9bb857">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_ADDRMASK
+: <a class="el" href="hpl__sercom__config_8h.html#ab8907224bf54e3c55449a7df999c7ba2">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_ADVANCED
+: <a class="el" href="hpl__sercom__config_8h.html#ad89bb8c07db49c4b03db7d2436e1a268">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_AMODE
+: <a class="el" href="hpl__sercom__config_8h.html#a396c49ed04fb77519050813db7a8681b">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_AMODE_EN
+: <a class="el" href="hpl__sercom__config_8h.html#ae5f0f39cfcdf43c18b276a241f0ab128">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_BAUD
+: <a class="el" href="hpl__sercom__config_8h.html#a6024a1d37ad1591e6cd6d8f217bf6a75">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_BAUD_RATE
+: <a class="el" href="hpl__sercom__config_8h.html#a49ba82d94814080c38e9bcd0dd3c9885">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_CHSIZE
+: <a class="el" href="hpl__sercom__config_8h.html#a9bcfd6c0445e66049152e9c14a048864">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_CPHA
+: <a class="el" href="hpl__sercom__config_8h.html#a178f77954d7250a170ad2ca508942162">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_CPOL
+: <a class="el" href="hpl__sercom__config_8h.html#aa9f1f6fc55f2ef61f1f0895a57b636c8">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_DBGSTOP
+: <a class="el" href="hpl__sercom__config_8h.html#a11e9ef9d6bce6d45bfa24b6f11dceb1c">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_DORD
+: <a class="el" href="hpl__sercom__config_8h.html#a256f831b2eff3d87036d0cd84333582c">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_DUMMYBYTE
+: <a class="el" href="hpl__sercom__config_8h.html#a0e8c37f0835b714e33670fcfe8001636">hpl_sercom_config.h</a>
+</li>
 <li>CONF_SERCOM_5_SPI_ENABLE
-: <a class="el" href="hpl__sercom_8c.html#ab1831ae9673b3d875212c4129b0df9ac">hpl_sercom.c</a>
+: <a class="el" href="hpl__sercom__config_8h.html#ab1831ae9673b3d875212c4129b0df9ac">hpl_sercom_config.h</a>
+, <a class="el" href="hpl__sercom_8c.html#ab1831ae9673b3d875212c4129b0df9ac">hpl_sercom.c</a>
+</li>
+<li>CONF_SERCOM_5_SPI_IBON
+: <a class="el" href="hpl__sercom__config_8h.html#ab438be1b85f9814d64e4483cccad918e">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_MODE
+: <a class="el" href="hpl__sercom__config_8h.html#aa754effe75f565f7568f2c130ec66b22">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_MSSEN
+: <a class="el" href="hpl__sercom__config_8h.html#a515e31b892015e0491c58ef64ae38a0a">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_PLOADEN
+: <a class="el" href="hpl__sercom__config_8h.html#ad3e68fd2bcfca003173c8c03c83fa12f">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_RUNSTDBY
+: <a class="el" href="hpl__sercom__config_8h.html#a2922c7dc036819fc2b58cb8855adcca4">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_RXEN
+: <a class="el" href="hpl__sercom__config_8h.html#ae6c8001c2b3c0b6f62c6e328b03e30d5">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_RXPO
+: <a class="el" href="hpl__sercom__config_8h.html#adcc1746f2cc7be4331dd867b0adf18b5">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_SSDE
+: <a class="el" href="hpl__sercom__config_8h.html#a6f3295c1d19a2684e00b649a9fbedd42">hpl_sercom_config.h</a>
+</li>
+<li>CONF_SERCOM_5_SPI_TXPO
+: <a class="el" href="hpl__sercom__config_8h.html#a9d80fcaea2b95f22f40928f032fb0830">hpl_sercom_config.h</a>
 </li>
 <li>CONF_SERCOM_5_USART_ENABLE
 : <a class="el" href="hpl__sercom_8c.html#ad69ddfcf2d1e8bc60e175e93e3c10480">hpl_sercom.c</a>
@@ -1960,8 +2036,8 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="hpl__tc__config_8h.html#ac7b5da8866b9a446a29d33358fad30fe">hpl_tc_config.h</a>
 </li>
 <li>CONF_TC5_ENABLE
-: <a class="el" href="hpl__tc__config_8h.html#a1d55210821edcbf84e7383e4ef861c37">hpl_tc_config.h</a>
-, <a class="el" href="hpl__tc_8c.html#a1d55210821edcbf84e7383e4ef861c37">hpl_tc.c</a>
+: <a class="el" href="hpl__tc_8c.html#a1d55210821edcbf84e7383e4ef861c37">hpl_tc.c</a>
+, <a class="el" href="hpl__tc__config_8h.html#a1d55210821edcbf84e7383e4ef861c37">hpl_tc_config.h</a>
 </li>
 <li>CONF_TC5_EVACT
 : <a class="el" href="hpl__tc__config_8h.html#a90921c2f9525cca0ae29625618074216">hpl_tc_config.h</a>
@@ -2279,701 +2355,15 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="hpl__sysctrl__config_8h.html#aa5601621b59b5c5f95d22588a6c77d72">hpl_sysctrl_config.h</a>
 </li>
 <li>CONFIG_EIC_EXTINT_MAP
-: <a class="el" href="hpl__eic__config_8h.html#a54662d82a703130f55bae95f42935e50">hpl_eic_config.h</a>
-, <a class="el" href="hpl__eic_8c.html#a54662d82a703130f55bae95f42935e50">hpl_eic.c</a>
+: <a class="el" href="hpl__eic_8c.html#a54662d82a703130f55bae95f42935e50">hpl_eic.c</a>
+, <a class="el" href="hpl__eic__config_8h.html#a54662d82a703130f55bae95f42935e50">hpl_eic_config.h</a>
 </li>
 <li>configure_dashboard()
-: <a class="el" href="dashboard__config_8c.html#a9b0c42872e690bb020f0242d8a8f3753">dashboard_config.c</a>
-, <a class="el" href="dashboard__config_8h.html#a9b0c42872e690bb020f0242d8a8f3753">dashboard_config.h</a>
+: <a class="el" href="dashboard__config_8h.html#a9b0c42872e690bb020f0242d8a8f3753">dashboard_config.h</a>
+, <a class="el" href="dashboard__config_8c.html#a9b0c42872e690bb020f0242d8a8f3753">dashboard_config.c</a>
 </li>
 <li>CONTAINER_OF
 : <a class="el" href="group__doc__driver__hal__utils__macro.html#gae5f8e0a04e100a3953e38a3c7bdbc4f4">utils.h</a>
-</li>
-<li>CONTROL_FPCA_Msk
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gad20bb0212b2e1864f24af38d93587c79">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gad20bb0212b2e1864f24af38d93587c79">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gad20bb0212b2e1864f24af38d93587c79">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gad20bb0212b2e1864f24af38d93587c79">core_cm7.h</a>
-</li>
-<li>CONTROL_FPCA_Pos
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gac7018b59b07134c5363b33eb94918a58">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gac7018b59b07134c5363b33eb94918a58">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gac7018b59b07134c5363b33eb94918a58">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gac7018b59b07134c5363b33eb94918a58">core_cm7.h</a>
-</li>
-<li>CONTROL_nPRIV_Msk
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_cm0plus.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gaef3b20d77acb213338f89ce5e7bc36b0">core_sc300.h</a>
-</li>
-<li>CONTROL_nPRIV_Pos
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_cm0plus.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga51b95bc03ec0d815b459bde0b14a5908">core_sc300.h</a>
-</li>
-<li>CONTROL_SFPA_Msk
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gae1af7c6a3a6482a32ae290b66db3a3f8">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gae1af7c6a3a6482a32ae290b66db3a3f8">core_cm33.h</a>
-</li>
-<li>CONTROL_SFPA_Pos
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gac4eb493f7e00c0b286f6663b2554d5f1">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#gac4eb493f7e00c0b286f6663b2554d5f1">core_cm33.h</a>
-</li>
-<li>CONTROL_SPSEL_Msk
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm0.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm1.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_sc000.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga70b29840969b06909da21369b0b05b53">core_cm0plus.h</a>
-</li>
-<li>CONTROL_SPSEL_Pos
-: <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm0.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm0plus.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm1.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_sc000.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___c_o_r_e.html#ga07eafc53e609895342c6a530e9d01310">core_cm33.h</a>
-</li>
-<li>CoreDebug
-: <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#gab6e30a2b802d9021619dbb0be7f5d63d">core_cm3.h</a>
-</li>
-<li>CoreDebug_BASE
-: <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s__core__base.html#ga680604dbcda9e9b31a1639fcffe5230b">core_cm3.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_INTSPIDEN_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1570f149a0f89f70fc2644a5842cbcb4">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1570f149a0f89f70fc2644a5842cbcb4">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1570f149a0f89f70fc2644a5842cbcb4">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1570f149a0f89f70fc2644a5842cbcb4">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_INTSPIDEN_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3caef9790e4e2ccbfea77d55315ad59f">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3caef9790e4e2ccbfea77d55315ad59f">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3caef9790e4e2ccbfea77d55315ad59f">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3caef9790e4e2ccbfea77d55315ad59f">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_INTSPNIDEN_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gadad0bf68d32cba49c1ea7534122c2752">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gadad0bf68d32cba49c1ea7534122c2752">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gadad0bf68d32cba49c1ea7534122c2752">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gadad0bf68d32cba49c1ea7534122c2752">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_INTSPNIDEN_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf733a36e6b4717a604f7d77c05dfceb4">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf733a36e6b4717a604f7d77c05dfceb4">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf733a36e6b4717a604f7d77c05dfceb4">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf733a36e6b4717a604f7d77c05dfceb4">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_SPIDENSEL_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa043fd13768d57be320c682ca1c9b234">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa043fd13768d57be320c682ca1c9b234">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa043fd13768d57be320c682ca1c9b234">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa043fd13768d57be320c682ca1c9b234">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_SPIDENSEL_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga587610b7ac18292de47bf9d675b0b88c">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga587610b7ac18292de47bf9d675b0b88c">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga587610b7ac18292de47bf9d675b0b88c">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga587610b7ac18292de47bf9d675b0b88c">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_SPNIDENSEL_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaabb5d6c750c9ec50254134ece2111dcd">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaabb5d6c750c9ec50254134ece2111dcd">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaabb5d6c750c9ec50254134ece2111dcd">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaabb5d6c750c9ec50254134ece2111dcd">core_cm33.h</a>
-</li>
-<li>CoreDebug_DAUTHCTRL_SPNIDENSEL_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga866734a8e4bec2d6cf091e265c6c0f3d">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga866734a8e4bec2d6cf091e265c6c0f3d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga866734a8e4bec2d6cf091e265c6c0f3d">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga866734a8e4bec2d6cf091e265c6c0f3d">core_cm33.h</a>
-</li>
-<li>CoreDebug_DCRSR_REGSEL_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga17cafbd72b55030219ce5609baa7c01d">core_cm3.h</a>
-</li>
-<li>CoreDebug_DCRSR_REGSEL_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga52182c8a9f63a52470244c0bc2064f7b">core_sc300.h</a>
-</li>
-<li>CoreDebug_DCRSR_REGWnR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1eef4992d8f84bc6c0dffed1c87f90a5">core_cm23.h</a>
-</li>
-<li>CoreDebug_DCRSR_REGWnR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga51e75942fc0614bc9bb2c0e96fcdda9a">core_sc300.h</a>
-</li>
-<li>CoreDebug_DEMCR_DWTENA_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2fcc0b8f174e85379d38e1cb74b8c627">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2fcc0b8f174e85379d38e1cb74b8c627">core_cm23.h</a>
-</li>
-<li>CoreDebug_DEMCR_DWTENA_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0cde79c4e741e1eed0513c1f985baeb9">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0cde79c4e741e1eed0513c1f985baeb9">core_armv8mbl.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_EN_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gac2b46b9b65bf8d23027f255fc9641977">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac2b46b9b65bf8d23027f255fc9641977">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac2b46b9b65bf8d23027f255fc9641977">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac2b46b9b65bf8d23027f255fc9641977">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac2b46b9b65bf8d23027f255fc9641977">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac2b46b9b65bf8d23027f255fc9641977">core_sc300.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_EN_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga802829678f6871863ae9ecf60a10425c">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga802829678f6871863ae9ecf60a10425c">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga802829678f6871863ae9ecf60a10425c">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga802829678f6871863ae9ecf60a10425c">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga802829678f6871863ae9ecf60a10425c">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga802829678f6871863ae9ecf60a10425c">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_PEND_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga68ec55930269fab78e733dcfa32392f8">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga68ec55930269fab78e733dcfa32392f8">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga68ec55930269fab78e733dcfa32392f8">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga68ec55930269fab78e733dcfa32392f8">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga68ec55930269fab78e733dcfa32392f8">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga68ec55930269fab78e733dcfa32392f8">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_PEND_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1e2f706a59e0d8131279af1c7e152f8d">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1e2f706a59e0d8131279af1c7e152f8d">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1e2f706a59e0d8131279af1c7e152f8d">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1e2f706a59e0d8131279af1c7e152f8d">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1e2f706a59e0d8131279af1c7e152f8d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1e2f706a59e0d8131279af1c7e152f8d">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_REQ_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6384cbe8045051186d13ef9cdeace95">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6384cbe8045051186d13ef9cdeace95">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6384cbe8045051186d13ef9cdeace95">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6384cbe8045051186d13ef9cdeace95">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6384cbe8045051186d13ef9cdeace95">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6384cbe8045051186d13ef9cdeace95">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_REQ_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga341020a3b7450416d72544eaf8e57a64">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga341020a3b7450416d72544eaf8e57a64">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga341020a3b7450416d72544eaf8e57a64">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga341020a3b7450416d72544eaf8e57a64">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga341020a3b7450416d72544eaf8e57a64">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga341020a3b7450416d72544eaf8e57a64">core_cm4.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_STEP_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2ded814556de96fc369de7ae9a7ceb98">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2ded814556de96fc369de7ae9a7ceb98">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2ded814556de96fc369de7ae9a7ceb98">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2ded814556de96fc369de7ae9a7ceb98">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2ded814556de96fc369de7ae9a7ceb98">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2ded814556de96fc369de7ae9a7ceb98">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_MON_STEP_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9ae10710684e14a1a534e785ef390e1b">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9ae10710684e14a1a534e785ef390e1b">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9ae10710684e14a1a534e785ef390e1b">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9ae10710684e14a1a534e785ef390e1b">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9ae10710684e14a1a534e785ef390e1b">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9ae10710684e14a1a534e785ef390e1b">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_TRCENA_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e99652c1df93b441257389f49407834">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e99652c1df93b441257389f49407834">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e99652c1df93b441257389f49407834">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e99652c1df93b441257389f49407834">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e99652c1df93b441257389f49407834">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e99652c1df93b441257389f49407834">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_TRCENA_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6ff2102b98f86540224819a1b767ba39">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6ff2102b98f86540224819a1b767ba39">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6ff2102b98f86540224819a1b767ba39">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6ff2102b98f86540224819a1b767ba39">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6ff2102b98f86540224819a1b767ba39">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6ff2102b98f86540224819a1b767ba39">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_BUSERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9d29546aefe3ca8662a7fe48dd4a5b2b">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9d29546aefe3ca8662a7fe48dd4a5b2b">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9d29546aefe3ca8662a7fe48dd4a5b2b">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9d29546aefe3ca8662a7fe48dd4a5b2b">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9d29546aefe3ca8662a7fe48dd4a5b2b">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9d29546aefe3ca8662a7fe48dd4a5b2b">core_sc300.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_BUSERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gab8e3d8f0f9590a51bbf10f6da3ad6933">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab8e3d8f0f9590a51bbf10f6da3ad6933">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab8e3d8f0f9590a51bbf10f6da3ad6933">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab8e3d8f0f9590a51bbf10f6da3ad6933">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab8e3d8f0f9590a51bbf10f6da3ad6933">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab8e3d8f0f9590a51bbf10f6da3ad6933">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_CHKERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2f98b461d19746ab2febfddebb73da6f">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2f98b461d19746ab2febfddebb73da6f">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2f98b461d19746ab2febfddebb73da6f">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2f98b461d19746ab2febfddebb73da6f">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2f98b461d19746ab2febfddebb73da6f">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2f98b461d19746ab2febfddebb73da6f">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_CHKERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga10fc7c53bca904c128bc8e1a03072d50">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga10fc7c53bca904c128bc8e1a03072d50">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga10fc7c53bca904c128bc8e1a03072d50">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga10fc7c53bca904c128bc8e1a03072d50">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga10fc7c53bca904c128bc8e1a03072d50">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga10fc7c53bca904c128bc8e1a03072d50">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_CORERESET_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga906476e53c1e1487c30f3a1181df9e30">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_CORERESET_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9fcf09666f7063a7303117aa32a85d5a">core_cm4.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_HARDERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga803fc98c5bb85f10f0347b23794847d1">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_HARDERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaed9f42053031a9a30cd8054623304c0a">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_INTERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gad6815d8e3df302d2f0ff2c2c734ed29a">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad6815d8e3df302d2f0ff2c2c734ed29a">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad6815d8e3df302d2f0ff2c2c734ed29a">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad6815d8e3df302d2f0ff2c2c734ed29a">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad6815d8e3df302d2f0ff2c2c734ed29a">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad6815d8e3df302d2f0ff2c2c734ed29a">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_INTERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga22079a6e436f23b90308be97e19cf07e">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga22079a6e436f23b90308be97e19cf07e">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga22079a6e436f23b90308be97e19cf07e">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga22079a6e436f23b90308be97e19cf07e">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga22079a6e436f23b90308be97e19cf07e">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga22079a6e436f23b90308be97e19cf07e">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_MMERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gad420a9b60620584faaca6289e83d3a87">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad420a9b60620584faaca6289e83d3a87">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad420a9b60620584faaca6289e83d3a87">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad420a9b60620584faaca6289e83d3a87">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad420a9b60620584faaca6289e83d3a87">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gad420a9b60620584faaca6289e83d3a87">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_MMERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga444454f7c7748e76cd76c3809c887c41">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga444454f7c7748e76cd76c3809c887c41">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga444454f7c7748e76cd76c3809c887c41">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga444454f7c7748e76cd76c3809c887c41">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga444454f7c7748e76cd76c3809c887c41">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga444454f7c7748e76cd76c3809c887c41">core_cm33.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_NOCPERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga03ee58b1b02fdbf21612809034562f1c">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga03ee58b1b02fdbf21612809034562f1c">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga03ee58b1b02fdbf21612809034562f1c">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga03ee58b1b02fdbf21612809034562f1c">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga03ee58b1b02fdbf21612809034562f1c">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga03ee58b1b02fdbf21612809034562f1c">core_cm3.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_NOCPERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gac9d13eb2add61f610d5ced1f7ad2adf8">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac9d13eb2add61f610d5ced1f7ad2adf8">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac9d13eb2add61f610d5ced1f7ad2adf8">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac9d13eb2add61f610d5ced1f7ad2adf8">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac9d13eb2add61f610d5ced1f7ad2adf8">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac9d13eb2add61f610d5ced1f7ad2adf8">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_STATERR_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa38b947d77672c48bba1280c0a642e19">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa38b947d77672c48bba1280c0a642e19">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa38b947d77672c48bba1280c0a642e19">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa38b947d77672c48bba1280c0a642e19">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa38b947d77672c48bba1280c0a642e19">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaa38b947d77672c48bba1280c0a642e19">core_cm7.h</a>
-</li>
-<li>CoreDebug_DEMCR_VC_STATERR_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga16f0d3d2ce1e1e8cd762d938ac56c4ac">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga16f0d3d2ce1e1e8cd762d938ac56c4ac">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga16f0d3d2ce1e1e8cd762d938ac56c4ac">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga16f0d3d2ce1e1e8cd762d938ac56c4ac">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga16f0d3d2ce1e1e8cd762d938ac56c4ac">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga16f0d3d2ce1e1e8cd762d938ac56c4ac">core_cm7.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_DEBUGEN_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab815c741a4fc2a61988cd2fb7594210b">core_armv8mbl.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_DEBUGEN_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gab557abb5b172b74d2cf44efb9d824e4e">core_sc300.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_HALT_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1d905a3aa594eb2e8bb78bcc4da05b3f">core_cm23.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_HALT_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaddf1d43f8857e4efc3dc4e6b15509692">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_MASKINTS_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga77fe1ef3c4a729c1c82fb62a94a51c31">core_cm23.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_MASKINTS_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga0d2907400eb948a4ea3886ca083ec8e3">core_cm3.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_SNAPSTALL_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga53aa99b2e39a67622f3b9973e079c2b4">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga53aa99b2e39a67622f3b9973e079c2b4">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga53aa99b2e39a67622f3b9973e079c2b4">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga53aa99b2e39a67622f3b9973e079c2b4">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga53aa99b2e39a67622f3b9973e079c2b4">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga53aa99b2e39a67622f3b9973e079c2b4">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_SNAPSTALL_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga85747214e2656df6b05ec72e4d22bd6d">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga85747214e2656df6b05ec72e4d22bd6d">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga85747214e2656df6b05ec72e4d22bd6d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga85747214e2656df6b05ec72e4d22bd6d">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga85747214e2656df6b05ec72e4d22bd6d">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga85747214e2656df6b05ec72e4d22bd6d">core_cm33.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_STEP_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae6bda72fbd32cc5734ff3542170dc00d">core_cm33.h</a>
-</li>
-<li>CoreDebug_DHCSR_C_STEP_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gae1fc39e80de54c0339cbb1b298a9f0f9">core_cm7.h</a>
-</li>
-<li>CoreDebug_DHCSR_DBGKEY_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga1ce997cee15edaafe4aed77751816ffc">core_cm33.h</a>
-</li>
-<li>CoreDebug_DHCSR_DBGKEY_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac91280edd0ce932665cf75a23d11d842">core_cm3.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_HALT_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga9f881ade3151a73bc5b02b73fe6473ca">core_cm33.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_HALT_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga760a9a0d7f39951dc3f07d01f1f64772">core_sc300.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_LOCKUP_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7b67e4506d7f464ef5dafd6219739756">core_cm23.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_LOCKUP_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2900dd56a988a4ed27ad664d5642807e">core_armv8mbl.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_REGRDY_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac4cd6f3178de48f473d8903e8c847c07">core_cm33.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_REGRDY_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga20a71871ca8768019c51168c70c3f41d">core_cm33.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_RESET_ST_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gac474394bcceb31a8e09566c90b3f8922">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_RESET_ST_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga6f934c5427ea057394268e541fa97753">core_cm3.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_RESTART_ST_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gabe3254d40aaa482987ff31584d2a3240">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gabe3254d40aaa482987ff31584d2a3240">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gabe3254d40aaa482987ff31584d2a3240">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gabe3254d40aaa482987ff31584d2a3240">core_cm23.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_RESTART_ST_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf6498d32dbe23b8d95a12d2fbc0a65f8">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf6498d32dbe23b8d95a12d2fbc0a65f8">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf6498d32dbe23b8d95a12d2fbc0a65f8">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaf6498d32dbe23b8d95a12d2fbc0a65f8">core_cm23.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_RETIRE_ST_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga89dceb5325f6bcb36a0473d65fbfcfa6">core_armv8mbl.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_RETIRE_ST_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga2328118f8b3574c871a53605eb17e730">core_cm23.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_SLEEP_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_cm4.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga98d51538e645c2c1a422279cd85a0a25">core_sc300.h</a>
-</li>
-<li>CoreDebug_DHCSR_S_SLEEP_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_cm7.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_cm3.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_sc300.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga349ccea33accc705595624c2d334fbcb">core_cm4.h</a>
-</li>
-<li>CoreDebug_DSCSR_CDS_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga083417245e1aa40e84a2b12433a15a6b">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga083417245e1aa40e84a2b12433a15a6b">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga083417245e1aa40e84a2b12433a15a6b">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga083417245e1aa40e84a2b12433a15a6b">core_cm33.h</a>
-</li>
-<li>CoreDebug_DSCSR_CDS_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga4be5d0f8af5d7d8ec04bde78ce18e10e">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga4be5d0f8af5d7d8ec04bde78ce18e10e">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga4be5d0f8af5d7d8ec04bde78ce18e10e">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga4be5d0f8af5d7d8ec04bde78ce18e10e">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DSCSR_SBRSEL_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#gaaffe28a24f05446e55ba3d75bb6f4cd0">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaaffe28a24f05446e55ba3d75bb6f4cd0">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaaffe28a24f05446e55ba3d75bb6f4cd0">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#gaaffe28a24f05446e55ba3d75bb6f4cd0">core_cm33.h</a>
-</li>
-<li>CoreDebug_DSCSR_SBRSEL_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7450603163415ab4d4e4a7a767879eae">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7450603163415ab4d4e4a7a767879eae">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7450603163415ab4d4e4a7a767879eae">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga7450603163415ab4d4e4a7a767879eae">core_armv8mml.h</a>
-</li>
-<li>CoreDebug_DSCSR_SBRSELEN_Msk
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e5ed94cac1139165af161c008881805">core_cm23.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e5ed94cac1139165af161c008881805">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e5ed94cac1139165af161c008881805">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga5e5ed94cac1139165af161c008881805">core_armv8mbl.h</a>
-</li>
-<li>CoreDebug_DSCSR_SBRSELEN_Pos
-: <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3eb88e444b678057db1b59272eebb1ad">core_armv8mml.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3eb88e444b678057db1b59272eebb1ad">core_cm33.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3eb88e444b678057db1b59272eebb1ad">core_armv8mbl.h</a>
-, <a class="el" href="group___c_m_s_i_s___core_debug.html#ga3eb88e444b678057db1b59272eebb1ad">core_cm23.h</a>
 </li>
 <li>CPU_FREQ_POWER
 : <a class="el" href="hpl__core__m0plus__base_8c.html#a8ca32c0b03ba2e1e90f5c2ec0007eb80">hpl_core_m0plus_base.c</a>

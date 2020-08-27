@@ -427,9 +427,19 @@ void app_one_ms_isr(void)
 {
 	uint16_t diff;
 	int32_t  error;
-
+	uint32_t count=0;
+	
 	timecounter++;
 	picounter++;
+	if(count == 1000)
+	{
+		gpio_toggle_pin_level(LED0);
+		count =0;
+	}
+	else
+	{
+		count++;
+	}
 
 	if ((timecounter & 0x03U) == 0U) {
 		timecounter = 0;

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: C:/Users/Sambasivam/Downloads/Trapizoidal_Control/bc_hall/motor_control.h Source File</title>
+<title>My Project: A:/Git_Repo/My_Code_Dev/SAMD21/Curiosity_Nano/Trapizoidal_Control/Trapizoidal_Control/Trapizoidal_Control/bc_hall/motor_control.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -92,56 +92,35 @@ $(document).ready(function(){initNavTree('motor__control_8h_source.html',''); in
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="utils_8h.html">utils.h</a>&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// TODO: Verify and Set the Hall sensor pins</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifdef __SAMD21E16L__</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINA</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINA GPIO(GPIO_PORTA, 3)</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINB</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINB GPIO(GPIO_PORTA, 2)</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINC</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 7)</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#elif __SAMD21J18A__</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINA</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINA GPIO(GPIO_PORTA, 3)</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINB</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINB GPIO(GPIO_PORTA, 18)</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINC</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 28)</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#elif __SAMC21J18A__</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINA</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINA GPIO(GPIO_PORTB, 11)</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINB</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINB GPIO(GPIO_PORTB, 4)</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINC</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 28)</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a9c2731b3a2364a95da714de5ceaeb965">init_global_variables</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#ac58d879a636ad11b5c0a7d2f1e20c425">update_commutation</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#af473ccc694c3f7b4e5ac3f1d771f8389">motor_start</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a49b123e7151768d344e744d0682660b0">motor_stop</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a17c4a35fbb7f8c4a858e199f5042b1c2">perform_adp_update</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#abbdfd3a9a4c8d428e9eb89799cf1fa9b">update_duty_cycle</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a6b6a289cf56068e591f1a923999dbe45">register_hall_events</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a5f9bbdcb6a275d783e7d1356a351f550">register_one_ms_timer_events</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#ab252cab6c48588ac43c1c26d893e055a">motor_pwm_init</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a7e52d0a114f6eccdf697e5abb5c1ab51">speed_measurement_init</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;uint16_t <a class="code" href="motor__control_8h.html#a92de3905ae6a78f444a5f058235e713b">_timer_get_count</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a5c00025629005d1e00b0db4177c4147d">_timer_set_count</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw, uint16_t <a class="code" href="structadp__ext__msg__response__data.html#a2af04580408e2aa142aad2657aa5e860">data</a>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#af90ac28fad4fc7c96d7d0b39d498ee46">_timer_stop_a</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a5d2a89d076796a43873e22c6ae7722fd">_timer_start_a</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a6d3a294a642d29e87e32c0a4f5388f6f">adp_receive_data</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#ab1b8dbc85f897a733e39323f2762afee">app_one_ms_isr</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINA</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="motor__control_8h.html#a949c3fc77590bc26376af2f02b4f844c">    9</a></span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINA GPIO(GPIO_PORTA, 21)</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINB</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="motor__control_8h.html#abcf4d9b3ec2f2c48df03e61c1ecbdb86">   12</a></span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINB GPIO(GPIO_PORTA, 20)</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#ifndef HALL_SENSOR_PINC</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="motor__control_8h.html#a5e6bd810e390679980f4e5dfe4891bad">   15</a></span>&#160;<span class="preprocessor">#define HALL_SENSOR_PINC GPIO(GPIO_PORTA, 07)</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a9c2731b3a2364a95da714de5ceaeb965">init_global_variables</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#ac58d879a636ad11b5c0a7d2f1e20c425">update_commutation</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#af473ccc694c3f7b4e5ac3f1d771f8389">motor_start</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a49b123e7151768d344e744d0682660b0">motor_stop</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a17c4a35fbb7f8c4a858e199f5042b1c2">perform_adp_update</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#abbdfd3a9a4c8d428e9eb89799cf1fa9b">update_duty_cycle</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a6b6a289cf56068e591f1a923999dbe45">register_hall_events</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a5f9bbdcb6a275d783e7d1356a351f550">register_one_ms_timer_events</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#ab252cab6c48588ac43c1c26d893e055a">motor_pwm_init</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a7e52d0a114f6eccdf697e5abb5c1ab51">speed_measurement_init</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;uint16_t <a class="code" href="motor__control_8h.html#a92de3905ae6a78f444a5f058235e713b">_timer_get_count</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a5c00025629005d1e00b0db4177c4147d">_timer_set_count</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw, uint16_t <a class="code" href="structadp__ext__msg__response__data.html#a2af04580408e2aa142aad2657aa5e860">data</a>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#af90ac28fad4fc7c96d7d0b39d498ee46">_timer_stop_a</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a5d2a89d076796a43873e22c6ae7722fd">_timer_start_a</a>(<span class="keyword">const</span> <span class="keywordtype">void</span> *<span class="keyword">const</span> hw);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#a6d3a294a642d29e87e32c0a4f5388f6f">adp_receive_data</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span>     <a class="code" href="motor__control_8h.html#ab1b8dbc85f897a733e39323f2762afee">app_one_ms_isr</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="amotor__control_8h_html_a49b123e7151768d344e744d0682660b0"><div class="ttname"><a href="motor__control_8h.html#a49b123e7151768d344e744d0682660b0">motor_stop</a></div><div class="ttdeci">void motor_stop(void)</div><div class="ttdef"><b>Definition:</b> <a href="motor__control_8c_source.html#l00371">motor_control.c:371</a></div></div>
@@ -166,7 +145,7 @@ $(document).ready(function(){initNavTree('motor__control_8h_source.html',''); in
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_2c12105386bcc5c3935feab96f296a41.html">Downloads</a></li><li class="navelem"><a class="el" href="dir_c31b8b5a2f2f1a40a7112b94f2e8d8a7.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_bebd9249bc625f272d7cf5b36067610c.html">bc_hall</a></li><li class="navelem"><a class="el" href="motor__control_8h.html">motor_control.h</a></li>
+    <li class="navelem"><a class="el" href="dir_fb18dff66fcd75bbc265ac410b8b8ddc.html">A:</a></li><li class="navelem"><a class="el" href="dir_aa30476e8aa6cd8008bf06ec62e816e5.html">Git_Repo</a></li><li class="navelem"><a class="el" href="dir_196eb6bd89a5263bad08ea9639adcf6e.html">My_Code_Dev</a></li><li class="navelem"><a class="el" href="dir_81b9db29b728050fc6db174633c48447.html">SAMD21</a></li><li class="navelem"><a class="el" href="dir_0b16c97b2df8ded17ec60903748c29a7.html">Curiosity_Nano</a></li><li class="navelem"><a class="el" href="dir_ddba99bf4346e7a18adbffa56425e661.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_c4e80eda825c38415f7f2035377459f1.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_5a5fba01a27bdd839e82e06169b73f89.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_e846908a229abc7e229dbbaf0e0b84b6.html">bc_hall</a></li><li class="navelem"><a class="el" href="motor__control_8h.html">motor_control.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

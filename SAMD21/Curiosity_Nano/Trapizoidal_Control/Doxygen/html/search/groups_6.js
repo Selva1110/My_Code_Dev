@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['gclk_20hardware_20proxy_20layer_30978',['GCLK Hardware Proxy Layer',['../group__gclk__group.html',1,'']]],
-  ['generic_20clock_20generator_30979',['Generic Clock Generator',['../group___s_a_m_d21___g_c_l_k.html',1,'']]]
+  ['tc_20hardware_20proxy_20layer_6154',['TC Hardware Proxy Layer',['../group__tc__group.html',1,'']]],
+  ['tcc_20low_20level_20driver_20helpers_6155',['TCC Low Level Driver Helpers',['../group__tcc__group.html',1,'']]]
 ];

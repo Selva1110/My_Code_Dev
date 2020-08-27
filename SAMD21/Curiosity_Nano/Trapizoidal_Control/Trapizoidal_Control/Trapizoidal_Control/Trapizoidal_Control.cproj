@@ -206,6 +206,22 @@
         <NonsecureFilesInfo />
       </AcmeProjectConfig>
     </AcmeProjectConfig>
+    <avrtool>com.atmel.avrdbg.tool.nedbg</avrtool>
+    <avrtoolserialnumber>MCHP3313031800000487</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x10012693</avrdeviceexpectedsignature>
+    <avrtoolinterface>SWD</avrtoolinterface>
+    <com_atmel_avrdbg_tool_nedbg>
+      <ToolOptions>
+        <InterfaceProperties>
+          <SwdClock>2000000</SwdClock>
+        </InterfaceProperties>
+        <InterfaceName>SWD</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.nedbg</ToolType>
+      <ToolNumber>MCHP3313031800000487</ToolNumber>
+      <ToolName>nEDBG</ToolName>
+    </com_atmel_avrdbg_tool_nedbg>
+    <avrtoolinterfaceclock>2000000</avrtoolinterfaceclock>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>

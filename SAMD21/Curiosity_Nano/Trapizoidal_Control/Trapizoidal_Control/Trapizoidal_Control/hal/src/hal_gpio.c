@@ -31,7 +31,7 @@
  *
  */
 
-#include "hal_gpio.h"
+#include <hal/include/hal_gpio.h>
 
 /**
  * \brief Driver version

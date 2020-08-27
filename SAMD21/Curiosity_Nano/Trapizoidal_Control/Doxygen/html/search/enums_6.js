@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['reset_5freason_19007',['reset_reason',['../group___h_p_l.html#ga9066b7b3f20c4514ad24dcbff8fa3898',1,'hpl_reset.h']]],
-  ['rx_5fstate_5fe_19008',['rx_state_e',['../adp_8h.html#ab9c072f13538a2b63658a18c389336c0',1,'adp.h']]]
+  ['spi_5fchar_5fsize_4155',['spi_char_size',['../group__hpl__spi.html#ga4a3ef460c2cea333834811806f32d60a',1,'hpl_spi.h']]],
+  ['spi_5fdata_5forder_4156',['spi_data_order',['../group__hpl__spi.html#gabaa69dbc0601cb5b1e2681400598a4b2',1,'hpl_spi.h']]],
+  ['spi_5ftransfer_5fmode_4157',['spi_transfer_mode',['../group__hpl__spi.html#ga9c30fdfffba6be76b4044ccb17b218e5',1,'hpl_spi.h']]]
 ];

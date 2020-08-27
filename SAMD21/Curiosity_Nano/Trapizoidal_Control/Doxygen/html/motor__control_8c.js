@@ -14,6 +14,7 @@ var motor__control_8c =
     [ "register_one_ms_timer_events", "motor__control_8c.html#a5f9bbdcb6a275d783e7d1356a351f550", null ],
     [ "speed_measurement_init", "motor__control_8c.html#a1bc0b63ee81b269bc13164b93b97de8e", null ],
     [ "update_commutation", "motor__control_8c.html#ac58d879a636ad11b5c0a7d2f1e20c425", null ],
+    [ "COMMUTATION_ARRAY", "motor__control_8c.html#a85a831451272c3555daf0ff9e5d0ec9a", null ],
     [ "dashboardconfigured", "motor__control_8c.html#a711f7683159c8c0b8afe9f2182791e82", null ],
     [ "direction", "motor__control_8c.html#ac6116d5235e13e059e591879c46d7174", null ],
     [ "ki_ref", "motor__control_8c.html#a7f55854534638b6a275fcaa0799758f5", null ],

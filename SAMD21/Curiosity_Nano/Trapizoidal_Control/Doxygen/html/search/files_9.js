@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['nvmctrl_2eh_16628',['nvmctrl.h',['../component_2nvmctrl_8h.html',1,'(Global Namespace)'],['../instance_2nvmctrl_8h.html',1,'(Global Namespace)']]]
+  ['startup_5fsamd21_2ec_3328',['startup_samd21.c',['../startup__samd21_8c.html',1,'']]],
+  ['system_5fsamd21_2ec_3329',['system_samd21.c',['../system__samd21_8c.html',1,'']]]
 ];

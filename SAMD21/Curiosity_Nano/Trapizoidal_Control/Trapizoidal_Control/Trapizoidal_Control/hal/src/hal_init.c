@@ -31,7 +31,7 @@
  *
  */
 
-#include "hal_init.h"
+#include <hal/include/hal_init.h>
 
 /**
  * \brief Driver version

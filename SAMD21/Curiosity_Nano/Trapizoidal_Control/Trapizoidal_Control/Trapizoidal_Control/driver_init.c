@@ -263,10 +263,22 @@ void PWM_MOTOR_DRIVER_init(void)
 	pwm_init(&PWM_MOTOR_DRIVER, TCC0, _tcc_get_pwm());
 }
 
+void init_alive_LED(void)
+{
+	gpio_set_pin_direction(LED0,GPIO_DIRECTION_OUT);
+	gpio_set_pin_function(LED0,GPIO_PIN_FUNCTION_OFF);
+}
+
+void toggle_alive_LED(void)
+{
+	gpio_toggle_pin_level(LED0);
+}
 void system_init(void)
 {
 	init_mcu();
-
+	
+	init_alive_LED();
+	
 	ADC_0_init();
 	EIC_HALL_SENSOR_init();
 

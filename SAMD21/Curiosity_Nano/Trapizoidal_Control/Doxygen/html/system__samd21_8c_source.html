@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: C:/Users/Sambasivam/Downloads/Trapizoidal_Control/samd21d/gcc/system_samd21.c Source File</title>
+<title>My Project: A:/Git_Repo/My_Code_Dev/SAMD21/Curiosity_Nano/Trapizoidal_Control/Trapizoidal_Control/Trapizoidal_Control/Device_Startup/system_samd21.c Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,35 +86,34 @@ $(document).ready(function(){initNavTree('system__samd21_8c_source.html',''); in
 </div><!--header-->
 <div class="contents">
 <a href="system__samd21_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="samd21_8h.html">samd21.h</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;samd21.h&quot;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">   36</a></span>&#160;<span class="preprocessor">#define __SYSTEM_CLOCK (1000000)</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">   36</a></span>&#160;<span class="preprocessor">#define __SYSTEM_CLOCK    (1000000)</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="system__samd21_8h.html#aa3cd3e43291e81e795d642b79b6088e6">   38</a></span>&#160;uint32_t <a class="code" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a> = <a class="code" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a>; </div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="system__samd21_8h.html#a93f514700ccf00d08dbdcff7f1224eb2">   46</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="system__samd21_8c.html#a93f514700ccf00d08dbdcff7f1224eb2">SystemInit</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">   38</a></span>&#160;uint32_t <a class="code" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a> = <a class="code" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="system__samd21_8c.html#a93f514700ccf00d08dbdcff7f1224eb2">   46</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="system__samd21_8c.html#a93f514700ccf00d08dbdcff7f1224eb2">SystemInit</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// Keep the default device state after reset</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a> = <a class="code" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// Keep the default device state after reset</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a> = <a class="code" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="system__samd21_8h.html#ae0c36a9591fe6e9c45ecb21a794f0f0f">   59</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="system__samd21_8c.html#ae0c36a9591fe6e9c45ecb21a794f0f0f">SystemCoreClockUpdate</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="system__samd21_8c.html#ae0c36a9591fe6e9c45ecb21a794f0f0f">   59</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="system__samd21_8c.html#ae0c36a9591fe6e9c45ecb21a794f0f0f">SystemCoreClockUpdate</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// Not implemented</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a> = <a class="code" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">// Not implemented</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a> = <a class="code" href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="asystem__samd21_8c_html_aa3cd3e43291e81e795d642b79b6088e6"><div class="ttname"><a href="system__samd21_8c.html#aa3cd3e43291e81e795d642b79b6088e6">SystemCoreClock</a></div><div class="ttdeci">uint32_t SystemCoreClock</div><div class="ttdef"><b>Definition:</b> <a href="system__samd21_8c_source.html#l00038">system_samd21.c:38</a></div></div>
-<div class="ttc" id="asamd21_8h_html"><div class="ttname"><a href="samd21_8h.html">samd21.h</a></div><div class="ttdoc">Top header file for SAMD21.</div></div>
 <div class="ttc" id="asystem__samd21_8c_html_ae0c36a9591fe6e9c45ecb21a794f0f0f"><div class="ttname"><a href="system__samd21_8c.html#ae0c36a9591fe6e9c45ecb21a794f0f0f">SystemCoreClockUpdate</a></div><div class="ttdeci">void SystemCoreClockUpdate(void)</div><div class="ttdoc">Updates the SystemCoreClock with current core Clock retrieved from cpu registers.</div><div class="ttdef"><b>Definition:</b> <a href="system__samd21_8c_source.html#l00059">system_samd21.c:59</a></div></div>
 <div class="ttc" id="asystem__samd21_8c_html_a93f514700ccf00d08dbdcff7f1224eb2"><div class="ttname"><a href="system__samd21_8c.html#a93f514700ccf00d08dbdcff7f1224eb2">SystemInit</a></div><div class="ttdeci">void SystemInit(void)</div><div class="ttdoc">Setup the microcontroller system. Initialize the System and update the SystemCoreClock variable.</div><div class="ttdef"><b>Definition:</b> <a href="system__samd21_8c_source.html#l00046">system_samd21.c:46</a></div></div>
 <div class="ttc" id="asystem__samd21_8c_html_a16323f44d2b5b11ef3972f71339cbd39"><div class="ttname"><a href="system__samd21_8c.html#a16323f44d2b5b11ef3972f71339cbd39">__SYSTEM_CLOCK</a></div><div class="ttdeci">#define __SYSTEM_CLOCK</div><div class="ttdef"><b>Definition:</b> <a href="system__samd21_8c_source.html#l00036">system_samd21.c:36</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_2c12105386bcc5c3935feab96f296a41.html">Downloads</a></li><li class="navelem"><a class="el" href="dir_c31b8b5a2f2f1a40a7112b94f2e8d8a7.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_5819af094e2d926239a2b27dd94e9470.html">samd21d</a></li><li class="navelem"><a class="el" href="dir_aa86656a794d5de9c3d274ff2987bcbe.html">gcc</a></li><li class="navelem"><a class="el" href="system__samd21_8c.html">system_samd21.c</a></li>
+    <li class="navelem"><a class="el" href="dir_fb18dff66fcd75bbc265ac410b8b8ddc.html">A:</a></li><li class="navelem"><a class="el" href="dir_aa30476e8aa6cd8008bf06ec62e816e5.html">Git_Repo</a></li><li class="navelem"><a class="el" href="dir_196eb6bd89a5263bad08ea9639adcf6e.html">My_Code_Dev</a></li><li class="navelem"><a class="el" href="dir_81b9db29b728050fc6db174633c48447.html">SAMD21</a></li><li class="navelem"><a class="el" href="dir_0b16c97b2df8ded17ec60903748c29a7.html">Curiosity_Nano</a></li><li class="navelem"><a class="el" href="dir_ddba99bf4346e7a18adbffa56425e661.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_c4e80eda825c38415f7f2035377459f1.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_5a5fba01a27bdd839e82e06169b73f89.html">Trapizoidal_Control</a></li><li class="navelem"><a class="el" href="dir_79fc60f94884e30fcbe6c65fe0a19cf2.html">Device_Startup</a></li><li class="navelem"><a class="el" href="system__samd21_8c.html">system_samd21.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

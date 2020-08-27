@@ -31,7 +31,7 @@
  *
  */
 
-#include "hal_atomic.h"
+#include "hal/include/hal_atomic.h"
 
 /**
  * \brief Driver version

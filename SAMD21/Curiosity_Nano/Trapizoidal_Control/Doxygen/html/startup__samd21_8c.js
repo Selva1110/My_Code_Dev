@@ -2,7 +2,7 @@ var startup__samd21_8c =
 [
     [ "__libc_init_array", "startup__samd21_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80", null ],
     [ "Dummy_Handler", "startup__samd21_8c.html#a4ed9b32000d3b15c46ffd748f32ed44d", null ],
-    [ "NonMaskableInt_Handler", "startup__samd21_8c.html#af1c7e36fe7632d67fa5a811190ad1fcd", null ],
+    [ "NonMaskableInt_Handler", "startup__samd21_8c.html#aebf4fdba7e93193caf0d78b18a87f7c2", null ],
     [ "Reset_Handler", "startup__samd21_8c.html#ae7ee340978f5c25f52f0cad1457c6616", null ],
     [ "_efixed", "startup__samd21_8c.html#aa55487a2e05bbec386ff62a79418827e", null ],
     [ "_erelocate", "startup__samd21_8c.html#a59f8a39545ac1b9b88d4228c40c910b9", null ],

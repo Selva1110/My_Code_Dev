@@ -1,5 +1,8 @@
 var motor__control_8h =
 [
+    [ "HALL_SENSOR_PINA", "motor__control_8h.html#a949c3fc77590bc26376af2f02b4f844c", null ],
+    [ "HALL_SENSOR_PINB", "motor__control_8h.html#abcf4d9b3ec2f2c48df03e61c1ecbdb86", null ],
+    [ "HALL_SENSOR_PINC", "motor__control_8h.html#a5e6bd810e390679980f4e5dfe4891bad", null ],
     [ "_timer_get_count", "motor__control_8h.html#a92de3905ae6a78f444a5f058235e713b", null ],
     [ "_timer_set_count", "motor__control_8h.html#a5c00025629005d1e00b0db4177c4147d", null ],
     [ "_timer_start_a", "motor__control_8h.html#a5d2a89d076796a43873e22c6ae7722fd", null ],

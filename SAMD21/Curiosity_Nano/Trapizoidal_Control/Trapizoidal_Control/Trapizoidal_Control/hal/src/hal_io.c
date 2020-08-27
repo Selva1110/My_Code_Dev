@@ -31,7 +31,7 @@
  *
  */
 
-#include <hal_io.h>
+#include <hal/include/hal_io.h>
 #include <utils_assert.h>
 
 /**
