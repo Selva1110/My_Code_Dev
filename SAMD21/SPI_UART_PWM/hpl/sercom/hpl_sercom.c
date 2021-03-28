@@ -52,7 +52,7 @@
 #define CONF_SERCOM_1_USART_ENABLE 0
 #endif
 #ifndef CONF_SERCOM_2_USART_ENABLE
-#define CONF_SERCOM_2_USART_ENABLE 1
+#define CONF_SERCOM_2_USART_ENABLE 0
 #endif
 #ifndef CONF_SERCOM_3_USART_ENABLE
 #define CONF_SERCOM_3_USART_ENABLE 0
@@ -123,12 +123,12 @@ struct usart_configuration {
 
 #if SERCOM_USART_AMOUNT < 1
 /** Dummy array to pass compiling. */
-struct usart_configuration _usarts[1] = {{0}};
+static struct usart_configuration _usarts[1] = {{0}};
 #else
 /**
  * \brief Array of SERCOM USART configurations
  */
-struct usart_configuration _usarts[] = {
+static struct usart_configuration _usarts[] = {
 #if CONF_SERCOM_0_USART_ENABLE == 1
     SERCOM_CONFIGURATION(0),
 #endif
@@ -1540,7 +1540,7 @@ static inline int32_t _i2c_m_enable_implementation(void *const hw)
 	return ERR_NONE;
 }
 
-static int32_t _i2c_m_sync_init_impl(struct _i2c_m_service *const service, void *const hw)
+int32_t _i2c_m_sync_init_impl(struct _i2c_m_service *const service, void *const hw)
 {
 	uint8_t i = _get_i2cm_index(hw);
 
@@ -1625,10 +1625,10 @@ static int32_t _i2c_m_sync_init_impl(struct _i2c_m_service *const service, void 
  */
 #define I2CS_7BIT_ADDRESSING_MASK 0x7F
 
-static int32_t     _i2c_s_init(void *const hw);
-static int8_t      _get_i2c_s_index(const void *const hw);
-static inline void _i2c_s_deinit(void *const hw);
-static int32_t     _i2c_s_set_address(void *const hw, const uint16_t address);
+int32_t     _i2c_s_init(void *const hw);
+int8_t      _get_i2c_s_index(const void *const hw);
+inline void _i2c_s_deinit(void *const hw);
+int32_t     _i2c_s_set_address(void *const hw, const uint16_t address);
 
 /**
  * \brief SERCOM I2C slave configuration type
@@ -1642,12 +1642,12 @@ struct i2cs_configuration {
 
 #if SERCOM_I2CS_AMOUNT < 1
 /** Dummy array for compiling. */
-static struct i2cs_configuration _i2css[1] = {{0}};
+struct i2cs_configuration _i2css[1] = {{0}};
 #else
 /**
  * \brief Array of SERCOM I2C slave configurations
  */
-static struct i2cs_configuration _i2css[] = {
+struct i2cs_configuration _i2css[] = {
 #if CONF_SERCOM_0_I2CS_ENABLE == 1
     I2CS_CONFIGURATION(0),
 #endif
@@ -1913,7 +1913,7 @@ int32_t _i2c_s_async_set_irq_state(struct _i2c_s_async_device *const device, con
  *
  *\ return status of initialization
  */
-static int32_t _i2c_s_init(void *const hw)
+int32_t _i2c_s_init(void *const hw)
 {
 	int8_t i = _get_i2c_s_index(hw);
 	if (i == -1) {
@@ -1944,7 +1944,7 @@ static int32_t _i2c_s_init(void *const hw)
  *
  * \return The ordinal number of the given sercom hardware instance
  */
-static int8_t _get_i2c_s_index(const void *const hw)
+int8_t _get_i2c_s_index(const void *const hw)
 {
 	uint8_t sercom_offset = _sercom_get_hardware_index(hw);
 	uint8_t i;
@@ -1964,7 +1964,7 @@ static int8_t _get_i2c_s_index(const void *const hw)
  *
  * \param[in] hw The pointer to hardware instance
  */
-static inline void _i2c_s_deinit(void *const hw)
+inline void _i2c_s_deinit(void *const hw)
 {
 	hri_sercomi2cs_clear_CTRLA_ENABLE_bit(hw);
 	hri_sercomi2cs_set_CTRLA_SWRST_bit(hw);
@@ -1976,7 +1976,7 @@ static inline void _i2c_s_deinit(void *const hw)
  * \param[in] hw The pointer to hardware instance
  * \param[in] address Address to set
  */
-static int32_t _i2c_s_set_address(void *const hw, const uint16_t address)
+int32_t _i2c_s_set_address(void *const hw, const uint16_t address)
 {
 	bool enabled;
 
@@ -2047,7 +2047,7 @@ COMPILER_PACK_RESET()
 #define CONF_SERCOM_0_SPI_ENABLE 0
 #endif
 #ifndef CONF_SERCOM_1_SPI_ENABLE
-#define CONF_SERCOM_1_SPI_ENABLE 1
+#define CONF_SERCOM_1_SPI_ENABLE 0
 #endif
 #ifndef CONF_SERCOM_2_SPI_ENABLE
 #define CONF_SERCOM_2_SPI_ENABLE 0
@@ -2075,10 +2075,10 @@ COMPILER_PACK_RESET()
 
 #if SERCOM_SPI_AMOUNT < 1
 /** Dummy array for compiling. */
-struct sercomspi_regs_cfg sercomspi_regs[1] = {{0}};
+const struct sercomspi_regs_cfg sercomspi_regs[1] = {{0}};
 #else
 /** The SERCOM SPI configurations of SERCOM that is used as SPI. */
-struct sercomspi_regs_cfg sercomspi_regs[] = {
+const struct sercomspi_regs_cfg sercomspi_regs[] = {
 #if CONF_SERCOM_0_SPI_ENABLE
     SERCOMSPI_REGS(0),
 #endif
@@ -2112,7 +2112,7 @@ struct sercomspi_regs_cfg sercomspi_regs[] = {
  *
  * \return De-initialization status
  */
-static int32_t _spi_deinit(void *const hw)
+int32_t _spi_deinit(void *const hw)
 {
 	hri_sercomspi_clear_CTRLA_ENABLE_bit(hw);
 	hri_sercomspi_set_CTRLA_SWRST_bit(hw);
@@ -2126,7 +2126,7 @@ static int32_t _spi_deinit(void *const hw)
  *
  * \return Enabling status
  */
-static int32_t _spi_sync_enable(void *const hw)
+int32_t _spi_sync_enable(void *const hw)
 {
 	if (hri_sercomspi_is_syncing(hw, SERCOM_SPI_SYNCBUSY_SWRST)) {
 		return ERR_BUSY;
@@ -2143,7 +2143,7 @@ static int32_t _spi_sync_enable(void *const hw)
  *
  * \return Enabling status
  */
-static int32_t _spi_async_enable(void *const hw)
+int32_t _spi_async_enable(void *const hw)
 {
 	_spi_sync_enable(hw);
 	NVIC_EnableIRQ((IRQn_Type)_sercom_get_irq_num(hw));
@@ -2157,7 +2157,7 @@ static int32_t _spi_async_enable(void *const hw)
  *
  * \return Disabling status
  */
-static int32_t _spi_sync_disable(void *const hw)
+int32_t _spi_sync_disable(void *const hw)
 {
 	if (hri_sercomspi_is_syncing(hw, SERCOM_SPI_SYNCBUSY_SWRST)) {
 		return ERR_BUSY;
@@ -2173,7 +2173,7 @@ static int32_t _spi_sync_disable(void *const hw)
  *
  * \return Disabling status
  */
-static int32_t _spi_async_disable(void *const hw)
+int32_t _spi_async_disable(void *const hw)
 {
 	_spi_sync_disable(hw);
 	hri_sercomspi_clear_INTEN_reg(
@@ -2336,7 +2336,7 @@ static inline const struct sercomspi_regs_cfg *_spi_get_regs(const uint32_t hw_a
 
 int32_t _spi_m_sync_init(struct _spi_m_sync_dev *dev, void *const hw)
 {
-	struct sercomspi_regs_cfg *regs = _spi_get_regs((uint32_t)hw);
+	const struct sercomspi_regs_cfg *regs = _spi_get_regs((uint32_t)hw);
 
 	ASSERT(dev && hw);
 

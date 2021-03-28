@@ -12,11 +12,9 @@
 extern "C" {
 #endif
 
-void ADC_0_example(void);
-
-void EXTERNAL_IRQ_0_example(void);
-
 void USART_0_example(void);
+
+void I2C_0_example(void);
 
 void TIMER_0_example(void);
 

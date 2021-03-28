@@ -2,16 +2,16 @@ format_version: '2'
 name: My Project
 versions:
   api: '1.0'
-  backend: 1.8.449
-  commit: c39d50a8c7c22fe58c921178843d3cbb666dc04b
+  backend: 1.8.491
+  commit: 605bd5a7663644fb84783aa2b00942b79b0d8955
   content: unknown
   content_pack_name: unknown
   format: '2'
-  frontend: 1.8.449
-  packs_version_avr8: 1.0.1438
+  frontend: 1.8.491
+  packs_version_avr8: 1.0.1446
   packs_version_qtouch: unknown
   packs_version_sam: 1.0.1726
-  version_backend: 1.8.449
+  version_backend: 1.8.491
   version_frontend: ''
 board:
   identifier: CustomBoard
@@ -20,221 +20,6 @@ details: null
 application: null
 middlewares: {}
 drivers:
-  ADC_0:
-    user_label: ADC_0
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::ADC::driver_config_definition::ADC::HAL:Driver:ADC.Sync
-    functionality: ADC
-    api: HAL:Driver:ADC_Sync
-    configuration:
-      adc_advanced_settings: false
-      adc_arch_adjres: 0
-      adc_arch_corren: false
-      adc_arch_dbgrun: false
-      adc_arch_event_settings: false
-      adc_arch_gain: 1x
-      adc_arch_gaincorr: 0
-      adc_arch_inputoffset: 0
-      adc_arch_inputscan: 0
-      adc_arch_leftadj: false
-      adc_arch_offsetcorr: 0
-      adc_arch_refcomp: false
-      adc_arch_resrdyeo: false
-      adc_arch_runstdby: false
-      adc_arch_samplen: 0
-      adc_arch_samplenum: 1 sample
-      adc_arch_startei: false
-      adc_arch_syncei: false
-      adc_arch_winlt: 0
-      adc_arch_winmode: No window mode
-      adc_arch_winmoneo: false
-      adc_arch_winut: 0
-      adc_differential_mode: false
-      adc_freerunning_mode: false
-      adc_pinmux_negative: ADC AIN0 pin
-      adc_pinmux_positive: ADC AIN0 pin
-      adc_prescaler: Peripheral clock divided by 4
-      adc_reference: 1.0V voltage reference
-      adc_resolution: 12-bit
-    optional_signals:
-    - identifier: ADC_0:AIN/0
-      pad: PA02
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.0
-      name: ADC/AIN/0
-      label: AIN/0
-    - identifier: ADC_0:AIN/1
-      pad: PA03
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.1
-      name: ADC/AIN/1
-      label: AIN/1
-    - identifier: ADC_0:AIN/2
-      pad: PB08
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.2
-      name: ADC/AIN/2
-      label: AIN/2
-    - identifier: ADC_0:AIN/3
-      pad: PB09
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.3
-      name: ADC/AIN/3
-      label: AIN/3
-    - identifier: ADC_0:AIN/4
-      pad: PA04
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.4
-      name: ADC/AIN/4
-      label: AIN/4
-    - identifier: ADC_0:AIN/5
-      pad: PA05
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.5
-      name: ADC/AIN/5
-      label: AIN/5
-    - identifier: ADC_0:AIN/6
-      pad: PA06
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::ADC.AIN.6
-      name: ADC/AIN/6
-      label: AIN/6
-    variant: null
-    clocks:
-      domain_group:
-        nodes:
-        - name: ADC
-          input: Generic clock generator 0
-          external: false
-          external_frequency: 0
-        configuration:
-          adc_gclk_selection: Generic clock generator 0
-  EXTERNAL_IRQ_0:
-    user_label: EXTERNAL_IRQ_0
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::EIC::driver_config_definition::Default::HAL:Driver:Ext.IRQ
-    functionality: External_IRQ
-    api: HAL:Driver:Ext_IRQ
-    configuration:
-      eic_arch_enable_irq_setting0: false
-      eic_arch_enable_irq_setting1: false
-      eic_arch_enable_irq_setting10: false
-      eic_arch_enable_irq_setting11: false
-      eic_arch_enable_irq_setting12: false
-      eic_arch_enable_irq_setting13: false
-      eic_arch_enable_irq_setting14: false
-      eic_arch_enable_irq_setting15: false
-      eic_arch_enable_irq_setting2: false
-      eic_arch_enable_irq_setting3: false
-      eic_arch_enable_irq_setting4: true
-      eic_arch_enable_irq_setting5: true
-      eic_arch_enable_irq_setting6: false
-      eic_arch_enable_irq_setting7: true
-      eic_arch_enable_irq_setting8: false
-      eic_arch_enable_irq_setting9: false
-      eic_arch_extinteo0: false
-      eic_arch_extinteo1: false
-      eic_arch_extinteo10: false
-      eic_arch_extinteo11: false
-      eic_arch_extinteo12: false
-      eic_arch_extinteo13: false
-      eic_arch_extinteo14: false
-      eic_arch_extinteo15: false
-      eic_arch_extinteo2: false
-      eic_arch_extinteo3: false
-      eic_arch_extinteo4: false
-      eic_arch_extinteo5: false
-      eic_arch_extinteo6: false
-      eic_arch_extinteo7: false
-      eic_arch_extinteo8: false
-      eic_arch_extinteo9: false
-      eic_arch_filten0: false
-      eic_arch_filten1: false
-      eic_arch_filten10: false
-      eic_arch_filten11: false
-      eic_arch_filten12: false
-      eic_arch_filten13: false
-      eic_arch_filten14: false
-      eic_arch_filten15: false
-      eic_arch_filten2: false
-      eic_arch_filten3: false
-      eic_arch_filten4: false
-      eic_arch_filten5: false
-      eic_arch_filten6: false
-      eic_arch_filten7: false
-      eic_arch_filten8: false
-      eic_arch_filten9: false
-      eic_arch_nmifilten: false
-      eic_arch_nmisense: No detection
-      eic_arch_sense0: No detection
-      eic_arch_sense1: No detection
-      eic_arch_sense10: No detection
-      eic_arch_sense11: No detection
-      eic_arch_sense12: No detection
-      eic_arch_sense13: No detection
-      eic_arch_sense14: No detection
-      eic_arch_sense15: No detection
-      eic_arch_sense2: No detection
-      eic_arch_sense3: No detection
-      eic_arch_sense4: Both-edges detection
-      eic_arch_sense5: Both-edges detection
-      eic_arch_sense6: No detection
-      eic_arch_sense7: Both-edges detection
-      eic_arch_sense8: No detection
-      eic_arch_sense9: No detection
-      eic_arch_wakeupen0: false
-      eic_arch_wakeupen1: false
-      eic_arch_wakeupen10: false
-      eic_arch_wakeupen11: false
-      eic_arch_wakeupen12: false
-      eic_arch_wakeupen13: false
-      eic_arch_wakeupen14: false
-      eic_arch_wakeupen15: false
-      eic_arch_wakeupen2: false
-      eic_arch_wakeupen3: false
-      eic_arch_wakeupen4: false
-      eic_arch_wakeupen5: false
-      eic_arch_wakeupen6: false
-      eic_arch_wakeupen7: false
-      eic_arch_wakeupen8: false
-      eic_arch_wakeupen9: false
-    optional_signals:
-    - identifier: EXTERNAL_IRQ_0:EXTINT/4
-      pad: PA20
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::EIC.EXTINT.4
-      name: EIC/EXTINT/4
-      label: EXTINT/4
-    - identifier: EXTERNAL_IRQ_0:EXTINT/5
-      pad: PA21
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::EIC.EXTINT.5
-      name: EIC/EXTINT/5
-      label: EXTINT/5
-    - identifier: EXTERNAL_IRQ_0:EXTINT/7
-      pad: PA07
-      mode: Enabled
-      configuration: null
-      definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::optional_signal_definition::EIC.EXTINT.7
-      name: EIC/EXTINT/7
-      label: EXTINT/7
-    variant: null
-    clocks:
-      domain_group:
-        nodes:
-        - name: EIC
-          input: Generic clock generator 0
-          external: false
-          external_frequency: 0
-        configuration:
-          eic_gclk_selection: Generic clock generator 0
   GCLK:
     user_label: GCLK
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::GCLK::driver_config_definition::GCLK::HAL:HPL:GCLK
@@ -371,7 +156,7 @@ drivers:
     functionality: SPI
     api: HAL:Driver:SPI_Master_Sync
     configuration:
-      spi_master_advanced: false
+      spi_master_advanced: true
       spi_master_arch_cpha: Sample input on leading edge
       spi_master_arch_cpol: SCK is low when idle
       spi_master_arch_dbgstop: Keep running
@@ -384,17 +169,17 @@ drivers:
       spi_master_rx_enable: true
     optional_signals: []
     variant:
-      specification: TXPO=1, RXPO=0
+      specification: TXPO=2, RXPO=0
       required_signals:
       - name: SERCOM1/PAD/0
         pad: PA00
         label: MISO
-      - name: SERCOM1/PAD/2
-        pad: PA30
-        label: MOSI
+      - name: SERCOM1/PAD/1
+        pad: PA17
+        label: SCK
       - name: SERCOM1/PAD/3
         pad: PA19
-        label: SCK
+        label: MOSI
     clocks:
       domain_group:
         nodes:
@@ -444,6 +229,46 @@ drivers:
       - name: SERCOM2/PAD/3
         pad: PA11
         label: RX
+    clocks:
+      domain_group:
+        nodes:
+        - name: Core
+          input: Generic clock generator 0
+          external: false
+          external_frequency: 0
+        - name: Slow
+          input: Generic clock generator 3
+          external: false
+          external_frequency: 0
+        configuration:
+          core_gclk_selection: Generic clock generator 0
+          slow_gclk_selection: Generic clock generator 3
+  I2C_0:
+    user_label: I2C_0
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::SERCOM4::driver_config_definition::I2C.Master.Standard~2FFast-mode::HAL:Driver:I2C.Master.Sync
+    functionality: I2C
+    api: HAL:Driver:I2C_Master_Sync
+    configuration:
+      i2c_master_advanced: false
+      i2c_master_arch_dbgstop: Keep running
+      i2c_master_arch_inactout: Disabled
+      i2c_master_arch_lowtout: false
+      i2c_master_arch_mexttoen: false
+      i2c_master_arch_runstdby: false
+      i2c_master_arch_sdahold: 300-600ns hold time
+      i2c_master_arch_sexttoen: false
+      i2c_master_arch_trise: 215
+      i2c_master_baud_rate: 100000
+    optional_signals: []
+    variant:
+      specification: SDA=0, SCL=1
+      required_signals:
+      - name: SERCOM4/PAD/0
+        pad: PA12
+        label: SDA
+      - name: SERCOM4/PAD/1
+        pad: PA13
+        label: SCL
     clocks:
       domain_group:
         nodes:
@@ -972,54 +797,6 @@ pads:
     mode: Digital input
     user_label: PA00
     configuration: null
-  PA02:
-    name: PA02
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA02
-    mode: Analog
-    user_label: PA02
-    configuration: null
-  PA03:
-    name: PA03
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA03
-    mode: Analog
-    user_label: PA03
-    configuration: null
-  PB08:
-    name: PB08
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PB08
-    mode: Analog
-    user_label: PB08
-    configuration: null
-  PB09:
-    name: PB09
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PB09
-    mode: Analog
-    user_label: PB09
-    configuration: null
-  PA04:
-    name: PA04
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA04
-    mode: Analog
-    user_label: PA04
-    configuration: null
-  PA05:
-    name: PA05
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA05
-    mode: Analog
-    user_label: PA05
-    configuration: null
-  PA06:
-    name: PA06
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA06
-    mode: Analog
-    user_label: PA06
-    configuration: null
-  PA07:
-    name: PA07
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA07
-    mode: Digital input
-    user_label: PA07
-    configuration: null
   PA08:
     name: PA08
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA08
@@ -1051,6 +828,18 @@ pads:
     user_label: LED0
     configuration:
       pad_initial_level: High
+  PA12:
+    name: PA12
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA12
+    mode: I2C
+    user_label: PA12
+    configuration: null
+  PA13:
+    name: PA13
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA13
+    mode: I2C
+    user_label: PA13
+    configuration: null
   PA14:
     name: PA14
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA14
@@ -1069,6 +858,12 @@ pads:
     mode: Peripheral IO
     user_label: PA16
     configuration: null
+  PA17:
+    name: PA17
+    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA17
+    mode: Digital output
+    user_label: PA17
+    configuration: null
   PA18:
     name: PA18
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA18
@@ -1081,18 +876,6 @@ pads:
     mode: Digital output
     user_label: PA19
     configuration: null
-  PA20:
-    name: PA20
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA20
-    mode: Digital input
-    user_label: PA20
-    configuration: null
-  PA21:
-    name: PA21
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA21
-    mode: Digital input
-    user_label: PA21
-    configuration: null
   PA22:
     name: PA22
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA22
@@ -1104,11 +887,5 @@ pads:
     definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA23
     mode: Peripheral IO
     user_label: PA23
-    configuration: null
-  PA30:
-    name: PA30
-    definition: Atmel:SAMD21D_Drivers:0.0.1::SAMD21G17D-AF::pad::PA30
-    mode: Digital output
-    user_label: PA30
     configuration: null
 toolchain_options: []

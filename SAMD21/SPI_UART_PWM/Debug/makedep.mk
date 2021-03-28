@@ -12,15 +12,13 @@ driver_init.c
 
 examples\driver_examples.c
 
-hal\src\hal_adc_sync.c
-
 hal\src\hal_atomic.c
 
 hal\src\hal_delay.c
 
-hal\src\hal_ext_irq.c
-
 hal\src\hal_gpio.c
+
+hal\src\hal_i2c_m_sync.c
 
 hal\src\hal_init.c
 
@@ -44,15 +42,11 @@ hal\utils\src\utils_list.c
 
 hal\utils\src\utils_syscalls.c
 
-hpl\adc\hpl_adc.c
-
 hpl\core\hpl_core_m0plus_base.c
 
 hpl\core\hpl_init.c
 
 hpl\dmac\hpl_dmac.c
-
-hpl\eic\hpl_eic.c
 
 hpl\gclk\hpl_gclk.c
 

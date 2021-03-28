@@ -1,5 +1,4 @@
 #include <atmel_start.h>
-//#include "arm_math.h"
 
 
 struct  
@@ -20,13 +19,16 @@ struct
 int main(void)
 {
 	/* Initializes MCU, drivers and middleware */
-	struct io_descriptor *UARTio, *SPIio;
+	struct io_descriptor *UARTio, *SPIio,*I2Cio;
 	atmel_start_init();
 	USART_0_example();
 	TIMER_0_example();	
 	SPI_0_example();
 	PWM_0_example();
+	I2C_0_example();
 	usart_sync_get_io_descriptor(&USART_0, &UARTio);
+	i2c_m_sync_get_io_descriptor(&I2C_0,&I2Cio);
+	i2c_m_sync_set_slaveaddr(&I2C_0, 0xAE, I2C_M_SEVEN);
 	spi_m_sync_get_io_descriptor(&SPI_0, &SPIio);
 	/* Replace with your application code */
 	while (1) {
@@ -34,6 +36,7 @@ int main(void)
 		sample2.sample++;
 		io_write(UARTio, (uint8_t *)"Welcome to Motor_Controller_V3", 30);
 		io_write(SPIio, (uint8_t *)"Welcome to Motor_Controller_V3", 30);
+		io_write(I2Cio, (uint8_t *)"Welcome to Motor_Controller_V3", 30);
 		delay_ms(1000);
 	}
 	return 0;

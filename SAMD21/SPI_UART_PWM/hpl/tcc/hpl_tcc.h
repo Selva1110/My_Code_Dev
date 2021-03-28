@@ -55,35 +55,6 @@ extern "C" {
 //@{
 
 /**
- * \brief TCC configuration type
- */
-struct tcc_cfg {
-	void *                 hw; /*!< instance of TCC */
-	IRQn_Type              irq;
-	hri_tcc_ctrla_reg_t    ctrl_a;
-	hri_tcc_ctrlbset_reg_t ctrl_b;
-	hri_tcc_dbgctrl_reg_t  dbg_ctrl;
-	hri_tcc_evctrl_reg_t   event_ctrl;
-	hri_tcc_cc_reg_t       cc0;
-	hri_tcc_cc_reg_t       cc1;
-	hri_tcc_cc_reg_t       cc2;
-	hri_tcc_cc_reg_t       cc3;
-	hri_tcc_per_reg_t      per;
-};
-/**
- * \brief pwm configuration type
- */
-struct tcc_pwm_cfg {
-	void *    hw; /*!< instance of TCC */
-	IRQn_Type irq;
-	uint8_t   sel_ch;
-	uint32_t  period;
-	uint32_t  duty_cycle;
-	uint32_t  wave;
-};
-
-
-/**
  * \brief Retrieve timer helper functions
  *
  * \return A pointer to set of timer helper functions

@@ -40,18 +40,46 @@
 #include <utils_assert.h>
 
 /**
+ * \brief TCC configuration type
+ */
+struct tcc_cfg {
+	void *                 hw; /*!< instance of TCC */
+	IRQn_Type              irq;
+	hri_tcc_ctrla_reg_t    ctrl_a;
+	hri_tcc_ctrlbset_reg_t ctrl_b;
+	hri_tcc_dbgctrl_reg_t  dbg_ctrl;
+	hri_tcc_evctrl_reg_t   event_ctrl;
+	hri_tcc_cc_reg_t       cc0;
+	hri_tcc_cc_reg_t       cc1;
+	hri_tcc_cc_reg_t       cc2;
+	hri_tcc_cc_reg_t       cc3;
+	hri_tcc_per_reg_t      per;
+};
+/**
+ * \brief pwm configuration type
+ */
+struct tcc_pwm_cfg {
+	void *    hw; /*!< instance of TCC */
+	IRQn_Type irq;
+	uint8_t   sel_ch;
+	uint32_t  period;
+	uint32_t  duty_cycle;
+	uint32_t  wave;
+};
+
+/**
  * \internal Retrieve configuration
  *
  * \param[in] hw The pointer of TCC base address
  *
  * \return The configuration
  */
-struct tcc_cfg *_get_tcc_cfg(void *hw);
+static struct tcc_cfg *_get_tcc_cfg(void *hw);
 
 /**
  * \brief Array of TCC configurations
  */
-struct tcc_cfg _cfgs[1] = {
+static struct tcc_cfg _cfgs[1] = {
     {(void *)TCC0,
      TCC0_IRQn,
      CONF_TCC0_CTRLA,
@@ -72,12 +100,12 @@ struct tcc_cfg _cfgs[1] = {
  *
  * \return The configuration
  */
-struct tcc_pwm_cfg *_get_tcc_pwm_cfg(void *hw);
+static struct tcc_pwm_cfg *_get_tcc_pwm_cfg(void *hw);
 
 /**
  * \brief Array of PWM configurations
  */
-struct tcc_pwm_cfg _cfgs_pwm[1] = {
+static struct tcc_pwm_cfg _cfgs_pwm[1] = {
     {(void *)TCC0,
      TCC0_IRQn,
      CONF_TCC0_SEL_CH,
@@ -86,12 +114,12 @@ struct tcc_pwm_cfg _cfgs_pwm[1] = {
      (CONF_TCC0_WAVEGEN << TCC_WAVE_WAVEGEN_Pos)},
 };
 
-struct _pwm_device *_tcc0_dev = NULL;
+static struct _pwm_device *_tcc0_dev = NULL;
 
 /**
  * \brief Init irq param with the given tcc hardware instance
  */
-void _tcc_init_irq_param(const void *const hw, void *dev)
+static void _tcc_init_irq_param(const void *const hw, void *dev)
 {
 	if (hw == TCC0) {
 		_tcc0_dev = (struct _pwm_device *)dev;
@@ -130,7 +158,6 @@ int32_t _pwm_init(struct _pwm_device *const device, void *const hw)
 	hri_tcc_write_WAVE_reg(hw, cfg_pwm->wave);
 	hri_tcc_write_PER_reg(hw, cfg_pwm->period);
 	cfg->per = cfg_pwm->period;
-	//cfg_pwm->sel_ch = 1;
 	switch (cfg_pwm->sel_ch) {
 	case 0:
 		cfg->cc0 = cfg_pwm->duty_cycle;
@@ -290,7 +317,7 @@ void TCC0_Handler(void)
 	tcc_pwm_interrupt_handler(_tcc0_dev);
 }
 
-struct tcc_cfg *_get_tcc_cfg(void *hw)
+static struct tcc_cfg *_get_tcc_cfg(void *hw)
 {
 	uint8_t i;
 
@@ -302,7 +329,7 @@ struct tcc_cfg *_get_tcc_cfg(void *hw)
 	return NULL;
 }
 
-struct tcc_pwm_cfg *_get_tcc_pwm_cfg(void *hw)
+static struct tcc_pwm_cfg *_get_tcc_pwm_cfg(void *hw)
 {
 	uint8_t i;
 

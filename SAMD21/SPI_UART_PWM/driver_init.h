@@ -21,29 +21,25 @@ extern "C" {
 #include <hal_io.h>
 #include <hal_sleep.h>
 
-#include <hal_adc_sync.h>
-#include <hal_ext_irq.h>
-
 #include <hal_spi_m_sync.h>
 
 #include <hal_usart_sync.h>
+
+#include <hal_i2c_m_sync.h>
 #include <hal_timer.h>
 #include <hpl_tc_base.h>
 
 #include <hal_pwm.h>
 #include <hpl_tcc.h>
 
-extern struct adc_sync_descriptor   ADC_0;
 extern struct spi_m_sync_descriptor SPI_0;
 
 extern struct usart_sync_descriptor USART_0;
-extern struct timer_descriptor      TIMER_0;
+
+extern struct i2c_m_sync_desc  I2C_0;
+extern struct timer_descriptor TIMER_0;
 
 extern struct pwm_descriptor PWM_0;
-
-void ADC_0_PORT_init(void);
-void ADC_0_CLOCK_init(void);
-void ADC_0_init(void);
 
 void SPI_0_PORT_init(void);
 void SPI_0_CLOCK_init(void);
@@ -52,6 +48,10 @@ void SPI_0_init(void);
 void USART_0_PORT_init(void);
 void USART_0_CLOCK_init(void);
 void USART_0_init(void);
+
+void I2C_0_CLOCK_init(void);
+void I2C_0_init(void);
+void I2C_0_PORT_init(void);
 
 void PWM_0_PORT_init(void);
 void PWM_0_CLOCK_init(void);
