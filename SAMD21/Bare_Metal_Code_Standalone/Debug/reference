@@ -1,0 +1,11 @@
+CC=arm-none-eabi-gcc
+MACH= cortex-m4
+CFLAGS= -c -mcpu=$(MACH) -mthumb -std=gnu11 -O0 -D__SAMD21G17D__ -DDEBUG -I"../Lib"
+
+all:main.o
+
+main.o:main.c
+	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	rm -fr *.o *.elf
