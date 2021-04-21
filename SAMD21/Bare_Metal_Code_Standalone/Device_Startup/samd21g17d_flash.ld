@@ -120,12 +120,14 @@ SECTIONS
     {
         . = ALIGN(4);
         _sbss = . ;
+		`__bss_start__ = _sbss;
         _szero = .;
         *(.bss .bss.*)
         *(COMMON)
         . = ALIGN(4);
         _ebss = . ;
         _ezero = .;
+		__bss_end__ = _ebss;
     } > ram
 
     /* stack section */
@@ -140,4 +142,5 @@ SECTIONS
 
     . = ALIGN(4);
     _end = . ;
+	_exit = _end;
 }
