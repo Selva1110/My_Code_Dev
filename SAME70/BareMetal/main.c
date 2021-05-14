@@ -95,6 +95,7 @@ void SystemInit()
 int main(void)
 {
     /* Initialize the SAM system */
+	SystemInit();
 	WDT->WDT_MR |= WDT_MR_WDDIS;
 	TC0_Init();
 	PIOC->PIO_CODR					|= 1<<LED0_MASK;
