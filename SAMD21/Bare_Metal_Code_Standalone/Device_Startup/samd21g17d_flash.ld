@@ -120,7 +120,7 @@ SECTIONS
     {
         . = ALIGN(4);
         _sbss = . ;
-		`__bss_start__ = _sbss;
+		__bss_start__ = _sbss;
         _szero = .;
         *(.bss .bss.*)
         *(COMMON)
